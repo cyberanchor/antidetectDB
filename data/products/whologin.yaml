@@ -1,14 +1,16 @@
 # antidetectDB product record; fields are described in data/README.md
 name: Whologin
 kind: [browser]
-status: pending
+status: auto
+dead: true
 website: https://whologin.com/
 open_source: false
-note: The site returned an empty page on 2026-11-11.
+note: The domain shows a GoDaddy parking page (checked 2026-11-11). The last archived product page, an antidetect browser with team work, UDP proxies and WireGuard, is from 2025-10-01.
 created: '2023-10-18'
 expires: '2027-10-18'
 hosting: {ip: '76.223.67.189', anycast: true, asn: 'AS16509 Amazon.com, Inc.', org: AWS Global Accelerator (GLOBAL)}
 http: 200
 sources:
 - https://github.com/TheGP/untidetect-tools
+- https://web.archive.org/web/20251001171258/https://whologin.com/
 last_checked: '2026-11-11'

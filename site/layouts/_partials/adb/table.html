@@ -27,6 +27,8 @@
         <option value="">Browsers and phones</option>
         <option value="browser">Antidetect browsers ({{ len (where $d "isBrowser" true) }})</option>
         <option value="cloud-phone">Cloud phones ({{ len (where $d "isPhone" true) }})</option>
+        <option value="antidetect-phone">Antidetect cloud phones ({{ len (where (where $d "isPhone" true) "general" false) }})</option>
+        <option value="general-phone">Cloud phones, not antidetect ({{ len (where $d "general" true) }})</option>
       </select>
     </label>
     <label class="adb-select"><span class="adb-sr">Engine</span>
@@ -88,10 +90,10 @@
       </thead>
       <tbody data-adb-list>
         {{- range $p := $d }}
-        <tr data-st="{{ .state }}" data-kind="{{ delimit .kind " " }}" data-engine="{{ delimit (.rec.engine | default slice) " " }}" data-src="{{ .src }}" data-entity="{{ cond (ne .legal "") "named" "unnamed" }}" data-free="{{ .free }}" data-country="{{ .country }}" data-q="{{ .search }}"{{ if .dead }} class="adb-dead"{{ end }}>
+        <tr data-st="{{ .state }}" data-kind="{{ delimit .kindTokens " " }}" data-engine="{{ delimit (.rec.engine | default slice) " " }}" data-src="{{ .src }}" data-entity="{{ cond (ne .legal "") "named" "unnamed" }}" data-free="{{ .free }}" data-country="{{ .country }}" data-q="{{ .search }}"{{ if .dead }} class="adb-dead"{{ end }}>
           {{- /* relative link: the table is on the home page */ -}}
           <td><a href="products/{{ .id }}/">{{ .name }}</a></td>
-          <td>{{ if and .isBrowser .isPhone }}browser + phones{{ else if .isPhone }}cloud phones{{ else }}browser{{ end }}</td>
+          <td>{{ if and .isBrowser .isPhone }}browser + phones{{ else if .isPhone }}cloud phones{{ if .general }} <small class="u">not antidetect</small>{{ end }}{{ else }}browser{{ end }}</td>
           <td>{{ with .flag }}{{ . }} {{ end }}{{ .country }}</td>
           <td title="{{ .legal }}">{{ .legal }}</td>
           <td>{{ delimit .engines ", " }}</td>

@@ -5,7 +5,7 @@ Each table sits under its heading; the text between the heading and the table is
 
   ## Antidetect browsers               closed-source browsers (kind browser)
   ## Open-source antidetect browsers   browsers with open_source: true
-  ## Cloud phones                      kind cloud-phone
+  ## Cloud phones                      kind cloud-phone; Antidetect "no" for antidetect: false (sold for games and apps)
 
   Status   ✅ tested by hand · 🤖 collected from the vendor's pages and automatic checks · ⏳ not reviewed yet ·
            ❌ gone (name struck out)
@@ -112,9 +112,9 @@ TABLES = [
                     r.get("pushed") or "—"]),
     ("## Cloud phones",
      lambda r: "cloud-phone" in r.get("kind", []),
-     ["Status", "Cloud phone", "Website", "Flag", "Android", "Browser too"],
+     ["Status", "Cloud phone", "Website", "Flag", "Android", "Antidetect", "Browser too"],
      lambda r, up: [status(r), name(r), site(r), r.get("flag") or "❓", ", ".join(r.get("android") or []) or "—",
-                    "✓" if "browser" in r.get("kind", []) else ""]),
+                    "no" if r.get("antidetect") is False else "✓", "✓" if "browser" in r.get("kind", []) else ""]),
 ]
 RIGHT = {"Stars"}
 

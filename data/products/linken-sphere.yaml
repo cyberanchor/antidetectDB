@@ -9,13 +9,15 @@ flag: 🇬🇧
 country: United Kingdom
 alliance: 5
 engine: [chromium]
+cores:
+- {engine: chromium, version: '157'}
 platforms: [windows, macos, linux]
 open_source: false
 release: {version: v2.27.3, date: '2026-11-09'}
 free: '5 sessions, no time limit'
 price:
 - Pure $30/month (30 sessions)
-note: 'Billed by sessions (profiles). Address: Ruislip, London. The core version is not published on the site.'
+note: 'Billed by sessions (profiles). Address: Ruislip, London. Chromium 157 since v2.27.3 (2026-11-09, version history).'
 links:
   terms: https://ls.app/license-agreement
   privacy: https://ls.app/privacy-notice

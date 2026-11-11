@@ -1,0 +1,20 @@
+# antidetectDB product record; fields are described in data/README.md
+name: ArmCloud
+kind: [cloud-phone]
+antidetect: false
+status: auto
+website: https://www.armcloud.net/
+legal_entity: Minical International Limited
+flag: 🇭🇰
+country: Hong Kong
+open_source: false
+note: Cloud Android platform (PaaS) for businesses, sold under the Chinese name 小算云. The company, founded in 2019, also runs VMOS Cloud. Does not call itself antidetect.
+created: '2024-03-18'
+expires: '2027-03-18'
+online_since: '2024-11-03'
+hosting: {ip: '39.99.134.180', flag: 🇨🇳, country: China, asn: 'AS37963 Hangzhou Alibaba Advertising Co.,Ltd.', org: 'Aliyun Computing Co., LTD'}
+http: 200
+sources:
+- https://www.armcloud.net/
+- https://www.armcloud.net/about/
+last_checked: '2026-11-11'

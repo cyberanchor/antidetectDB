@@ -6,15 +6,19 @@ website: https://browser.vision/
 legal_entity: Emperat Solutions Ltd
 law: United Kingdom
 engine: [chromium]
+cores:
+- {engine: chromium, version: '157.0.8103.51'}
 platforms: [windows, macos, linux]
 open_source: false
+release: {version: '4.0.12'}
 free: 'no'
 trial: '4 days'
-note: Offers a "Safari core" next to Chrome; the site does not say what engine it is built on.
+note: Offers a "Safari core" next to Chrome; the site does not say what engine it is built on. Chrome core 157.0.8103.51 in Vision 4.0.12 (release notes).
 links:
   terms: https://browser.vision/tos
   privacy: https://browser.vision/privacy
   download: https://browser.vision/download
+  changelog: https://browser.vision/news
 created: '2022-04-28'
 expires: '2027-04-28'
 hosting: {ip: '216.150.1.1', flag: 🇺🇸, country: United States, asn: 'AS16509 Amazon.com, Inc.', org: 'Vercel, Inc'}
@@ -23,4 +27,5 @@ sources:
 - https://browser.vision/
 - https://browser.vision/tos
 - https://browser.vision/privacy
+- https://browser.vision/news/update-4-0-12
 last_checked: '2026-11-11'

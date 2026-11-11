@@ -1,0 +1,26 @@
+# antidetectDB product record; fields are described in data/README.md
+name: Redfinger
+kind: [cloud-phone]
+antidetect: false
+status: auto
+website: https://www.cloudemulator.net/
+legal_entity: Hunan MC Technology Co., Ltd.
+flag: 🇨🇳
+country: China
+platforms: [windows, android, web]
+open_source: false
+note: Cloud phones sold for games; the site also advertises running many accounts. The company is named in the footer of the Android app page; the terms refer to Taiwan's Consumer Protection Act. Does not call itself antidetect.
+links:
+  terms: https://www.cloudemulator.net/terms-of-service.htm
+  privacy: https://www.cloudemulator.net/privacy-policy.htm
+  download: https://www.cloudemulator.net/android/
+created: '2018-02-09'
+expires: '2028-02-09'
+online_since: '2018-07-08'
+hosting: {ip: '104.26.15.44', anycast: true, asn: 'AS13335 Cloudflare, Inc.', org: 'Cloudflare, Inc.'}
+http: 200
+sources:
+- https://www.cloudemulator.net/
+- https://www.cloudemulator.net/android/
+- https://www.cloudemulator.net/terms-of-service.htm
+last_checked: '2026-11-11'

@@ -8,18 +8,24 @@ flag: 🇨🇾
 country: Cyprus
 law: Cyprus
 engine: [chromium, firefox]
+cores:
+- {engine: chromium, version: '157.0.8103.39'}
 platforms: [windows, macos, linux]
 open_source: false
+release: {version: Anty 1-5-7, date: '2026-11-09'}
 free: '3 profiles, 20 profile creations a month'
 price:
 - Starter $10/month (20 profiles)
 - Base $89/month (100 profiles)
-note: 'Address: Germasogeia, Limassol. The core version is not published on the site.'
+note: 'Address: Germasogeia, Limassol. Release notes with the Chromium version are posted in the vendor''s Telegram channel (linked from the site): Anty 1-5-7 of 2026-11-09 ships Chromium 157.0.8103.39 (157.0.8103.38 on Linux). The blog last named a core in February 2026 (Chromium 144).'
 links:
   terms: https://dolphin-anty.com/terms-of-use/
   privacy: https://dolphin-anty.com/privacy-policy/
   pricing: https://dolphin-anty.com/tarifs/
   download: https://dolphin-anty.com/download/
+  changelog: https://t.me/s/dolphin_anty_en
+social:
+- https://t.me/dolphin_anty_en
 created: '2023-02-09'
 expires: '2027-02-09'
 online_since: '2023-07-10'
@@ -30,4 +36,5 @@ sources:
 - https://dolphin-anty.com/privacy-policy/
 - https://dolphin-anty.com/tarifs/
 - https://dolphin-anty.com/download/
+- https://t.me/s/dolphin_anty_en
 last_checked: '2026-11-11'

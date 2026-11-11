@@ -19,6 +19,7 @@
       <span class="adb-pill adb-{{ $m.color }}" title="{{ $m.long }}"><span class="adb-dot adb-{{ $m.color }}"></span>{{ $m.label }}</span>
       {{- if $p.isBrowser }} <span class="adb-pill adb-blue">antidetect browser</span>{{ end }}
       {{- if $p.isPhone }} <span class="adb-pill adb-purple">cloud phones</span>{{ end }}
+      {{- if $p.general }} {{ partial "adb/pill.html" (dict "text" "not antidetect" "color" "grey" "title" "Sold for games and apps; the vendor does not call it antidetect") }}{{ end }}
       {{- with $p.src }} {{ partial "adb/pill.html" (dict "text" (index $srcText .) "color" (index $srcColor .)) }}{{ end }}
       {{- with $p.eyes }} {{ partial "adb/pill.html" (dict "text" (printf "%s Eyes" .) "color" $p.cEyes) }}{{ end }}
     </p>

@@ -13,12 +13,13 @@ open_source: false
 free: '10 profiles'
 price:
 - $10/month (50 profiles, 2 users)
-note: 'The privacy policy is governed by the law of the People''s Republic of China. Chinese site: bitbrowser.cn.'
+note: 'The privacy policy is governed by the law of the People''s Republic of China. Chinese site: bitbrowser.cn. The upgrade log names no Chrome kernel newer than 134, so the current core version is unknown.'
 links:
   terms: https://www.bitbrowser.net/agreement
   privacy: https://www.bitbrowser.net/policy
   pricing: https://www.bitbrowser.net/price
   download: https://www.bitbrowser.net/download
+  changelog: https://doc.bitbrowser.net/updatelog
 created: '2021-08-06'
 expires: '2029-08-06'
 online_since: '2017-06-03'
@@ -28,4 +29,5 @@ sources:
 - https://www.bitbrowser.net/agreement
 - https://www.bitbrowser.net/policy
 - https://www.bitbrowser.net/price
+- https://doc.bitbrowser.net/updatelog
 last_checked: '2026-11-11'

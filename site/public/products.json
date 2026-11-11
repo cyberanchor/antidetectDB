@@ -38,6 +38,7 @@
  {
   "created": "2024-05-28",
   "expires": "2030-05-28",
+  "free": "unlimited local profiles",
   "hosting": {
    "anycast": true,
    "asn": "AS13335 Cloudflare, Inc.",
@@ -52,18 +53,28 @@
   "last_checked": "2026-11-11",
   "law": "Vietnam",
   "links": {
+   "download": "https://adblogin.com/download/",
+   "privacy": "https://adblogin.com/privacy-policy/",
    "terms": "https://adblogin.com/terms-and-conditions/"
   },
   "name": "ADBLogin",
-  "note": "Calls itself a free \"Social Account Manager\". The company is not named on the pages read.",
+  "note": "Free local profile manager (\"Social Account Manager\"), downloaded from a Google Drive folder. The site is also an official Multilogin affiliate partner and publishes Multilogin promo codes. Terms governed by the law of Vietnam (courts of Ho Chi Minh City); the company is not named.",
   "online_since": "2024-05-29",
   "open_source": false,
+  "platforms": [
+   "windows",
+   "macos",
+   "linux"
+  ],
   "sources": [
    "https://adblogin.com/",
    "https://adblogin.com/terms-and-conditions/",
-   "https://github.com/TheGP/untidetect-tools"
+   "https://github.com/TheGP/untidetect-tools",
+   "https://adblogin.com/about/",
+   "https://adblogin.com/download/"
   ],
-  "status": "pending",
+  "status": "auto",
+  "storage": "local",
   "website": "https://adblogin.com/"
  },
  {
@@ -257,6 +268,9 @@
  },
  {
   "created": "2019-03-08",
+  "engine": [
+   "chromium"
+  ],
   "expires": "2027-03-08",
   "hosting": {
    "asn": "AS210976 Timeweb, LLP",
@@ -272,10 +286,11 @@
   ],
   "last_checked": "2026-11-11",
   "links": {
+   "privacy": "https://antbrowser.pro/en/private-policy.html",
    "terms": "https://antbrowser.pro/en/terms-of-use.html"
   },
   "name": "AntBrowser",
-  "note": "The company is not named on the pages read.",
+  "note": "The company is not named on the pages read. The Pro plan is priced by the number of profiles.",
   "online_since": "2019-05-01",
   "open_source": false,
   "platforms": [
@@ -285,9 +300,12 @@
   ],
   "sources": [
    "https://antbrowser.pro/",
-   "https://github.com/TheGP/untidetect-tools"
+   "https://github.com/TheGP/untidetect-tools",
+   "https://antbrowser.pro/en/terms-of-use.html"
   ],
-  "status": "pending",
+  "status": "auto",
+  "storage": "both",
+  "trial": "1 day, 2 profiles",
   "website": "https://antbrowser.pro/"
  },
  {
@@ -358,6 +376,37 @@
   "website": "https://apostate.dev/"
  },
  {
+  "antidetect": false,
+  "country": "Hong Kong",
+  "created": "2024-03-18",
+  "expires": "2027-03-18",
+  "flag": "🇭🇰",
+  "hosting": {
+   "asn": "AS37963 Hangzhou Alibaba Advertising Co.,Ltd.",
+   "country": "China",
+   "flag": "🇨🇳",
+   "ip": "39.99.134.180",
+   "org": "Aliyun Computing Co., LTD"
+  },
+  "http": 200,
+  "id": "armcloud",
+  "kind": [
+   "cloud-phone"
+  ],
+  "last_checked": "2026-11-11",
+  "legal_entity": "Minical International Limited",
+  "name": "ArmCloud",
+  "note": "Cloud Android platform (PaaS) for businesses, sold under the Chinese name 小算云. The company, founded in 2019, also runs VMOS Cloud. Does not call itself antidetect.",
+  "online_since": "2024-11-03",
+  "open_source": false,
+  "sources": [
+   "https://www.armcloud.net/",
+   "https://www.armcloud.net/about/"
+  ],
+  "status": "auto",
+  "website": "https://www.armcloud.net/"
+ },
+ {
   "country": "Hong Kong",
   "created": "2021-08-06",
   "engine": [
@@ -384,13 +433,14 @@
   "law": "China",
   "legal_entity": "HongKong Bit-Internet Technology Limited",
   "links": {
+   "changelog": "https://doc.bitbrowser.net/updatelog",
    "download": "https://www.bitbrowser.net/download",
    "pricing": "https://www.bitbrowser.net/price",
    "privacy": "https://www.bitbrowser.net/policy",
    "terms": "https://www.bitbrowser.net/agreement"
   },
   "name": "BitBrowser",
-  "note": "The privacy policy is governed by the law of the People's Republic of China. Chinese site: bitbrowser.cn.",
+  "note": "The privacy policy is governed by the law of the People's Republic of China. Chinese site: bitbrowser.cn. The upgrade log names no Chrome kernel newer than 134, so the current core version is unknown.",
   "online_since": "2017-06-03",
   "open_source": false,
   "platforms": [
@@ -403,7 +453,8 @@
   "sources": [
    "https://www.bitbrowser.net/agreement",
    "https://www.bitbrowser.net/policy",
-   "https://www.bitbrowser.net/price"
+   "https://www.bitbrowser.net/price",
+   "https://doc.bitbrowser.net/updatelog"
   ],
   "status": "auto",
   "website": "https://www.bitbrowser.net/"
@@ -660,6 +711,7 @@
  },
  {
   "created": "2026-02-21",
+  "dead": true,
   "expires": "2027-02-21",
   "http": 0,
   "id": "dashnull",
@@ -668,13 +720,14 @@
   ],
   "last_checked": "2026-11-11",
   "name": "DashNull",
-  "note": "The domain is registered until 2027-02-21 but had no DNS records on 2026-11-11; the site did not answer.",
+  "note": "Antidetect browser launched in 2026 (first Wayback capture 2026-03-20). On 2026-11-11 the domain had no name servers and did not resolve, although it is registered until 2027-02-21; the last archived page is from 2026-06-20.",
   "online_since": "2026-03-20",
   "open_source": false,
   "sources": [
-   "https://github.com/TheGP/untidetect-tools"
+   "https://github.com/TheGP/untidetect-tools",
+   "https://web.archive.org/web/20260620061537/https://dashnull.com/"
   ],
-  "status": "pending",
+  "status": "auto",
   "website": "https://dashnull.com/"
  },
  {
@@ -719,6 +772,12 @@
   "website": "https://dicloak.com/"
  },
  {
+  "cores": [
+   {
+    "engine": "chromium",
+    "version": "157.0.8103.39"
+   }
+  ],
   "country": "Cyprus",
   "created": "2023-02-09",
   "engine": [
@@ -744,13 +803,14 @@
   "law": "Cyprus",
   "legal_entity": "Zhitnyakov Software Solutions LTD",
   "links": {
+   "changelog": "https://t.me/s/dolphin_anty_en",
    "download": "https://dolphin-anty.com/download/",
    "pricing": "https://dolphin-anty.com/tarifs/",
    "privacy": "https://dolphin-anty.com/privacy-policy/",
    "terms": "https://dolphin-anty.com/terms-of-use/"
   },
   "name": "Dolphin {anty}",
-  "note": "Address: Germasogeia, Limassol. The core version is not published on the site.",
+  "note": "Address: Germasogeia, Limassol. Release notes with the Chromium version are posted in the vendor's Telegram channel (linked from the site): Anty 1-5-7 of 2026-11-09 ships Chromium 157.0.8103.39 (157.0.8103.38 on Linux). The blog last named a core in February 2026 (Chromium 144).",
   "online_since": "2023-07-10",
   "open_source": false,
   "platforms": [
@@ -762,11 +822,19 @@
    "Starter $10/month (20 profiles)",
    "Base $89/month (100 profiles)"
   ],
+  "release": {
+   "date": "2026-11-09",
+   "version": "Anty 1-5-7"
+  },
+  "social": [
+   "https://t.me/dolphin_anty_en"
+  ],
   "sources": [
    "https://dolphin-anty.com/terms-of-use/",
    "https://dolphin-anty.com/privacy-policy/",
    "https://dolphin-anty.com/tarifs/",
-   "https://dolphin-anty.com/download/"
+   "https://dolphin-anty.com/download/",
+   "https://t.me/s/dolphin_anty_en"
   ],
   "status": "auto",
   "website": "https://dolphin-anty.com/"
@@ -1146,6 +1214,13 @@
  },
  {
   "alliance": 5,
+  "cores": [
+   {
+    "engine": "chromium",
+    "name": "Orbita",
+    "version": "156.1.0-2"
+   }
+  ],
   "country": "United States",
   "created": "2005-10-06",
   "engine": [
@@ -1176,7 +1251,7 @@
    "terms": "https://gologin.com/terms-of-service/"
   },
   "name": "Gologin",
-  "note": "Core: Orbita (Chromium); the current version is not published on the site. Address: Venice, Florida. Affiliates Scalehat LLC (USA) and GOLESS S.à r.l. (Paris) may accept payments. Also sells Cloud Android phones.",
+  "note": "Core: Orbita. The update service that Gologin's own SDK queries reported Orbita 156.1.0-2 for Windows, macOS and Linux on 2026-11-11; the blog last named Orbita 148 (June 2026). Address: Venice, Florida. Affiliates Scalehat LLC (USA) and GOLESS S.à r.l. (Paris) may accept payments. Also sells Cloud Android phones.",
   "open_source": false,
   "platforms": [
    "windows",
@@ -1190,7 +1265,9 @@
    "https://gologin.com/terms-of-service/",
    "https://gologin.com/privacy-policy/",
    "https://gologin.com/pricing/",
-   "https://gologin.com/download/"
+   "https://gologin.com/download/",
+   "https://api.gologin.com/gologin-global-settings/latest-browser-info?os=win",
+   "https://gologin.com/blog/gologin-in-june/"
   ],
   "status": "auto",
   "trial": "7 days",
@@ -1602,7 +1679,63 @@
   "website": "https://www.lalicat.com/"
  },
  {
+  "android": [
+   "10",
+   "12",
+   "14",
+   "15"
+  ],
+  "antidetect": false,
+  "country": "Hong Kong",
+  "created": "2021-09-03",
+  "expires": "2027-09-03",
+  "flag": "🇭🇰",
+  "hosting": {
+   "anycast": true,
+   "asn": "AS20940 Akamai International B.V.",
+   "ip": "184.24.77.140",
+   "org": "Akamai Technologies, Inc."
+  },
+  "http": 200,
+  "id": "ldcloud",
+  "kind": [
+   "cloud-phone"
+  ],
+  "last_checked": "2026-11-11",
+  "law": "Hong Kong",
+  "legal_entity": "HONGKONG LDCLOUD INTERNATIONAL CO., LIMITED",
+  "links": {
+   "pricing": "https://www.ldcloud.net/features/packages",
+   "privacy": "https://www.ldcloud.net/en/privacy-policy.html",
+   "terms": "https://www.ldcloud.net/en/terms-of-service.html"
+  },
+  "name": "LDCloud",
+  "note": "Cloud phones for games running 24/7 (AFK), also offered for managing many accounts. Registration number 73481219, Causeway Bay, Hong Kong. Does not call itself antidetect.",
+  "online_since": "2021-12-09",
+  "open_source": false,
+  "platforms": [
+   "windows",
+   "macos",
+   "android",
+   "ios"
+  ],
+  "sources": [
+   "https://www.ldcloud.net/",
+   "https://www.ldcloud.net/en/terms-of-service.html",
+   "https://www.ldcloud.net/features/packages"
+  ],
+  "status": "auto",
+  "trial": "free trial for new users",
+  "website": "https://www.ldcloud.net/"
+ },
+ {
   "alliance": 5,
+  "cores": [
+   {
+    "engine": "chromium",
+    "version": "157"
+   }
+  ],
   "country": "United Kingdom",
   "created": "2023-02-02",
   "domains": [
@@ -1635,7 +1768,7 @@
    "terms": "https://ls.app/license-agreement"
   },
   "name": "Linken Sphere",
-  "note": "Billed by sessions (profiles). Address: Ruislip, London. The core version is not published on the site.",
+  "note": "Billed by sessions (profiles). Address: Ruislip, London. Chromium 157 since v2.27.3 (2026-11-09, version history).",
   "online_since": "2023-07-22",
   "open_source": false,
   "platforms": [
@@ -1756,6 +1889,12 @@
    "12",
    "15"
   ],
+  "cores": [
+   {
+    "engine": "chromium",
+    "version": "152"
+   }
+  ],
   "created": "2022-09-23",
   "engine": [
    "chromium",
@@ -1779,13 +1918,14 @@
   "last_checked": "2026-11-11",
   "law": "Singapore",
   "links": {
+   "changelog": "https://support.morelogin.com/en/collections/10925292-version-log",
    "download": "https://www.morelogin.com/download",
    "pricing": "https://www.morelogin.com/pricing",
    "privacy": "https://www.morelogin.com/protocol/privacyservice/",
    "terms": "https://www.morelogin.com/protocol/"
   },
   "name": "MoreLogin",
-  "note": "The terms and the privacy policy do not name the company.",
+  "note": "The terms and the privacy policy do not name the company. Chrome 152 kernel since V2.68.0 (2026-09-18); the October 2026 release notes name no newer kernel.",
   "online_since": "2022-11-13",
   "open_source": false,
   "platforms": [
@@ -1797,10 +1937,16 @@
    "$9/month (10 profiles)",
    "cloud phone $0.006 a minute"
   ],
+  "release": {
+   "date": "2026-10-16",
+   "version": "2.70.0"
+  },
   "sources": [
    "https://www.morelogin.com/",
    "https://www.morelogin.com/protocol/",
-   "https://www.morelogin.com/pricing"
+   "https://www.morelogin.com/pricing",
+   "https://support.morelogin.com/en/articles/17763885-september-2026",
+   "https://support.morelogin.com/en/articles/17763887-october-2026"
   ],
   "status": "auto",
   "website": "https://www.morelogin.com/"
@@ -2043,6 +2189,13 @@
  },
  {
   "alliance": 5,
+  "cores": [
+   {
+    "engine": "chromium",
+    "name": "Octium",
+    "version": "157"
+   }
+  ],
   "country": "United Kingdom",
   "created": "2020-11-23",
   "domains": [
@@ -2068,13 +2221,14 @@
   "last_checked": "2026-11-11",
   "legal_entity": "BLACKBIRD SECURE BROWSING LTD",
   "links": {
+   "changelog": "https://docs.octobrowser.net/en/changelog/octium-changelog/",
    "download": "https://octobrowser.org/download/",
    "pricing": "https://octobrowser.net/pricing/",
    "privacy": "https://octobrowser.net/privacy-policy/",
    "terms": "https://octobrowser.net/terms/"
   },
   "name": "Octo Browser",
-  "note": "Address: London. EU representative: FINWIN TECHNOLOGIES Sp. z o.o. (Białystok, Poland). The core version is not published on the site.",
+  "note": "Address: London. EU representative: FINWIN TECHNOLOGIES Sp. z o.o. (Białystok, Poland). Core: Octium, Chromium 157 since 2026-11-05 (Octium changelog).",
   "online_since": "2021-02-18",
   "open_source": false,
   "platforms": [
@@ -2090,7 +2244,8 @@
    "https://octobrowser.net/",
    "https://octobrowser.net/privacy-policy/",
    "https://octobrowser.net/pricing/",
-   "https://octobrowser.org/download/"
+   "https://octobrowser.org/download/",
+   "https://docs.octobrowser.net/en/changelog/octium-changelog/"
   ],
   "status": "auto",
   "website": "https://octobrowser.net/"
@@ -2101,7 +2256,7 @@
    "chromium"
   ],
   "expires": "2027-11-07",
-  "free": "2 profiles",
+  "free": "2 profiles, no time limit",
   "hosting": {
    "asn": "AS45090 Shenzhen Tencent Computer Systems Company Limited",
    "country": "China",
@@ -2116,18 +2271,62 @@
   ],
   "last_checked": "2026-11-11",
   "name": "OKBrowser",
-  "note": "Chinese-language site. The company is not named on the pages read.",
+  "note": "Chinese-language site. The company is not named on the site.",
   "online_since": "2024-11-19",
   "open_source": false,
   "platforms": [
    "windows"
   ],
+  "price": [
+   "¥29.9 a month: unlimited profiles"
+  ],
   "sources": [
    "https://okbrow.com/",
    "https://github.com/zhaotoday/fingerprint-browser"
   ],
-  "status": "pending",
+  "status": "auto",
   "website": "https://okbrow.com/"
+ },
+ {
+  "antidetect": false,
+  "country": "China",
+  "created": "2018-02-09",
+  "expires": "2028-02-09",
+  "flag": "🇨🇳",
+  "hosting": {
+   "anycast": true,
+   "asn": "AS13335 Cloudflare, Inc.",
+   "ip": "104.26.15.44",
+   "org": "Cloudflare, Inc."
+  },
+  "http": 200,
+  "id": "redfinger",
+  "kind": [
+   "cloud-phone"
+  ],
+  "last_checked": "2026-11-11",
+  "legal_entity": "Hunan MC Technology Co., Ltd.",
+  "links": {
+   "download": "https://www.cloudemulator.net/android/",
+   "privacy": "https://www.cloudemulator.net/privacy-policy.htm",
+   "terms": "https://www.cloudemulator.net/terms-of-service.htm"
+  },
+  "name": "Redfinger",
+  "note": "Cloud phones sold for games; the site also advertises running many accounts. The company is named in the footer of the Android app page; the terms refer to Taiwan's Consumer Protection Act. Does not call itself antidetect.",
+  "online_since": "2018-07-08",
+  "open_source": false,
+  "platforms": [
+   "windows",
+   "android",
+   "web"
+  ],
+  "sources": [
+   "https://www.cloudemulator.net/",
+   "https://www.cloudemulator.net/android/",
+   "https://www.cloudemulator.net/terms-of-service.htm"
+  ],
+  "status": "auto",
+  "website": "https://www.cloudemulator.net/"
  },
  {
   "cores": [
@@ -2287,6 +2486,7 @@
   "engine": [
    "chromium"
   ],
+  "free": "up to 5 profiles",
   "hosting": {
    "asn": "AS197695 \"Domain names registrar REG.RU\", Ltd",
    "country": "Russia",
@@ -2300,15 +2500,74 @@
    "browser"
   ],
   "last_checked": "2026-11-11",
+  "links": {
+   "docs": "https://switch.mybot.su/Faq",
+   "pricing": "https://switch.mybot.su/Payment"
+  },
   "name": "Switch Antidetect",
-  "note": "Russian-language site.",
+  "note": "Russian-language site of MyBot; the company is not named. Prices in roubles.",
   "open_source": false,
+  "platforms": [
+   "windows"
+  ],
+  "price": [
+   "Pro: 390 ₽ a month"
+  ],
   "sources": [
    "https://switch.mybot.su/",
-   "https://github.com/TheGP/untidetect-tools"
+   "https://github.com/TheGP/untidetect-tools",
+   "https://switch.mybot.su/Payment",
+   "https://switch.mybot.su/Faq"
   ],
-  "status": "pending",
+  "status": "auto",
+  "storage": "local",
   "website": "https://switch.mybot.su/"
+ },
+ {
+  "android": [
+   "10",
+   "12",
+   "13"
+  ],
+  "antidetect": false,
+  "country": "Singapore",
+  "created": "2022-09-14",
+  "expires": "2028-09-14",
+  "flag": "🇸🇬",
+  "hosting": {
+   "anycast": true,
+   "asn": "AS13335 Cloudflare, Inc.",
+   "ip": "104.18.38.101",
+   "org": "Cloudflare, Inc."
+  },
+  "http": 200,
+  "id": "ugphone",
+  "kind": [
+   "cloud-phone"
+  ],
+  "last_checked": "2026-11-11",
+  "legal_entity": "GLOBALTOO TECHNOLOGY PTE LTD",
+  "links": {
+   "pricing": "https://www.ugphone.com/plan",
+   "privacy": "https://www.ugphone.com/policy",
+   "terms": "https://www.ugphone.com/terms"
+  },
+  "name": "UgPhone",
+  "note": "Cloud phones for games: several game instances running 24/7 (AFK), used from Android, a PC or the web. Address: Paya Lebar Square, Singapore. Does not call itself antidetect.",
+  "online_since": "2023-03-07",
+  "open_source": false,
+  "platforms": [
+   "android",
+   "web"
+  ],
+  "sources": [
+   "https://www.ugphone.com/",
+   "https://www.ugphone.com/about",
+   "https://www.ugphone.com/plan"
+  ],
+  "status": "auto",
+  "trial": "yes",
+  "website": "https://www.ugphone.com/"
  },
  {
   "cores": [
@@ -2442,6 +2701,12 @@
   "website": "https://virtualbrowser.cc/"
  },
  {
+  "cores": [
+   {
+    "engine": "chromium",
+    "version": "157.0.8103.51"
+   }
+  ],
   "created": "2022-04-28",
   "engine": [
    "chromium"
@@ -2464,22 +2729,27 @@
   "law": "United Kingdom",
   "legal_entity": "Emperat Solutions Ltd",
   "links": {
+   "changelog": "https://browser.vision/news",
    "download": "https://browser.vision/download",
    "privacy": "https://browser.vision/privacy",
    "terms": "https://browser.vision/tos"
   },
   "name": "Vision",
-  "note": "Offers a \"Safari core\" next to Chrome; the site does not say what engine it is built on.",
+  "note": "Offers a \"Safari core\" next to Chrome; the site does not say what engine it is built on. Chrome core 157.0.8103.51 in Vision 4.0.12 (release notes).",
   "open_source": false,
   "platforms": [
    "windows",
    "macos",
    "linux"
   ],
+  "release": {
+   "version": "4.0.12"
+  },
   "sources": [
    "https://browser.vision/",
    "https://browser.vision/tos",
-   "https://browser.vision/privacy"
+   "https://browser.vision/privacy",
+   "https://browser.vision/news/update-4-0-12"
   ],
   "status": "auto",
   "trial": "4 days",
@@ -2568,6 +2838,65 @@
   "website": "https://www.vmoscloud.com/"
  },
  {
+  "android": [
+   "10",
+   "11",
+   "12",
+   "13",
+   "14",
+   "15",
+   "16",
+   "17"
+  ],
+  "antidetect": false,
+  "country": "Singapore",
+  "created": "2025-06-13",
+  "expires": "2028-06-13",
+  "flag": "🇸🇬",
+  "hosting": {
+   "asn": "AS139341 ACE",
+   "country": "Singapore",
+   "flag": "🇸🇬",
+   "ip": "43.174.196.248",
+   "org": "ACE"
+  },
+  "http": 200,
+  "id": "vsphone",
+  "kind": [
+   "cloud-phone"
+  ],
+  "last_checked": "2026-11-11",
+  "law": "Singapore",
+  "legal_entity": "CLOUDFORGE SOLUTIONS PTE. LTD.",
+  "links": {
+   "pricing": "https://www.vsphone.com/price",
+   "privacy": "https://www.vsphone.com/tos/privacy-policy",
+   "terms": "https://www.vsphone.com/tos/user"
+  },
+  "name": "VSPhone",
+  "note": "Cloud phones for games running 24/7 (\"AI Auto Farm\"). Plans include root and a \"New Device\" option. Does not call itself antidetect.",
+  "online_since": "2006-11-27",
+  "open_source": false,
+  "platforms": [
+   "windows",
+   "macos",
+   "linux",
+   "android",
+   "ios"
+  ],
+  "price": [
+   "US$3.99 for 30 days (6 cores, 4 GB RAM), limited-time offer"
+  ],
+  "sources": [
+   "https://www.vsphone.com/",
+   "https://www.vsphone.com/price",
+   "https://www.vsphone.com/tos/user",
+   "https://www.vsphone.com/tos/privacy-policy"
+  ],
+  "status": "auto",
+  "website": "https://www.vsphone.com/"
+ },
+ {
   "cores": [
    {
     "engine": "chromium",
@@ -2617,6 +2946,7 @@
  },
  {
   "created": "2023-10-18",
+  "dead": true,
   "expires": "2027-10-18",
   "hosting": {
    "anycast": true,
@@ -2631,13 +2961,65 @@
   ],
   "last_checked": "2026-11-11",
   "name": "Whologin",
-  "note": "The site returned an empty page on 2026-11-11.",
+  "note": "The domain shows a GoDaddy parking page (checked 2026-11-11). The last archived product page, an antidetect browser with team work, UDP proxies and WireGuard, is from 2025-10-01.",
   "open_source": false,
   "sources": [
-   "https://github.com/TheGP/untidetect-tools"
+   "https://github.com/TheGP/untidetect-tools",
+   "https://web.archive.org/web/20251001171258/https://whologin.com/"
   ],
-  "status": "pending",
+  "status": "auto",
   "website": "https://whologin.com/"
+ },
+ {
+  "alliance": 5,
+  "android": [
+   "16"
+  ],
+  "country": "United States",
+  "created": "2026-07-19",
+  "domains": [
+   "xcloudphone.com"
+  ],
+  "expires": "2027-07-19",
+  "flag": "🇺🇸",
+  "hosting": {
+   "anycast": true,
+   "asn": "AS13335 Cloudflare, Inc.",
+   "ip": "172.67.212.64",
+   "org": "Cloudflare, Inc."
+  },
+  "http": 200,
+  "id": "xcloudphone",
+  "kind": [
+   "cloud-phone"
+  ],
+  "last_checked": "2026-11-11",
+  "law": "Colorado, United States",
+  "legal_entity": "XCloudPhone Technology and Solutions LLC",
+  "links": {
+   "pricing": "https://xcloudphone.net/pricing",
+   "privacy": "https://xcloudphone.net/privacy",
+   "terms": "https://xcloudphone.net/terms-of-service"
+  },
+  "name": "XCloudPhone",
+  "note": "Real ARM Android phones in the cloud for games and for running many accounts, with \"anti-detect features\" (IMEI rotation, Android ID changes, fingerprint protection). Address: Lakewood, Colorado. Moved from xcloudphone.com.",
+  "open_source": false,
+  "platforms": [
+   "web"
+  ],
+  "price": [
+   "from $0.012 an hour"
+  ],
+  "sources": [
+   "https://xcloudphone.net/",
+   "https://xcloudphone.net/multi-account",
+   "https://xcloudphone.net/privacy",
+   "https://xcloudphone.net/terms-of-service",
+   "https://xcloudphone.net/pricing"
+  ],
+  "status": "auto",
+  "trial": "yes",
+  "website": "https://xcloudphone.net/"
  },
  {
   "country": "China",

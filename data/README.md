@@ -19,6 +19,7 @@ has checked it yet, not "no".
 |---|---|---|
 | `name` | `Octo Browser` | Product name as the vendor writes it |
 | `kind` | `[browser, cloud-phone]` | `browser`: antidetect browser or profile manager · `cloud-phone`: Android phones in the cloud |
+| `antidetect` | `false` | Cloud phones only: `false` when the vendor sells the phones for games and apps and does not call them antidetect; they are listed for comparison. Left out for antidetect products |
 | `status` | `auto` | `checked`: installed and tested by hand (see `tests`) · `auto`: collected from the vendor's pages and the automatic checks, not tested · `pending`: little more than a name and a link |
 | `dead` | `true` | The product is gone: the domain no longer resolves, the vendor closed it, or the project is archived. Left out otherwise |
 | `successor` | `multilogin` | Id of the product that replaced a dead one |

@@ -28,6 +28,7 @@ TEXT, BOOL, INT, LIST, MAP, MAPS = "text", "bool", "int", "list", "map", "maps"
 FIELDS = {
     "name": (TEXT, None),
     "kind": (LIST, None),
+    "antidetect": (BOOL, None),
     "status": (TEXT, None),
     "dead": (BOOL, None),
     "successor": (TEXT, None),
@@ -214,6 +215,10 @@ def check(rec):
         out.append("alliance must be 5, 9 or 14")
     if rec.get("dead") is False:
         out.append("dead: false is the default; leave the field out")
+    if rec.get("antidetect") is True:
+        out.append("antidetect: true is the default; leave the field out")
+    if rec.get("antidetect") is False and "cloud-phone" not in (rec.get("kind") or []):
+        out.append("antidetect: false is only for cloud phones (kind cloud-phone)")
     if rec.get("successor") and not rec.get("dead"):
         out.append("successor is only for products that are gone (dead: true)")
     if rec.get("status") == "checked" and not rec.get("tests"):
@@ -308,6 +313,8 @@ def _strip(rec):
             rec[k] = [{sk: x for sk, x in m.items() if not _empty(x)} for m in rec[k]]
     if rec.get("dead") is False:
         del rec["dead"]
+    if rec.get("antidetect") is True:
+        del rec["antidetect"]
     return rec
 
 

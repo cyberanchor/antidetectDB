@@ -19,6 +19,8 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat-square)
 [![YAML](https://img.shields.io/badge/data-YAML-CB171E?logo=yaml&logoColor=white&style=flat-square)](./data/products/)
 ![JSON](https://img.shields.io/badge/JSON-000000?logo=json&logoColor=white&style=flat-square)
+[![Data: CC BY 4.0](https://img.shields.io/badge/data-CC%20BY%204.0-lightgrey?style=flat-square)](./data/LICENSE)
+[![Code: MIT](https://img.shields.io/badge/code-MIT-blue?style=flat-square)](./LICENSE)
 
 🔗 <a href="https://cyberanchor.github.io/antidetectDB/site/public/"><b>site</b></a>
 
@@ -37,23 +39,23 @@ Status: ✅ tested by hand · 🤖 collected from the vendor's pages and automat
 | Status | Browser                                                                   | Website                                                 | Flag | Engine            | Core                                      | Free plan                                                                    |
 |--------|---------------------------------------------------------------------------|---------------------------------------------------------|------|-------------------|-------------------------------------------|------------------------------------------------------------------------------|
 | 🤖     | [0detect](data/products/0detect.yaml)                                     | [0detect.com](https://0detect.com/)                     | ❓   | —                 | —                                         | 1 profile; multi-accounting is not allowed on the free plan since 2025-06-09 |
-| ⏳     | [ADBLogin](data/products/adblogin.yaml)                                   | [adblogin.com](https://adblogin.com/)                   | ❓   | —                 | —                                         | —                                                                            |
+| 🤖     | [ADBLogin](data/products/adblogin.yaml)                                   | [adblogin.com](https://adblogin.com/)                   | ❓   | —                 | —                                         | unlimited local profiles                                                     |
 | 🤖     | [AdsPower](data/products/adspower.yaml)                                   | [adspower.com](https://www.adspower.com/)               | 🇸🇬   | Chromium, Firefox | Chromium 156 (−1), Firefox 156 (−4)       | 2 profiles                                                                   |
 | 🤖     | [Afina](data/products/afina.yaml)                                         | [afina.io](https://afina.io/)                           | ❓   | Chromium          | —                                         | —                                                                            |
 | 🤖     | [Ant Browser](data/products/ant-browser.yaml)                             | —                                                       | ❓   | Chromium          | —                                         | —                                                                            |
-| ⏳     | [AntBrowser](data/products/antbrowser.yaml)                               | [antbrowser.pro](https://antbrowser.pro/)               | ❓   | —                 | —                                         | —                                                                            |
+| 🤖     | [AntBrowser](data/products/antbrowser.yaml)                               | [antbrowser.pro](https://antbrowser.pro/)               | ❓   | Chromium          | —                                         | —                                                                            |
 | 🤖     | [BitBrowser](data/products/bitbrowser.yaml)                               | [bitbrowser.net](https://www.bitbrowser.net/)           | 🇭🇰   | Chromium, Firefox | —                                         | 10 profiles                                                                  |
 | 🤖     | [BotBrowser](data/products/botbrowser.yaml)                               | [botbrowser.io](https://botbrowser.io/)                 | ❓   | Chromium          | Chromium 157 (current)                    | —                                                                            |
 | 🤖     | [CloakBrowser](data/products/cloakbrowser.yaml)                           | [cloakbrowser.dev](https://cloakbrowser.dev/)           | ❓   | Chromium          | Chromium 156 (−1)                         | free licence key by e-mail                                                   |
 | 🤖     | [ClonBrowser](data/products/clonbrowser.yaml)                             | [clonbrowser.com](https://www.clonbrowser.com/)         | ❓   | —                 | —                                         | yes                                                                          |
-| ⏳     | [DashNull](data/products/dashnull.yaml)                                   | [dashnull.com](https://dashnull.com/)                   | ❓   | —                 | —                                         | —                                                                            |
+| ❌     | ~~[DashNull](data/products/dashnull.yaml)~~                               | [dashnull.com](https://dashnull.com/)                   | ❓   | —                 | —                                         | —                                                                            |
 | 🤖     | [DICloak](data/products/dicloak.yaml)                                     | [dicloak.com](https://dicloak.com/)                     | ❓   | —                 | —                                         | yes                                                                          |
-| 🤖     | [Dolphin {anty}](data/products/dolphin-anty.yaml)                         | [dolphin-anty.com](https://dolphin-anty.com/)           | 🇨🇾   | Chromium, Firefox | —                                         | 3 profiles, 20 profile creations a month                                     |
+| 🤖     | [Dolphin {anty}](data/products/dolphin-anty.yaml)                         | [dolphin-anty.com](https://dolphin-anty.com/)           | 🇨🇾   | Chromium, Firefox | Chromium 157 (current)                    | 3 profiles, 20 profile creations a month                                     |
 | 🤖     | [GeekEZ Browser](data/products/geekez-browser.yaml)                       | [browser.geekez.net](https://browser.geekez.net/)       | ❓   | Chromium          | —                                         | —                                                                            |
 | 🤖     | [GeeLark](data/products/geelark.yaml)                                     | [geelark.com](https://www.geelark.com/)                 | 🇸🇬   | —                 | —                                         | yes                                                                          |
 | 🤖     | [GenLogin](data/products/genlogin.yaml)                                   | [genlogin.com](https://genlogin.com/)                   | ❓   | —                 | —                                         | —                                                                            |
 | 🤖     | [Ghost Browser](data/products/ghost-browser.yaml)                         | [ghostbrowser.com](https://ghostbrowser.com/)           | 🇺🇸   | Chromium          | —                                         | 3 identities                                                                 |
-| 🤖     | [Gologin](data/products/gologin.yaml)                                     | [gologin.com](https://gologin.com/)                     | 🇺🇸   | Chromium          | —                                         | 3 profiles                                                                   |
+| 🤖     | [Gologin](data/products/gologin.yaml)                                     | [gologin.com](https://gologin.com/)                     | 🇺🇸   | Chromium          | Chromium 156 (−1)                         | 3 profiles                                                                   |
 | 🤖     | [GPM Login](data/products/gpm-login.yaml)                                 | [gpmlogin.com](https://gpmlogin.com/)                   | ❓   | Chromium, Firefox | —                                         | —                                                                            |
 | 🤖     | [Hidemium](data/products/hidemium.yaml)                                   | [hidemium.io](https://hidemium.io/)                     | ❓   | Chromium          | Chromium 156 (−1)                         | 5 profiles                                                                   |
 | 🤖     | [Hidemyacc](data/products/hidemyacc.yaml)                                 | [hidemyacc.com](https://hidemyacc.com/)                 | 🇻🇳   | Chromium          | Chromium 155 (−2)                         | —                                                                            |
@@ -63,26 +65,26 @@ Status: ✅ tested by hand · 🤖 collected from the vendor's pages and automat
 | 🤖     | [ixBrowser](data/products/ixbrowser.yaml)                                 | [ixbrowser.com](https://www.ixbrowser.com/)             | ❓   | —                 | —                                         | yes, with daily limits                                                       |
 | 🤖     | [Kameleo](data/products/kameleo.yaml)                                     | [kameleo.io](https://kameleo.io/)                       | 🇭🇺   | Chromium, Firefox | Chromium 157 (current), Firefox 153 (ESR) | 2 browsers at a time, 300 minutes a month, 100 cloud profiles                |
 | 🤖     | [Lalicat](data/products/lalicat.yaml)                                     | [lalicat.com](https://www.lalicat.com/)                 | ❓   | —                 | —                                         | —                                                                            |
-| 🤖     | [Linken Sphere](data/products/linken-sphere.yaml)                         | [ls.app](https://ls.app/)                               | 🇬🇧   | Chromium          | —                                         | 5 sessions, no time limit                                                    |
+| 🤖     | [Linken Sphere](data/products/linken-sphere.yaml)                         | [ls.app](https://ls.app/)                               | 🇬🇧   | Chromium          | Chromium 157 (current)                    | 5 sessions, no time limit                                                    |
 | 🤖     | [MarketerBrowser](data/products/marketerbrowser.yaml)                     | [marketerbrowser.com](https://www.marketerbrowser.com/) | ❓   | Chromium          | Chromium 150 (−7)                         | GO edition                                                                   |
 | 🤖     | [MBBrowser (候鸟浏览器)](data/products/mbbrowser.yaml)                    | [mbbrowser.com](https://www.mbbrowser.com/)             | ❓   | Chromium          | Chromium 140 (−17)                        | 2 profiles                                                                   |
-| 🤖     | [MoreLogin](data/products/morelogin.yaml)                                 | [morelogin.com](https://www.morelogin.com/)             | ❓   | Chromium, Firefox | —                                         | 2 profiles, 2 users                                                          |
+| 🤖     | [MoreLogin](data/products/morelogin.yaml)                                 | [morelogin.com](https://www.morelogin.com/)             | ❓   | Chromium, Firefox | Chromium 152 (−5)                         | 2 profiles, 2 users                                                          |
 | 🤖     | [MostLogin](data/products/mostlogin.yaml)                                 | [mostlogin.com](https://www.mostlogin.com/)             | 🇭🇰   | Chromium          | —                                         | 5 profiles                                                                   |
 | 🤖     | [MuLogin](data/products/mulogin.yaml)                                     | [mulogin.com](https://www.mulogin.com/)                 | ❓   | —                 | —                                         | —                                                                            |
 | 🤖     | [Multilogin](data/products/multilogin.yaml)                               | [multilogin.com](https://multilogin.com/)               | 🇦🇪   | Chromium, Firefox | Chromium 156 (−1), Firefox 146 (−14)      | 5 profiles, no time limit (since July 2026)                                  |
 | 🤖     | [Nstbrowser](data/products/nstbrowser.yaml)                               | [nstbrowser.io](https://www.nstbrowser.io/)             | ❓   | Chromium          | —                                         | pay as you go ($0 a month)                                                   |
 | 🤖     | [NullPrint](data/products/nullprint.yaml)                                 | [nullprint.net](https://nullprint.net/)                 | 🇬🇧   | —                 | —                                         | 5 profiles                                                                   |
-| 🤖     | [Octo Browser](data/products/octo-browser.yaml)                           | [octobrowser.net](https://octobrowser.net/)             | 🇬🇧   | Chromium          | —                                         | no                                                                           |
-| ⏳     | [OKBrowser](data/products/okbrowser.yaml)                                 | [okbrow.com](https://okbrow.com/)                       | ❓   | Chromium          | —                                         | 2 profiles                                                                   |
+| 🤖     | [Octo Browser](data/products/octo-browser.yaml)                           | [octobrowser.net](https://octobrowser.net/)             | 🇬🇧   | Chromium          | Chromium 157 (current)                    | no                                                                           |
+| 🤖     | [OKBrowser](data/products/okbrowser.yaml)                                 | [okbrow.com](https://okbrow.com/)                       | ❓   | Chromium          | —                                         | 2 profiles, no time limit                                                    |
 | 🤖     | [RoxyBrowser](data/products/roxybrowser.yaml)                             | [roxybrowser.com](https://roxybrowser.com/)             | 🇸🇬   | Chromium          | Chromium 156 (−1)                         | 2 profiles                                                                   |
 | 🤖     | [Sendwin](data/products/sendwin.yaml)                                     | [send.win](https://send.win/)                           | 🇺🇸   | Chromium          | Chromium 150 (−7)                         | no                                                                           |
-| ⏳     | [Switch Antidetect](data/products/switch-antidetect.yaml)                 | [switch.mybot.su](https://switch.mybot.su/)             | ❓   | Chromium          | —                                         | —                                                                            |
+| 🤖     | [Switch Antidetect](data/products/switch-antidetect.yaml)                 | [switch.mybot.su](https://switch.mybot.su/)             | ❓   | Chromium          | —                                         | up to 5 profiles                                                             |
 | 🤖     | [Undetectable](data/products/undetectable.yaml)                           | [undetectable.io](https://undetectable.io/)             | 🇨🇾   | Chromium          | Chromium 157 (current)                    | 5 cloud profiles                                                             |
 | 🤖     | [Vektor T13 Antidetect (Detect Expert)](data/products/detect-expert.yaml) | [detect.expert](https://detect.expert/)                 | 🇳🇱   | —                 | —                                         | free plan; checks are paid per use                                           |
-| 🤖     | [Vision](data/products/vision.yaml)                                       | [browser.vision](https://browser.vision/)               | ❓   | Chromium          | —                                         | no                                                                           |
+| 🤖     | [Vision](data/products/vision.yaml)                                       | [browser.vision](https://browser.vision/)               | ❓   | Chromium          | Chromium 157 (current)                    | no                                                                           |
 | 🤖     | [VMLogin](data/products/vmlogin.yaml)                                     | [vmlogin.us](https://www.vmlogin.us/)                   | ❓   | —                 | —                                         | no                                                                           |
 | 🤖     | [Wade X](data/products/wade-x.yaml)                                       | [wade.is](https://wade.is/)                             | ❓   | Chromium          | Chromium 156 (−1)                         | —                                                                            |
-| ⏳     | [Whologin](data/products/whologin.yaml)                                   | [whologin.com](https://whologin.com/)                   | ❓   | —                 | —                                         | —                                                                            |
+| ❌     | ~~[Whologin](data/products/whologin.yaml)~~                               | [whologin.com](https://whologin.com/)                   | ❓   | —                 | —                                         | —                                                                            |
 | 🤖     | [Yunlogin (云登)](data/products/yunlogin.yaml)                            | [yunlogin.com](https://www.yunlogin.com/)               | 🇨🇳   | —                 | —                                         | 10 profiles                                                                  |
 | 🤖     | [Ziniao (紫鸟浏览器)](data/products/ziniao.yaml)                          | [ziniao.com](https://www.ziniao.com/)                   | 🇨🇳   | —                 | —                                         | —                                                                            |
 
@@ -105,21 +107,27 @@ The source of the browser, engine changes included, is published under an open-s
 | 🤖     | [VirtualBrowser](data/products/virtualbrowser.yaml)                         | [Virtual-Browser/VirtualBrowser](https://github.com/Virtual-Browser/VirtualBrowser)           | Chromium          | —                      | BSD-3-Clause | 3,272  | 2026-10-16 |
 
 ## Cloud phones
-Android phones that run in the vendor's cloud and are managed from a browser or a desktop app. Browser too: the vendor also sells an antidetect browser (it is in the table above).
+Android phones that run in the vendor's cloud and are managed from a browser or a desktop app. Antidetect: ✓ the vendor sells the phones as antidetect, each with a device fingerprint of its own; "no": sold for games and apps and not called antidetect, listed for comparison. Browser too: the vendor also sells an antidetect browser (it is in the table above).
 
-| Status | Cloud phone                                 | Website                                       | Flag | Android        | Browser too |
-|--------|---------------------------------------------|-----------------------------------------------|------|----------------|-------------|
-| 🤖     | [BitBrowser](data/products/bitbrowser.yaml) | [bitbrowser.net](https://www.bitbrowser.net/) | 🇭🇰   | —              | ✓           |
-| 🤖     | [DuoPlus](data/products/duoplus.yaml)       | [duoplus.net](https://www.duoplus.net/)       | 🇸🇬   | 10, 11, 12, 15 |             |
-| 🤖     | [GeeLark](data/products/geelark.yaml)       | [geelark.com](https://www.geelark.com/)       | 🇸🇬   | —              | ✓           |
-| 🤖     | [GenLogin](data/products/genlogin.yaml)     | [genlogin.com](https://genlogin.com/)         | ❓   | —              | ✓           |
-| 🤖     | [Gologin](data/products/gologin.yaml)       | [gologin.com](https://gologin.com/)           | 🇺🇸   | —              | ✓           |
-| 🤖     | [Hubstudio](data/products/hubstudio.yaml)   | [hubstudio.cn](https://www.hubstudio.cn/)     | 🇨🇳   | —              | ✓           |
-| 🤖     | [Incogniton](data/products/incogniton.yaml) | [incogniton.com](https://incogniton.com/)     | 🇳🇱   | 12, 15         | ✓           |
-| 🤖     | [MoreLogin](data/products/morelogin.yaml)   | [morelogin.com](https://www.morelogin.com/)   | ❓   | 12, 15         | ✓           |
-| 🤖     | [MostLogin](data/products/mostlogin.yaml)   | [mostlogin.com](https://www.mostlogin.com/)   | 🇭🇰   | —              | ✓           |
-| 🤖     | [Multilogin](data/products/multilogin.yaml) | [multilogin.com](https://multilogin.com/)     | 🇦🇪   | 14, 15, 16     | ✓           |
-| 🤖     | [VMOS Cloud](data/products/vmos-cloud.yaml) | [vmoscloud.com](https://www.vmoscloud.com/)   | 🇭🇰   | —              |             |
+| Status | Cloud phone                                   | Website                                             | Flag | Android                        | Antidetect | Browser too |
+|--------|-----------------------------------------------|-----------------------------------------------------|------|--------------------------------|------------|-------------|
+| 🤖     | [ArmCloud](data/products/armcloud.yaml)       | [armcloud.net](https://www.armcloud.net/)           | 🇭🇰   | —                              | no         |             |
+| 🤖     | [BitBrowser](data/products/bitbrowser.yaml)   | [bitbrowser.net](https://www.bitbrowser.net/)       | 🇭🇰   | —                              | ✓          | ✓           |
+| 🤖     | [DuoPlus](data/products/duoplus.yaml)         | [duoplus.net](https://www.duoplus.net/)             | 🇸🇬   | 10, 11, 12, 15                 | ✓          |             |
+| 🤖     | [GeeLark](data/products/geelark.yaml)         | [geelark.com](https://www.geelark.com/)             | 🇸🇬   | —                              | ✓          | ✓           |
+| 🤖     | [GenLogin](data/products/genlogin.yaml)       | [genlogin.com](https://genlogin.com/)               | ❓   | —                              | ✓          | ✓           |
+| 🤖     | [Gologin](data/products/gologin.yaml)         | [gologin.com](https://gologin.com/)                 | 🇺🇸   | —                              | ✓          | ✓           |
+| 🤖     | [Hubstudio](data/products/hubstudio.yaml)     | [hubstudio.cn](https://www.hubstudio.cn/)           | 🇨🇳   | —                              | ✓          | ✓           |
+| 🤖     | [Incogniton](data/products/incogniton.yaml)   | [incogniton.com](https://incogniton.com/)           | 🇳🇱   | 12, 15                         | ✓          | ✓           |
+| 🤖     | [LDCloud](data/products/ldcloud.yaml)         | [ldcloud.net](https://www.ldcloud.net/)             | 🇭🇰   | 10, 12, 14, 15                 | no         |             |
+| 🤖     | [MoreLogin](data/products/morelogin.yaml)     | [morelogin.com](https://www.morelogin.com/)         | ❓   | 12, 15                         | ✓          | ✓           |
+| 🤖     | [MostLogin](data/products/mostlogin.yaml)     | [mostlogin.com](https://www.mostlogin.com/)         | 🇭🇰   | —                              | ✓          | ✓           |
+| 🤖     | [Multilogin](data/products/multilogin.yaml)   | [multilogin.com](https://multilogin.com/)           | 🇦🇪   | 14, 15, 16                     | ✓          | ✓           |
+| 🤖     | [Redfinger](data/products/redfinger.yaml)     | [cloudemulator.net](https://www.cloudemulator.net/) | 🇨🇳   | —                              | no         |             |
+| 🤖     | [UgPhone](data/products/ugphone.yaml)         | [ugphone.com](https://www.ugphone.com/)             | 🇸🇬   | 10, 12, 13                     | no         |             |
+| 🤖     | [VMOS Cloud](data/products/vmos-cloud.yaml)   | [vmoscloud.com](https://www.vmoscloud.com/)         | 🇭🇰   | —                              | ✓          |             |
+| 🤖     | [VSPhone](data/products/vsphone.yaml)         | [vsphone.com](https://www.vsphone.com/)             | 🇸🇬   | 10, 11, 12, 13, 14, 15, 16, 17 | no         |             |
+| 🤖     | [XCloudPhone](data/products/xcloudphone.yaml) | [xcloudphone.net](https://xcloudphone.net/)         | 🇺🇸   | 16                             | ✓          |             |
 
 ## How the data is collected
 
@@ -143,6 +151,13 @@ No account is created and no software is downloaded by the automatic checks.
 Corrections and new products are welcome as pull requests: edit or add a file in [`data/products/`](./data/products/)
 in the format of the others, with a link to the page that shows each fact. Facts without a source, marketing text and
 referral links are not accepted. Run `python3 tools/test_data.py --no-site` before you open the pull request.
+
+## License
+
+The data in [`data/`](./data/) and the downloads built from it (`products.json`, `products.csv`) are under
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) ([`data/LICENSE`](./data/LICENSE)): copy and adapt them,
+also commercially, and name antidetectDB with a link to this repository. The code (`tools/`, `site/`) is under the
+[MIT License](./LICENSE).
 
 ## Contributors
 

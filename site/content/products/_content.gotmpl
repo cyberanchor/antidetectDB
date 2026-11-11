@@ -1,7 +1,7 @@
 {{- /* One page per product file in data/products/, at /products/<id>/. The page carries only the id and a
        description; the template reads the full record through the adb/data.html partial. */ -}}
 {{- range partialCached "adb/data.html" . "adb" -}}
-  {{- $what := cond (and .isBrowser .isPhone) "Antidetect browser and cloud phones" (cond .isPhone "Cloud phones" "Antidetect browser") -}}
+  {{- $what := cond (and .isBrowser .isPhone) "Antidetect browser and cloud phones" (cond .isPhone (cond .general "Cloud phones (not antidetect)" "Cloud phones") "Antidetect browser") -}}
   {{- $who := cond (ne .legal "") (printf " by %s" .legal) "" -}}
   {{- $where := cond (ne .country "") (printf " (%s)" .country) "" -}}
   {{- $desc := printf "%s %s%s%s: company, core version, plans and sources." .name (lower $what) $who $where -}}

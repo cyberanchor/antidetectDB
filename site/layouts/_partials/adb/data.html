@@ -7,7 +7,7 @@
 {{- $all := hugo.Data.products -}}
 {{- if not $all -}}{{- errorf "adb/data: no product records were loaded (a YAML error above, or ../data/products is not mounted as data/products in hugo.toml)" -}}{{- end -}}
 {{- $up := partialCached "adb/upstream.html" . "adb-up" -}}
-{{- $known := slice "name" "kind" "status" "dead" "successor" "website" "domains" "legal_entity" "flag" "country"
+{{- $known := slice "name" "kind" "antidetect" "status" "dead" "successor" "website" "domains" "legal_entity" "flag" "country"
   "alliance" "law" "engine" "cores" "platforms" "android" "open_source" "repo" "license" "stars" "pushed" "release"
   "free" "trial" "price" "payment" "storage" "api" "tests" "incidents" "note" "links" "social" "created" "expires"
   "online_since" "hosting" "http" "sources" "last_checked" -}}
@@ -22,6 +22,11 @@
   {{- end -}}
   {{- if not $r.name -}}{{- errorf "adb/data: %s has no name" $f -}}{{- end -}}
   {{- $kind := $r.kind | default slice -}}
+  {{- /* general: a cloud phone sold for games and apps (antidetect: false). The filter tokens add
+         antidetect-phone or general-phone to the kinds of a product with cloud phones. */ -}}
+  {{- $general := and (in $kind "cloud-phone") (eq $r.antidetect false) -}}
+  {{- $tokens := $kind -}}
+  {{- if in $kind "cloud-phone" -}}{{- $tokens = $tokens | append (cond $general "general-phone" "antidetect-phone") -}}{{- end -}}
   {{- $state := cond (eq $r.dead true) "dead" ($r.status | default "pending") -}}
 
   {{- /* Cores: major version, lag behind the current stable Chrome / Firefox, ESR flag, colour class
@@ -67,7 +72,7 @@
   {{- $out = $out | append (dict
       "id" $id "name" $r.name "rec" $r "file" $f
       "state" $state "dead" (eq $r.dead true) "kind" $kind
-      "isBrowser" (in $kind "browser") "isPhone" (in $kind "cloud-phone")
+      "isBrowser" (in $kind "browser") "isPhone" (in $kind "cloud-phone") "general" $general "kindTokens" $tokens
       "flag" ($r.flag | default "") "country" ($r.country | default "") "legal" ($r.legal_entity | default "")
       "eyes" $eyes "cEyes" $cEyes
       "engines" $engines "cores" $cores "bestLag" $bestLag

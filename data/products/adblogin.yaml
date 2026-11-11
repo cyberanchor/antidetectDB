@@ -1,13 +1,18 @@
 # antidetectDB product record; fields are described in data/README.md
 name: ADBLogin
 kind: [browser]
-status: pending
+status: auto
 website: https://adblogin.com/
 law: Vietnam
+platforms: [windows, macos, linux]
 open_source: false
-note: Calls itself a free "Social Account Manager". The company is not named on the pages read.
+free: unlimited local profiles
+storage: local
+note: Free local profile manager ("Social Account Manager"), downloaded from a Google Drive folder. The site is also an official Multilogin affiliate partner and publishes Multilogin promo codes. Terms governed by the law of Vietnam (courts of Ho Chi Minh City); the company is not named.
 links:
   terms: https://adblogin.com/terms-and-conditions/
+  privacy: https://adblogin.com/privacy-policy/
+  download: https://adblogin.com/download/
 created: '2024-05-28'
 expires: '2030-05-28'
 online_since: '2024-05-29'
@@ -17,4 +22,6 @@ sources:
 - https://adblogin.com/
 - https://adblogin.com/terms-and-conditions/
 - https://github.com/TheGP/untidetect-tools
+- https://adblogin.com/about/
+- https://adblogin.com/download/
 last_checked: '2026-11-11'

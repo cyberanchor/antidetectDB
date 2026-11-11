@@ -8,13 +8,15 @@ flag: 🇺🇸
 country: United States
 alliance: 5
 engine: [chromium]
+cores:
+- {name: Orbita, engine: chromium, version: '156.1.0-2'}
 platforms: [windows, macos, linux]
 open_source: false
 free: '3 profiles'
 trial: '7 days'
 price:
 - Professional $9/month
-note: 'Core: Orbita (Chromium); the current version is not published on the site. Address: Venice, Florida. Affiliates Scalehat LLC (USA) and GOLESS S.à r.l. (Paris) may accept payments. Also sells Cloud Android phones.'
+note: 'Core: Orbita. The update service that Gologin''s own SDK queries reported Orbita 156.1.0-2 for Windows, macOS and Linux on 2026-11-11; the blog last named Orbita 148 (June 2026). Address: Venice, Florida. Affiliates Scalehat LLC (USA) and GOLESS S.à r.l. (Paris) may accept payments. Also sells Cloud Android phones.'
 links:
   terms: https://gologin.com/terms-of-service/
   privacy: https://gologin.com/privacy-policy/
@@ -30,4 +32,6 @@ sources:
 - https://gologin.com/privacy-policy/
 - https://gologin.com/pricing/
 - https://gologin.com/download/
+- https://api.gologin.com/gologin-global-settings/latest-browser-info?os=win
+- https://gologin.com/blog/gologin-in-june/
 last_checked: '2026-11-11'

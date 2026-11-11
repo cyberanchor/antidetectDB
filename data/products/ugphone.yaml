@@ -1,0 +1,28 @@
+# antidetectDB product record; fields are described in data/README.md
+name: UgPhone
+kind: [cloud-phone]
+antidetect: false
+status: auto
+website: https://www.ugphone.com/
+legal_entity: GLOBALTOO TECHNOLOGY PTE LTD
+flag: 🇸🇬
+country: Singapore
+platforms: [android, web]
+android: ['10', '12', '13']
+open_source: false
+trial: 'yes'
+note: 'Cloud phones for games: several game instances running 24/7 (AFK), used from Android, a PC or the web. Address: Paya Lebar Square, Singapore. Does not call itself antidetect.'
+links:
+  terms: https://www.ugphone.com/terms
+  privacy: https://www.ugphone.com/policy
+  pricing: https://www.ugphone.com/plan
+created: '2022-09-14'
+expires: '2028-09-14'
+online_since: '2023-03-07'
+hosting: {ip: '104.18.38.101', anycast: true, asn: 'AS13335 Cloudflare, Inc.', org: 'Cloudflare, Inc.'}
+http: 200
+sources:
+- https://www.ugphone.com/
+- https://www.ugphone.com/about
+- https://www.ugphone.com/plan
+last_checked: '2026-11-11'

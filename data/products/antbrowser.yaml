@@ -1,13 +1,17 @@
 # antidetectDB product record; fields are described in data/README.md
 name: AntBrowser
 kind: [browser]
-status: pending
+status: auto
 website: https://antbrowser.pro/
+engine: [chromium]
 platforms: [windows, macos, linux]
 open_source: false
-note: The company is not named on the pages read.
+trial: '1 day, 2 profiles'
+storage: both
+note: The company is not named on the pages read. The Pro plan is priced by the number of profiles.
 links:
   terms: https://antbrowser.pro/en/terms-of-use.html
+  privacy: https://antbrowser.pro/en/private-policy.html
 created: '2019-03-08'
 expires: '2027-03-08'
 online_since: '2019-05-01'
@@ -16,4 +20,5 @@ http: 200
 sources:
 - https://antbrowser.pro/
 - https://github.com/TheGP/untidetect-tools
+- https://antbrowser.pro/en/terms-of-use.html
 last_checked: '2026-11-11'

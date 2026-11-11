@@ -1,0 +1,31 @@
+# antidetectDB product record; fields are described in data/README.md
+name: VSPhone
+kind: [cloud-phone]
+antidetect: false
+status: auto
+website: https://www.vsphone.com/
+legal_entity: CLOUDFORGE SOLUTIONS PTE. LTD.
+flag: 🇸🇬
+country: Singapore
+law: Singapore
+platforms: [windows, macos, linux, android, ios]
+android: ['10', '11', '12', '13', '14', '15', '16', '17']
+open_source: false
+price:
+- US$3.99 for 30 days (6 cores, 4 GB RAM), limited-time offer
+note: Cloud phones for games running 24/7 ("AI Auto Farm"). Plans include root and a "New Device" option. Does not call itself antidetect.
+links:
+  terms: https://www.vsphone.com/tos/user
+  privacy: https://www.vsphone.com/tos/privacy-policy
+  pricing: https://www.vsphone.com/price
+created: '2025-06-13'
+expires: '2028-06-13'
+online_since: '2006-11-27'
+hosting: {ip: '43.174.196.248', flag: 🇸🇬, country: Singapore, asn: AS139341 ACE, org: ACE}
+http: 200
+sources:
+- https://www.vsphone.com/
+- https://www.vsphone.com/price
+- https://www.vsphone.com/tos/user
+- https://www.vsphone.com/tos/privacy-policy
+last_checked: '2026-11-11'

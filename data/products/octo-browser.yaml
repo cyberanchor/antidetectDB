@@ -9,18 +9,21 @@ flag: 🇬🇧
 country: United Kingdom
 alliance: 5
 engine: [chromium]
+cores:
+- {name: Octium, engine: chromium, version: '157'}
 platforms: [windows, macos, linux]
 open_source: false
 free: 'no'
 price:
 - Lite €10/month (3 profiles)
 - Starter €29/month (10 profiles)
-note: 'Address: London. EU representative: FINWIN TECHNOLOGIES Sp. z o.o. (Białystok, Poland). The core version is not published on the site.'
+note: 'Address: London. EU representative: FINWIN TECHNOLOGIES Sp. z o.o. (Białystok, Poland). Core: Octium, Chromium 157 since 2026-11-05 (Octium changelog).'
 links:
   terms: https://octobrowser.net/terms/
   privacy: https://octobrowser.net/privacy-policy/
   pricing: https://octobrowser.net/pricing/
   download: https://octobrowser.org/download/
+  changelog: https://docs.octobrowser.net/en/changelog/octium-changelog/
 created: '2020-11-23'
 expires: '2033-11-23'
 online_since: '2021-02-18'
@@ -31,4 +34,5 @@ sources:
 - https://octobrowser.net/privacy-policy/
 - https://octobrowser.net/pricing/
 - https://octobrowser.org/download/
+- https://docs.octobrowser.net/en/changelog/octium-changelog/
 last_checked: '2026-11-11'

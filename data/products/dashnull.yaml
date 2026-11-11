@@ -1,14 +1,16 @@
 # antidetectDB product record; fields are described in data/README.md
 name: DashNull
 kind: [browser]
-status: pending
+status: auto
+dead: true
 website: https://dashnull.com/
 open_source: false
-note: The domain is registered until 2027-02-21 but had no DNS records on 2026-11-11; the site did not answer.
+note: Antidetect browser launched in 2026 (first Wayback capture 2026-03-20). On 2026-11-11 the domain had no name servers and did not resolve, although it is registered until 2027-02-21; the last archived page is from 2026-06-20.
 created: '2026-02-21'
 expires: '2027-02-21'
 online_since: '2026-03-20'
 http: 0
 sources:
 - https://github.com/TheGP/untidetect-tools
+- https://web.archive.org/web/20260620061537/https://dashnull.com/
 last_checked: '2026-11-11'

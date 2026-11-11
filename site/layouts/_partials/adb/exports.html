@@ -1,14 +1,15 @@
 {{- /* Downloads next to the pages, published as files (so --minify leaves them as written). Called once from the
        home page.
          products.json  the records as they are in data/products/, with their id, sorted by name
-         products.csv   one row per product, every field quoted; lists joined with ";", cores as "name engine version"
+         products.csv   one row per product, every field quoted; lists joined with ";", cores as "name engine version",
+                        antidetect true or false
 */ -}}
 {{- $d := partialCached "adb/data.html" . "adb" -}}
 {{- $recs := slice -}}
 {{- range $d -}}{{- $recs = $recs | append (merge (dict "id" .id) .rec) -}}{{- end -}}
 {{- (resources.FromString "products.json" (printf "%s\n" (jsonify (dict "indent" " " "noHTMLEscape" true) $recs))).Publish -}}
 
-{{- $cols := slice "id" "name" "kind" "status" "dead" "website" "legal_entity" "flag" "country" "alliance" "law"
+{{- $cols := slice "id" "name" "kind" "antidetect" "status" "dead" "website" "legal_entity" "flag" "country" "alliance" "law"
   "engine" "cores" "core_lag" "platforms" "android" "open_source" "repo" "license" "stars" "pushed" "free" "trial"
   "price" "created" "online_since" "http" "last_checked" -}}
 {{- $q := slice -}}
@@ -20,6 +21,7 @@
   {{- range $cols -}}
     {{- $v := "" -}}
     {{- if eq . "id" -}}{{- $v = $s.id -}}
+    {{- else if eq . "antidetect" -}}{{- $v = cond $s.general "false" "true" -}}
     {{- else if eq . "cores" -}}
       {{- $cs := slice -}}{{- range $s.cores -}}{{- $cs = $cs | append (trim (printf "%s %s %s" .name .engine .version) " ") -}}{{- end -}}
       {{- $v = delimit $cs ";" -}}

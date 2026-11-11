@@ -1,14 +1,24 @@
 # antidetectDB product record; fields are described in data/README.md
 name: Switch Antidetect
 kind: [browser]
-status: pending
+status: auto
 website: https://switch.mybot.su/
 engine: [chromium]
+platforms: [windows]
 open_source: false
-note: Russian-language site.
+free: up to 5 profiles
+price:
+- 'Pro: 390 ₽ a month'
+storage: local
+note: Russian-language site of MyBot; the company is not named. Prices in roubles.
+links:
+  pricing: https://switch.mybot.su/Payment
+  docs: https://switch.mybot.su/Faq
 hosting: {ip: '95.163.235.149', flag: 🇷🇺, country: Russia, asn: 'AS197695 "Domain names registrar REG.RU", Ltd', org: '"Domain names registrar REG.RU", Ltd'}
 http: 200
 sources:
 - https://switch.mybot.su/
 - https://github.com/TheGP/untidetect-tools
+- https://switch.mybot.su/Payment
+- https://switch.mybot.su/Faq
 last_checked: '2026-11-11'

@@ -1,8 +1,10 @@
-{{- /* One line on every page: copyright, the no-referral rule, Hugo, author. */ -}}
+{{- /* One line on every page: copyright, the no-referral rule, licences, Hugo, author. */ -}}
 <footer class="adb-footer">
   <span>&copy; {{ now.Year }} <a href="{{ site.Home.RelPermalink }}">{{ site.Title }}</a></span>
   <span aria-hidden="true">·</span>
   <span>No referral links, no paid placement</span>
+  <span aria-hidden="true">·</span>
+  <span>Data <a href="{{ site.Params.repo }}/blob/main/data/LICENSE" rel="noopener license">CC BY 4.0</a>, code <a href="{{ site.Params.repo }}/blob/main/LICENSE" rel="noopener license">MIT</a></span>
   <span aria-hidden="true">·</span>
   <span>Built with <a href="https://gohugo.io/" rel="noopener">Hugo</a></span>
   {{- with site.Params.author }}

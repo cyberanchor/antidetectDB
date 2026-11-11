@@ -1,0 +1,33 @@
+# antidetectDB product record; fields are described in data/README.md
+name: XCloudPhone
+kind: [cloud-phone]
+status: auto
+website: https://xcloudphone.net/
+domains: [xcloudphone.com]
+legal_entity: XCloudPhone Technology and Solutions LLC
+flag: 🇺🇸
+country: United States
+alliance: 5
+law: Colorado, United States
+platforms: [web]
+android: ['16']
+open_source: false
+trial: 'yes'
+price:
+- from $0.012 an hour
+note: 'Real ARM Android phones in the cloud for games and for running many accounts, with "anti-detect features" (IMEI rotation, Android ID changes, fingerprint protection). Address: Lakewood, Colorado. Moved from xcloudphone.com.'
+links:
+  terms: https://xcloudphone.net/terms-of-service
+  privacy: https://xcloudphone.net/privacy
+  pricing: https://xcloudphone.net/pricing
+created: '2026-07-19'
+expires: '2027-07-19'
+hosting: {ip: '172.67.212.64', anycast: true, asn: 'AS13335 Cloudflare, Inc.', org: 'Cloudflare, Inc.'}
+http: 200
+sources:
+- https://xcloudphone.net/
+- https://xcloudphone.net/multi-account
+- https://xcloudphone.net/privacy
+- https://xcloudphone.net/terms-of-service
+- https://xcloudphone.net/pricing
+last_checked: '2026-11-11'

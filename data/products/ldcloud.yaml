@@ -1,0 +1,29 @@
+# antidetectDB product record; fields are described in data/README.md
+name: LDCloud
+kind: [cloud-phone]
+antidetect: false
+status: auto
+website: https://www.ldcloud.net/
+legal_entity: HONGKONG LDCLOUD INTERNATIONAL CO., LIMITED
+flag: 🇭🇰
+country: Hong Kong
+law: Hong Kong
+platforms: [windows, macos, android, ios]
+android: ['10', '12', '14', '15']
+open_source: false
+trial: free trial for new users
+note: Cloud phones for games running 24/7 (AFK), also offered for managing many accounts. Registration number 73481219, Causeway Bay, Hong Kong. Does not call itself antidetect.
+links:
+  terms: https://www.ldcloud.net/en/terms-of-service.html
+  privacy: https://www.ldcloud.net/en/privacy-policy.html
+  pricing: https://www.ldcloud.net/features/packages
+created: '2021-09-03'
+expires: '2027-09-03'
+online_since: '2021-12-09'
+hosting: {ip: '184.24.77.140', anycast: true, asn: AS20940 Akamai International B.V., org: 'Akamai Technologies, Inc.'}
+http: 200
+sources:
+- https://www.ldcloud.net/
+- https://www.ldcloud.net/en/terms-of-service.html
+- https://www.ldcloud.net/features/packages
+last_checked: '2026-11-11'

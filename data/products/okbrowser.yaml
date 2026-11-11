@@ -1,13 +1,15 @@
 # antidetectDB product record; fields are described in data/README.md
 name: OKBrowser
 kind: [browser]
-status: pending
+status: auto
 website: https://okbrow.com/
 engine: [chromium]
 platforms: [windows]
 open_source: false
-free: '2 profiles'
-note: Chinese-language site. The company is not named on the pages read.
+free: '2 profiles, no time limit'
+price:
+- '¥29.9 a month: unlimited profiles'
+note: Chinese-language site. The company is not named on the site.
 created: '2024-11-07'
 expires: '2027-11-07'
 online_since: '2024-11-19'
