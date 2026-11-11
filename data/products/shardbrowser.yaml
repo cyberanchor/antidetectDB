@@ -1,0 +1,23 @@
+# antidetectDB product record; fields are described in data/README.md
+name: ShardBrowser
+kind: [browser]
+status: auto
+website: https://shardbrowser.com/
+engine: [chromium]
+cores:
+- {engine: chromium, version: '157'}
+open_source: true
+repo: https://github.com/ProxyShard/ShardBrowser
+license: MIT
+stars: 1482
+pushed: '2026-11-10'
+release: {version: v2.1.5, date: '2026-11-10'}
+free: free
+note: The launcher is open source; it ships a patched Chromium 157 build. By the ShardX team (formerly ProxyShard), a proxy provider.
+created: '2026-05-27'
+expires: '2027-05-27'
+hosting: {ip: '172.67.202.62', anycast: true, asn: 'AS13335 Cloudflare, Inc.', org: 'Cloudflare, Inc.'}
+http: 200
+sources:
+- https://github.com/ProxyShard/ShardBrowser
+last_checked: '2026-11-11'

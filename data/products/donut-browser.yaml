@@ -1,0 +1,30 @@
+# antidetectDB product record; fields are described in data/README.md
+name: Donut Browser
+kind: [browser]
+status: auto
+website: https://donutbrowser.com/
+legal_entity: Internet Technology Services LLC
+engine: [chromium]
+platforms: [windows, macos, linux]
+open_source: true
+repo: https://github.com/zhom/donutbrowser
+license: AGPL-3.0
+stars: 4269
+pushed: '2026-11-11'
+release: {version: v0.36.0, date: '2026-11-01'}
+free: unlimited local profiles, no account needed
+price:
+- Solo $29/month (cloud backups)
+links:
+  terms: https://donutbrowser.com/terms-of-service
+  pricing: https://donutbrowser.com/pricing
+created: '2025-04-27'
+expires: '2027-04-27'
+online_since: '2025-05-30'
+hosting: {ip: '188.114.96.3', anycast: true, asn: 'AS13335 Cloudflare, Inc.', org: 'CloudFlare, Inc.'}
+http: 200
+sources:
+- https://donutbrowser.com/
+- https://donutbrowser.com/pricing
+- https://web.archive.org/web/20261021013857/https://donutbrowser.com/terms-of-service/
+last_checked: '2026-11-11'

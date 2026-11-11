@@ -1,0 +1,28 @@
+# antidetectDB product record; fields are described in data/README.md
+name: CloakBrowser
+kind: [browser]
+status: auto
+website: https://cloakbrowser.dev/
+engine: [chromium]
+cores:
+- {engine: chromium, version: '156'}
+platforms: [windows, macos, linux]
+open_source: false
+repo: https://github.com/CloakHQ/CloakBrowser
+license: MIT
+stars: 32835
+pushed: '2026-11-10'
+release: {version: chromium-v156.0.8078.47.1-pro, date: '2026-11-03'}
+free: free licence key by e-mail
+note: 'The Python / JavaScript wrapper is MIT-licensed; the patched Chromium binary is downloaded on first run and needs a licence key. Release 0.7.2: Chromium 156.0.8078.47.'
+links:
+  terms: https://cloakbrowser.dev/legal
+created: '2026-02-26'
+expires: '2027-02-26'
+online_since: '2026-03-20'
+hosting: {ip: '104.21.53.44', anycast: true, asn: 'AS13335 Cloudflare, Inc.', org: 'Cloudflare, Inc.'}
+http: 200
+sources:
+- https://github.com/CloakHQ/CloakBrowser
+- https://cloakbrowser.dev/
+last_checked: '2026-11-11'

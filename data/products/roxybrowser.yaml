@@ -1,0 +1,33 @@
+# antidetectDB product record; fields are described in data/README.md
+name: RoxyBrowser
+kind: [browser]
+status: auto
+website: https://roxybrowser.com/
+legal_entity: LINKV TECH PTE. LTD.
+flag: 🇸🇬
+country: Singapore
+law: Singapore
+engine: [chromium]
+cores:
+- {engine: chromium, version: '156'}
+platforms: [windows, macos, linux]
+open_source: false
+free: '2 profiles'
+note: Chromium 156 kernel update on 2026-11-11.
+links:
+  terms: https://roxybrowser.com/copyright/user
+  privacy: https://roxybrowser.com/copyright/privacy
+  pricing: https://roxybrowser.com/pricing
+  download: https://roxybrowser.com/download
+  changelog: https://roxybrowser.com/changelog
+created: '2024-07-05'
+expires: '2029-07-05'
+online_since: '2024-12-31'
+hosting: {ip: '8.217.98.238', flag: 🇭🇰, country: Hong Kong, asn: 'AS45102 Alibaba (US) Technology Co., Ltd.', org: Alibaba.com Singapore E-Commerce Private Limited}
+http: 200
+sources:
+- https://roxybrowser.com/copyright/privacy
+- https://roxybrowser.com/copyright/user
+- https://roxybrowser.com/changelog
+- https://roxybrowser.com/download
+last_checked: '2026-11-11'

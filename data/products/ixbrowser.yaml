@@ -1,0 +1,21 @@
+# antidetectDB product record; fields are described in data/README.md
+name: ixBrowser
+kind: [browser]
+status: auto
+website: https://www.ixbrowser.com/
+open_source: false
+free: yes, with daily limits
+price:
+- Professional $3.99/month
+note: The company is not named on the pages read.
+links:
+  pricing: https://www.ixbrowser.com/en/pricing
+created: '2022-04-25'
+expires: '2027-04-25'
+online_since: '2011-02-02'
+hosting: {ip: '188.114.97.3', anycast: true, asn: 'AS13335 Cloudflare, Inc.', org: 'CloudFlare, Inc.'}
+http: 200
+sources:
+- https://www.ixbrowser.com/en/pricing
+- https://github.com/TheGP/untidetect-tools
+last_checked: '2026-11-11'

@@ -1,0 +1,26 @@
+# antidetectDB product record; fields are described in data/README.md
+name: Vision
+kind: [browser]
+status: auto
+website: https://browser.vision/
+legal_entity: Emperat Solutions Ltd
+law: United Kingdom
+engine: [chromium]
+platforms: [windows, macos, linux]
+open_source: false
+free: 'no'
+trial: '4 days'
+note: Offers a "Safari core" next to Chrome; the site does not say what engine it is built on.
+links:
+  terms: https://browser.vision/tos
+  privacy: https://browser.vision/privacy
+  download: https://browser.vision/download
+created: '2022-04-28'
+expires: '2027-04-28'
+hosting: {ip: '216.150.1.1', flag: 🇺🇸, country: United States, asn: 'AS16509 Amazon.com, Inc.', org: 'Vercel, Inc'}
+http: 200
+sources:
+- https://browser.vision/
+- https://browser.vision/tos
+- https://browser.vision/privacy
+last_checked: '2026-11-11'

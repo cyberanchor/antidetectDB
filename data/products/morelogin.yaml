@@ -1,0 +1,30 @@
+# antidetectDB product record; fields are described in data/README.md
+name: MoreLogin
+kind: [browser, cloud-phone]
+status: auto
+website: https://www.morelogin.com/
+law: Singapore
+engine: [chromium, firefox]
+platforms: [windows, macos, linux]
+android: ['12', '15']
+open_source: false
+free: '2 profiles, 2 users'
+price:
+- $9/month (10 profiles)
+- cloud phone $0.006 a minute
+note: The terms and the privacy policy do not name the company.
+links:
+  terms: https://www.morelogin.com/protocol/
+  privacy: https://www.morelogin.com/protocol/privacyservice/
+  pricing: https://www.morelogin.com/pricing
+  download: https://www.morelogin.com/download
+created: '2022-09-23'
+expires: '2027-09-23'
+online_since: '2022-11-13'
+hosting: {ip: '163.181.254.209', flag: 🇩🇪, country: Germany, asn: 'AS24429 Zhejiang Taobao Network Co.,Ltd', org: Alibaba.com LLC}
+http: 200
+sources:
+- https://www.morelogin.com/
+- https://www.morelogin.com/protocol/
+- https://www.morelogin.com/pricing
+last_checked: '2026-11-11'

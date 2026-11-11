@@ -1,0 +1,22 @@
+# antidetectDB product record; fields are described in data/README.md
+name: '0detect'
+kind: [browser]
+status: auto
+website: https://0detect.com/
+legal_entity: Green Advex Technology LLC
+law: United Kingdom
+platforms: [windows, macos]
+open_source: false
+free: '1 profile; multi-accounting is not allowed on the free plan since 2025-06-09'
+links:
+  terms: https://0detect.com/documents/terms
+  pricing: https://0detect.com/prices
+created: '2024-11-30'
+expires: '2027-11-30'
+online_since: '2024-12-02'
+hosting: {ip: '104.20.22.210', anycast: true, asn: 'AS13335 Cloudflare, Inc.', org: 'Cloudflare, Inc.'}
+http: 200
+sources:
+- https://0detect.com/documents/terms
+- https://0detect.com/
+last_checked: '2026-11-11'

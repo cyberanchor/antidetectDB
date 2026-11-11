@@ -1,0 +1,25 @@
+# antidetectDB: Hugo, no theme. Build with ./build.sh; the site goes to public/.
+baseURL = "https://cyberanchor.github.io/antidetectDB/site/public/"
+title = "antidetectDB"
+locale = "en"
+disableKinds = ["taxonomy", "term", "rss", "sitemap", "robotsTXT", "404"]
+publishDir = "public"
+
+[params]
+  description = "Yet Another Antidetect Browser Comparison: who runs each antidetect browser and cloud phone, where the company is registered, which core it ships and how far behind Chrome it is, what it costs. No referral links."
+  repo = "https://github.com/cyberanchor/antidetectDB"
+  [params.author]
+    name = "Cyberanchor"
+    url = "https://github.com/cyberanchor"
+
+[[module.mounts]]
+  source = "assets"
+  target = "assets"
+# Product records from the repository root: ../data/products/<id>.yaml -> hugo.Data.products,
+# ../data/upstream.yaml (current Chrome and Firefox) -> hugo.Data.upstream
+[[module.mounts]]
+  source = "../data/products"
+  target = "data/products"
+[[module.mounts]]
+  source = "../data/upstream.yaml"
+  target = "data/upstream.yaml"

@@ -1,0 +1,33 @@
+# antidetectDB product record; fields are described in data/README.md
+name: Dolphin {anty}
+kind: [browser]
+status: auto
+website: https://dolphin-anty.com/
+legal_entity: Zhitnyakov Software Solutions LTD
+flag: 🇨🇾
+country: Cyprus
+law: Cyprus
+engine: [chromium, firefox]
+platforms: [windows, macos, linux]
+open_source: false
+free: '3 profiles, 20 profile creations a month'
+price:
+- Starter $10/month (20 profiles)
+- Base $89/month (100 profiles)
+note: 'Address: Germasogeia, Limassol. The core version is not published on the site.'
+links:
+  terms: https://dolphin-anty.com/terms-of-use/
+  privacy: https://dolphin-anty.com/privacy-policy/
+  pricing: https://dolphin-anty.com/tarifs/
+  download: https://dolphin-anty.com/download/
+created: '2023-02-09'
+expires: '2027-02-09'
+online_since: '2023-07-10'
+hosting: {ip: '18.185.251.195', flag: 🇩🇪, country: Germany, asn: 'AS16509 Amazon.com, Inc.', org: AWS EC2 (eu-central-1)}
+http: 200
+sources:
+- https://dolphin-anty.com/terms-of-use/
+- https://dolphin-anty.com/privacy-policy/
+- https://dolphin-anty.com/tarifs/
+- https://dolphin-anty.com/download/
+last_checked: '2026-11-11'

@@ -1,0 +1,33 @@
+# antidetectDB product record; fields are described in data/README.md
+name: Hidemyacc
+kind: [browser]
+status: auto
+website: https://hidemyacc.com/
+legal_entity: ONEADX Co., Ltd.
+flag: 🇻🇳
+country: Vietnam
+law: Vietnam
+engine: [chromium]
+cores:
+- {name: Marco, engine: chromium, version: '155'}
+platforms: [windows, macos]
+open_source: false
+trial: '7 days (30 profiles)'
+price:
+- Mini $10/month (5 profiles)
+note: 'Address: Hanoi. Version 3.1.12 (2026-10-19) updated its Marco browser to 155.'
+links:
+  terms: https://hidemyacc.com/terms-of-service
+  pricing: https://hidemyacc.com/pricing
+  download: https://hidemyacc.com/download
+  changelog: https://hidemyacc.com/release-notes
+created: '2021-06-03'
+expires: '2027-06-03'
+hosting: {ip: '104.26.11.205', anycast: true, asn: 'AS13335 Cloudflare, Inc.', org: 'Cloudflare, Inc.'}
+http: 200
+sources:
+- https://hidemyacc.com/
+- https://hidemyacc.com/terms-of-service
+- https://hidemyacc.com/pricing
+- https://hidemyacc.com/release-notes
+last_checked: '2026-11-11'

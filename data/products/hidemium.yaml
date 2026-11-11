@@ -1,0 +1,27 @@
+# antidetectDB product record; fields are described in data/README.md
+name: Hidemium
+kind: [browser]
+status: auto
+website: https://hidemium.io/
+legal_entity: Hachitech
+engine: [chromium]
+cores:
+- {name: Hidemium, engine: chromium, version: '156'}
+platforms: [windows, macos]
+open_source: false
+free: '5 profiles'
+price:
+- Basic $15/month (30 profiles)
+note: Version 5.0.0 ships the Hidemium 156 core.
+links:
+  terms: https://hidemium.io/terms-of-service/
+  pricing: https://hidemium.io/pricing/
+  download: https://hidemium.io/download/
+  changelog: https://hidemium.io/release-notes/
+hosting: {ip: '172.67.73.42', anycast: true, asn: 'AS13335 Cloudflare, Inc.', org: 'Cloudflare, Inc.'}
+http: 200
+sources:
+- https://hidemium.io/
+- https://hidemium.io/pricing/
+- https://hidemium.io/release-notes/
+last_checked: '2026-11-11'

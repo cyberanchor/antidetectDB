@@ -1,0 +1,24 @@
+# antidetectDB product record; fields are described in data/README.md
+name: AliasMode
+kind: [browser]
+status: auto
+website: https://aliasmode.com/
+engine: [chromium, firefox]
+cores:
+- {name: AliasMode Chromium, engine: chromium, version: '155'}
+platforms: [windows, macos]
+open_source: true
+repo: https://github.com/aliasmode/aliasmode
+license: Apache-2.0
+stars: 153
+pushed: '2026-11-08'
+free: free
+note: 'Open source from engine to app: AliasMode Chromium and AliasMode Firefox. Public beta for Windows and macOS.'
+created: '2026-08-09'
+expires: '2027-08-09'
+online_since: '2026-09-24'
+hosting: {ip: '167.114.96.190', flag: 🇨🇦, country: Canada, asn: AS16276 OVH SAS, org: 'OVH Hosting, Inc.'}
+http: 200
+sources:
+- https://github.com/aliasmode/aliasmode
+last_checked: '2026-11-11'

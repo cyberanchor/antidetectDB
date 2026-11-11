@@ -1,0 +1,6 @@
+{{- /* (dict "text" "yes" "color" "green" "title" "") → a small coloured label; empty text → a muted dash. */ -}}
+{{- with .text -}}
+<span class="adb-pill adb-{{ $.color | default "none" }}"{{ with $.title }} title="{{ . }}"{{ end }}>{{ . }}</span>
+{{- else -}}
+<span class="adb-na">—</span>
+{{- end -}}

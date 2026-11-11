@@ -1,0 +1,32 @@
+# antidetectDB product record; fields are described in data/README.md
+name: DuoPlus
+kind: [cloud-phone]
+status: auto
+website: https://www.duoplus.net/
+legal_entity: DUOPLUS PTE. LTD.
+flag: 🇸🇬
+country: Singapore
+law: Singapore
+platforms: [windows, macos]
+android: ['10', '11', '12', '15']
+open_source: false
+trial: '1 cloud phone for 30 days with 30 minutes of startup time'
+price:
+- startup time from $0.0042 a minute
+- monthly startup package $16.91
+links:
+  terms: https://www.duoplus.net/terms-of-use/
+  privacy: https://www.duoplus.net/privacy-policy/
+  pricing: https://www.duoplus.net/pricing/
+  download: https://www.duoplus.net/download/
+  changelog: https://www.duoplus.net/changelog/
+created: '2024-04-03'
+expires: '2031-04-03'
+online_since: '2004-02-05'
+hosting: {ip: '18.64.211.80', anycast: true, asn: 'AS16509 Amazon.com, Inc.', org: AWS CloudFront (GLOBAL)}
+http: 200
+sources:
+- https://www.duoplus.net/
+- https://www.duoplus.net/terms-of-use/
+- https://www.duoplus.net/pricing/
+last_checked: '2026-11-11'

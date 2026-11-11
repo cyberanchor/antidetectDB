@@ -1,0 +1,17 @@
+# antidetectDB product record; fields are described in data/README.md
+name: FoxProfile
+kind: [browser]
+status: auto
+engine: [firefox, chromium]
+platforms: [windows, macos, linux]
+open_source: true
+repo: https://github.com/chienbm98/foxprofile
+license: MIT
+stars: 196
+pushed: '2026-11-04'
+release: {version: v2.4.0, date: '2026-10-30'}
+free: free
+note: A profile manager that runs Camoufox (Firefox) or fingerprint-chromium.
+sources:
+- https://github.com/chienbm98/foxprofile
+last_checked: '2026-11-11'

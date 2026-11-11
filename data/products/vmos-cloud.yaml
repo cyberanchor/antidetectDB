@@ -1,0 +1,27 @@
+# antidetectDB product record; fields are described in data/README.md
+name: VMOS Cloud
+kind: [cloud-phone]
+status: auto
+website: https://www.vmoscloud.com/
+legal_entity: Minical International Limited
+flag: 🇭🇰
+country: Hong Kong
+platforms: [windows, macos, android, ios, web]
+open_source: false
+price:
+- billed by the minute, at most US$1 a day per phone
+note: Minical International Limited (founded 2019, Hong Kong address) also runs ArmCloud, a cloud Android platform for companies.
+links:
+  privacy: https://www.vmoscloud.com/tos/privacy-policy.html
+  imprint: https://www.vmoscloud.com/about
+  pricing: https://www.vmoscloud.com/price
+  download: https://www.vmoscloud.com/download
+created: '2024-04-03'
+expires: '2027-04-03'
+hosting: {ip: '43.174.196.248', flag: 🇸🇬, country: Singapore, asn: AS139341 ACE, org: ACE}
+http: 200
+sources:
+- https://www.vmoscloud.com/about
+- https://www.vmoscloud.com/price
+- https://www.armcloud.net/about/
+last_checked: '2026-11-11'

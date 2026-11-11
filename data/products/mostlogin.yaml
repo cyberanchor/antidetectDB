@@ -1,0 +1,29 @@
+# antidetectDB product record; fields are described in data/README.md
+name: MostLogin
+kind: [browser, cloud-phone]
+status: auto
+website: https://www.mostlogin.com/
+legal_entity: HONGKONG SUPERSOFT TECHNOLOGY LIMITED
+flag: 🇭🇰
+country: Hong Kong
+engine: [chromium]
+platforms: [windows, macos]
+open_source: false
+free: '5 profiles'
+price:
+- Plus $3/month (20 profiles)
+links:
+  terms: https://www.mostlogin.com/agreement
+  privacy: https://www.mostlogin.com/policy
+  pricing: https://www.mostlogin.com/pricing
+  download: https://www.mostlogin.com/download
+created: '2024-06-25'
+expires: '2027-06-25'
+online_since: '2025-02-24'
+hosting: {ip: '185.207.114.90', flag: 🇩🇪, country: Germany, asn: AS21859 Zenlayer Inc, org: Zenlayer Inc}
+http: 200
+sources:
+- https://www.mostlogin.com/agreement
+- https://www.mostlogin.com/pricing
+- https://www.mostlogin.com/
+last_checked: '2026-11-11'

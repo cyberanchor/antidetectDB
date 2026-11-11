@@ -1,0 +1,5 @@
+{{- /* The products of adb/data.html as a map id -> product, for the product pages.
+       Call it as partialCached "adb/index.html" . "adb-index". */ -}}
+{{- $by := newScratch -}}
+{{- range partialCached "adb/data.html" . "adb" -}}{{- $by.SetInMap "p" .id . -}}{{- end -}}
+{{- return $by.Get "p" -}}

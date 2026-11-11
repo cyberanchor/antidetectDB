@@ -1,0 +1,19 @@
+# antidetectDB product record; fields are described in data/README.md
+name: OKBrowser
+kind: [browser]
+status: pending
+website: https://okbrow.com/
+engine: [chromium]
+platforms: [windows]
+open_source: false
+free: '2 profiles'
+note: Chinese-language site. The company is not named on the pages read.
+created: '2024-11-07'
+expires: '2027-11-07'
+online_since: '2024-11-19'
+hosting: {ip: '119.91.50.201', flag: 🇨🇳, country: China, asn: AS45090 Shenzhen Tencent Computer Systems Company Limited, org: 'Tencent cloud computing (Beijing) Co., Ltd.'}
+http: 200
+sources:
+- https://okbrow.com/
+- https://github.com/zhaotoday/fingerprint-browser
+last_checked: '2026-11-11'

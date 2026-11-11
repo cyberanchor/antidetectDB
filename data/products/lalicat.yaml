@@ -1,0 +1,23 @@
+# antidetectDB product record; fields are described in data/README.md
+name: Lalicat
+kind: [browser]
+status: auto
+website: https://www.lalicat.com/
+law: United States
+open_source: false
+trial: '3 days'
+price:
+- Personal $59/month
+note: The terms name no company; disputes go to US courts.
+links:
+  terms: https://www.lalicat.com/terms-of-conditions
+  pricing: https://www.lalicat.com/pricing
+created: '2021-08-30'
+expires: '2027-08-30'
+online_since: '2021-12-23'
+hosting: {ip: '188.114.96.3', anycast: true, asn: 'AS13335 Cloudflare, Inc.', org: 'CloudFlare, Inc.'}
+http: 200
+sources:
+- https://www.lalicat.com/terms-of-conditions
+- https://www.lalicat.com/pricing
+last_checked: '2026-11-11'

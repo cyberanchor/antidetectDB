@@ -1,0 +1,17 @@
+# antidetectDB product record; fields are described in data/README.md
+name: Ant Browser
+kind: [browser]
+status: auto
+engine: [chromium]
+platforms: [windows, macos, linux]
+open_source: false
+repo: https://github.com/black-ant/Ant-Browser
+license: PolyForm-Noncommercial-1.0.0
+stars: 2140
+pushed: '2026-11-11'
+release: {version: v1.9.3, date: '2026-11-11'}
+note: Source available under the PolyForm Noncommercial License 1.0.0 (no commercial use). Recommends the fingerprint-chromium core. Chinese-language project.
+sources:
+- https://github.com/black-ant/Ant-Browser
+- https://github.com/zhaotoday/fingerprint-browser
+last_checked: '2026-11-11'

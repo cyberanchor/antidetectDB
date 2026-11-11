@@ -1,0 +1,112 @@
+{{- /* The product table: search, filters, sortable columns. Filters and sorting run in adb.js, which reads the
+       filter values from the row's data attributes and the sort keys from the cells (data-v when present); the
+       state is in the address (#kind=browser&src=open&sort=core). Without JavaScript the full table is still there. */ -}}
+{{- $d := partialCached "adb/data.html" . "adb" -}}
+{{- $meta := partial "adb/meta.html" . -}}
+{{- $countries := dict -}}
+{{- range $d -}}{{- with .country -}}{{- $countries = merge $countries (dict . (add (index $countries . | default 0) 1)) -}}{{- end -}}{{- end -}}
+{{- $srcClass := dict "open" "y" "available" "w" "closed" "u" -}}
+<section class="adb-products" id="products" aria-label="Products">
+  <div class="adb-toolbar">
+    <label class="adb-search">
+      <svg aria-hidden="true" viewBox="0 0 24 24" width="16" height="16"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="m20 20-3.5-3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      <span class="adb-sr">Search products</span>
+      <input type="search" data-adb-q placeholder="Search: name, company, country, core…" autocomplete="off" spellcheck="false">
+      <kbd aria-hidden="true">/</kbd>
+    </label>
+    <label class="adb-select"><span class="adb-sr">Status</span>
+      <select data-adb-f="st">
+        <option value="">Any status ({{ len $d }})</option>
+        {{- range $s := slice "checked" "auto" "pending" "dead" }}{{ with where $d "state" $s }}
+        <option value="{{ $s }}">{{ (index $meta $s).label }} ({{ len . }})</option>
+        {{- end }}{{ end }}
+      </select>
+    </label>
+    <label class="adb-select"><span class="adb-sr">Type</span>
+      <select data-adb-f="kind">
+        <option value="">Browsers and phones</option>
+        <option value="browser">Antidetect browsers ({{ len (where $d "isBrowser" true) }})</option>
+        <option value="cloud-phone">Cloud phones ({{ len (where $d "isPhone" true) }})</option>
+      </select>
+    </label>
+    <label class="adb-select"><span class="adb-sr">Engine</span>
+      <select data-adb-f="engine">
+        <option value="">Any engine</option>
+        <option value="chromium">Chromium</option>
+        <option value="firefox">Firefox</option>
+      </select>
+    </label>
+    <label class="adb-select"><span class="adb-sr">Source code</span>
+      <select data-adb-f="src">
+        <option value="">Open or closed</option>
+        <option value="open">Open source ({{ len (where $d "src" "open") }})</option>
+        <option value="available">Source available ({{ len (where $d "src" "available") }})</option>
+        <option value="closed">Closed ({{ len (where $d "src" "closed") }})</option>
+      </select>
+    </label>
+    <label class="adb-select"><span class="adb-sr">Company</span>
+      <select data-adb-f="entity">
+        <option value="">Company named or not</option>
+        <option value="named">Names its company ({{ len (where $d "legal" "ne" "") }})</option>
+        <option value="unnamed">Does not ({{ len (where $d "legal" "") }})</option>
+      </select>
+    </label>
+    <label class="adb-select"><span class="adb-sr">Free plan</span>
+      <select data-adb-f="free">
+        <option value="">Free plan or not</option>
+        <option value="yes">Free plan ({{ len (where $d "free" "yes") }})</option>
+        <option value="no">No free plan ({{ len (where $d "free" "no") }})</option>
+      </select>
+    </label>
+    <label class="adb-select"><span class="adb-sr">Country</span>
+      <select data-adb-f="country">
+        <option value="">All countries</option>
+        {{- range $c, $n := $countries }}
+        <option value="{{ $c }}">{{ $c }} ({{ $n }})</option>
+        {{- end }}
+      </select>
+    </label>
+  </div>
+  <p class="adb-count" aria-live="polite"><span data-adb-count>{{ len $d }}</span> of {{ len $d }} products <button type="button" class="adb-reset" data-adb-reset hidden>reset filters</button></p>
+
+  <div class="adb-table-wrap">
+    <table class="adb-table">
+      <thead>
+        <tr>
+          <th scope="col"><button type="button" data-adb-sort="text" data-adb-key="product">Product</button></th>
+          <th scope="col"><button type="button" data-adb-sort="text" data-adb-key="type">Type</button></th>
+          <th scope="col"><button type="button" data-adb-sort="country" data-adb-key="country" title="Country of the company that runs the product">Country</button></th>
+          <th scope="col"><button type="button" data-adb-sort="text" data-adb-key="company" title="The legal entity named in the terms, privacy policy or site footer">Company</button></th>
+          <th scope="col"><button type="button" data-adb-sort="text" data-adb-key="engine">Engine</button></th>
+          <th scope="col"><button type="button" data-adb-sort="num" data-adb-key="core" title="Newest core per engine; colour: how far it is behind the current Chrome / Firefox">Core</button></th>
+          <th scope="col"><button type="button" data-adb-sort="text" data-adb-key="platforms">Platforms</button></th>
+          <th scope="col"><button type="button" data-adb-sort="text" data-adb-key="free" title="What the free plan includes">Free plan</button></th>
+          <th scope="col"><button type="button" data-adb-sort="text" data-adb-key="price" title="Cheapest paid plan with monthly billing">Paid from</button></th>
+          <th scope="col"><button type="button" data-adb-sort="text" data-adb-key="source">Source</button></th>
+          <th scope="col"><button type="button" data-adb-sort="text" data-adb-key="since" title="Registration year of the website's domain, else its first capture in the Wayback Machine">Domain since</button></th>
+        </tr>
+      </thead>
+      <tbody data-adb-list>
+        {{- range $p := $d }}
+        <tr data-st="{{ .state }}" data-kind="{{ delimit .kind " " }}" data-engine="{{ delimit (.rec.engine | default slice) " " }}" data-src="{{ .src }}" data-entity="{{ cond (ne .legal "") "named" "unnamed" }}" data-free="{{ .free }}" data-country="{{ .country }}" data-q="{{ .search }}"{{ if .dead }} class="adb-dead"{{ end }}>
+          {{- /* relative link: the table is on the home page */ -}}
+          <td><a href="products/{{ .id }}/">{{ .name }}</a></td>
+          <td>{{ if and .isBrowser .isPhone }}browser + phones{{ else if .isPhone }}cloud phones{{ else }}browser{{ end }}</td>
+          <td>{{ with .flag }}{{ . }} {{ end }}{{ .country }}</td>
+          <td title="{{ .legal }}">{{ .legal }}</td>
+          <td>{{ delimit .engines ", " }}</td>
+          <td{{ if lt .bestLag 999 }} data-v="{{ printf "%03d" .bestLag }}"{{ end }}>
+            {{- range $i, $c := .cores }}{{ if $i }} · {{ end }}<span class="{{ $c.cls }}" title="{{ with $c.name }}{{ . }}: {{ end }}{{ $c.engineName }} {{ $c.version }}{{ with $c.lagText }}, {{ . }}{{ end }}">{{ with $c.name }}{{ . }} {{ end }}{{ $c.major }}{{ with $c.lagText }}<small> {{ . }}</small>{{ end }}</span>{{ end -}}
+          </td>
+          <td>{{ delimit .platforms " " }}</td>
+          <td title="{{ .freeText }}"{{ if eq .free "no" }} class="u"{{ end }}>{{ .freeText }}</td>
+          <td title="{{ .priceFrom }}">{{ .priceFrom }}</td>
+          <td{{ with index $srcClass .src }} class="{{ . }}"{{ end }}>{{ .src }}{{ if and (eq .src "open") (gt .stars 0) }} <small class="u">★{{ lang.FormatNumber 0 .stars }}</small>{{ end }}</td>
+          <td>{{ with .since }}{{ substr . 0 4 }}{{ end }}</td>
+        </tr>
+        {{- end }}
+      </tbody>
+    </table>
+    <p class="adb-empty" hidden>No product matches these filters.</p>
+  </div>
+</section>

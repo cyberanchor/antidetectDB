@@ -1,0 +1,39 @@
+# antidetectDB product record; fields are described in data/README.md
+name: Incogniton
+kind: [browser, cloud-phone]
+status: auto
+website: https://incogniton.com/
+legal_entity: WorkingGreen B.V.
+flag: 🇳🇱
+country: Netherlands
+alliance: 9
+engine: [chromium]
+cores:
+- {engine: chromium, version: '152'}
+platforms: [windows, macos]
+android: ['12', '15']
+open_source: false
+free: '10 profiles for 2 months, then 3'
+price:
+- Starter Plus $19.99/month
+- cloud phone $3/month each
+note: 'Address: Schiphol-Rijk. Version 5.0.1.0 (2026-09-10) moved to Chrome 152.'
+links:
+  terms: https://incogniton.com/terms-of-service/
+  privacy: https://incogniton.com/privacy-policy/
+  pricing: https://incogniton.com/pricing/
+  download: https://incogniton.com/download-incogniton/
+  changelog: https://docs.incogniton.com/changelog
+created: '2019-11-19'
+expires: '2027-11-19'
+online_since: '2020-08-11'
+hosting: {ip: '188.114.97.3', anycast: true, asn: 'AS13335 Cloudflare, Inc.', org: 'CloudFlare, Inc.'}
+http: 200
+sources:
+- https://incogniton.com/terms-of-service/
+- https://incogniton.com/privacy-policy/
+- https://incogniton.com/pricing/
+- https://incogniton.com/cloud-phone-pricing/
+- https://docs.incogniton.com/changelog
+- https://github.com/TheGP/untidetect-tools
+last_checked: '2026-11-11'

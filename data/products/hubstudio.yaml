@@ -1,0 +1,18 @@
+# antidetectDB product record; fields are described in data/README.md
+name: Hubstudio
+kind: [browser, cloud-phone]
+status: auto
+website: https://www.hubstudio.cn/
+legal_entity: 福州科鑫创科技有限公司
+flag: 🇨🇳
+country: China
+open_source: false
+free: unlimited profiles
+note: Chinese-language site; sells cloud phones next to the browser.
+online_since: '2022-05-23'
+hosting: {ip: '116.153.34.49', flag: 🇨🇳, country: China, asn: AS4837 CHINA UNICOM China169 Backbone}
+http: 0
+sources:
+- https://www.hubstudio.cn/
+- https://github.com/zhaotoday/fingerprint-browser
+last_checked: '2026-11-11'

@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="{{ site.Language.Locale | default "en" }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ if .IsHome }}{{ site.Title }} · {{ .Params.headline }}{{ else }}{{ .Title }} · {{ site.Title }}{{ end }}</title>
+<meta name="description" content="{{ .Params.description | default site.Params.description }}">
+<meta name="color-scheme" content="light dark">
+<link rel="canonical" href="{{ .Permalink }}">
+<link rel="icon" type="image/svg+xml" href="{{ "favicon.svg" | relURL }}">
+{{- /* Theme before the first paint: the saved choice, else the system setting. */}}
+<script>(function(){try{var t=localStorage.getItem("adb-theme");if(t==="light"||t==="dark")document.documentElement.dataset.theme=t}catch(e){}})()</script>
+{{- $css := resources.Get "adb/adb.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+{{- $js := resources.Get "adb/adb.js" | js.Build (dict "minify" true "target" "es2018") | fingerprint }}
+<script defer src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
+</head>
+<body>
+{{ partial "adb/header.html" . }}
+<main class="adb-main{{ if not .IsHome }} adb-main-narrow{{ end }}">
+{{ block "main" . }}{{ end }}
+</main>
+{{ partial "adb/footer.html" . }}
+</body>
+</html>

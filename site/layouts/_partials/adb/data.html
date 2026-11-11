@@ -1,0 +1,81 @@
+{{- /*
+  Every product of data/products/<id>.yaml (hugo.Data.products), sorted by name, with the values the templates
+  show. Call it as partialCached "adb/data.html" . "adb"; it returns a slice of maps. A file with an unknown field
+  or without a name stops the build with a message (build.sh then keeps the last good site).
+  Fields: data/README.md. tools/addata.py checks the types.
+*/ -}}
+{{- $all := hugo.Data.products -}}
+{{- if not $all -}}{{- errorf "adb/data: no product records were loaded (a YAML error above, or ../data/products is not mounted as data/products in hugo.toml)" -}}{{- end -}}
+{{- $up := partialCached "adb/upstream.html" . "adb-up" -}}
+{{- $known := slice "name" "kind" "status" "dead" "successor" "website" "domains" "legal_entity" "flag" "country"
+  "alliance" "law" "engine" "cores" "platforms" "android" "open_source" "repo" "license" "stars" "pushed" "release"
+  "free" "trial" "price" "payment" "storage" "api" "tests" "incidents" "note" "links" "social" "created" "expires"
+  "online_since" "hosting" "http" "sources" "last_checked" -}}
+{{- $engineName := dict "chromium" "Chromium" "firefox" "Firefox" "webkit" "WebKit" -}}
+{{- $platformName := dict "windows" "Win" "macos" "Mac" "linux" "Linux" "android" "Android" "ios" "iOS" "web" "Web" -}}
+{{- $out := slice -}}
+{{- range $id, $r := $all -}}
+  {{- $f := printf "data/products/%s.yaml" $id -}}
+  {{- if not (reflect.IsMap $r) -}}{{- errorf "adb/data: %s is not a map of fields" $f -}}{{- end -}}
+  {{- range $k, $_ := $r -}}
+    {{- if not (in $known $k) -}}{{- errorf "adb/data: %s: unknown field %q (fields: data/README.md)" $f $k -}}{{- end -}}
+  {{- end -}}
+  {{- if not $r.name -}}{{- errorf "adb/data: %s has no name" $f -}}{{- end -}}
+  {{- $kind := $r.kind | default slice -}}
+  {{- $state := cond (eq $r.dead true) "dead" ($r.status | default "pending") -}}
+
+  {{- /* Cores: major version, lag behind the current stable Chrome / Firefox, ESR flag, colour class
+         (y: current or one behind · w: two or three behind, or on the ESR · n: four or more behind). */ -}}
+  {{- $cores := slice -}}{{- $bestLag := 999 -}}
+  {{- range $c := $r.cores | default slice -}}
+    {{- $v := 0 -}}{{- with findRE `^\d+` (string $c.version) -}}{{- $v = int (index . 0) -}}{{- end -}}
+    {{- $lag := -1 -}}{{- $esr := false -}}
+    {{- if eq $c.engine "chromium" -}}{{- $lag = sub $up.chrome $v -}}{{- end -}}
+    {{- if eq $c.engine "firefox" -}}{{- $lag = sub $up.firefox $v -}}{{- $esr = eq $v $up.esr -}}{{- end -}}
+    {{- if and (lt $lag 0) (ne $c.engine "webkit") -}}{{- $lag = 0 -}}{{- end -}}
+    {{- $cls := "u" -}}{{- $lagText := "" -}}
+    {{- if $esr -}}{{- $cls = "w" -}}{{- $lagText = "ESR" -}}
+    {{- else if ge $lag 4 -}}{{- $cls = "n" -}}{{- $lagText = printf "%d behind" $lag -}}
+    {{- else if ge $lag 2 -}}{{- $cls = "w" -}}{{- $lagText = printf "%d behind" $lag -}}
+    {{- else if eq $lag 1 -}}{{- $cls = "y" -}}{{- $lagText = "1 behind" -}}
+    {{- else if eq $lag 0 -}}{{- $cls = "y" -}}{{- $lagText = "current" -}}
+    {{- end -}}
+    {{- $sortLag := cond $esr 2 $lag -}}
+    {{- if and (ge $sortLag 0) (lt $sortLag $bestLag) -}}{{- $bestLag = $sortLag -}}{{- end -}}
+    {{- $cores = $cores | append (dict "name" ($c.name | default "") "engine" $c.engine
+        "engineName" (index $engineName $c.engine | default $c.engine) "version" (string $c.version) "major" $v
+        "lag" $lag "esr" $esr "cls" $cls "lagText" $lagText) -}}
+  {{- end -}}
+
+  {{- $engines := slice -}}{{- range $r.engine | default slice -}}{{- $engines = $engines | append (index $engineName . | default .) -}}{{- end -}}
+  {{- $platforms := slice -}}{{- range $r.platforms | default slice -}}{{- $platforms = $platforms | append (index $platformName . | default .) -}}{{- end -}}
+  {{- $src := "" -}}
+  {{- if eq $r.open_source true -}}{{- $src = "open" -}}
+  {{- else if and (eq $r.open_source false) (strings.HasPrefix ($r.license | default "") "PolyForm") -}}{{- $src = "available" -}}
+  {{- else if eq $r.open_source false -}}{{- $src = "closed" -}}
+  {{- end -}}
+  {{- $free := "" -}}
+  {{- with $r.free -}}{{- $free = cond (eq . "no") "no" "yes" -}}{{- end -}}
+  {{- $host := "" -}}
+  {{- with $r.website -}}{{- $host = replaceRE `^www\.` "" (urls.Parse .).Host -}}{{- end -}}
+  {{- $since := $r.created | default $r.online_since | default "" -}}
+  {{- $eyes := "" -}}{{- $cEyes := "none" -}}
+  {{- with $r.alliance -}}{{- $eyes = string . -}}{{- $cEyes = index (dict "5" "red" "9" "yellow" "14" "purple") $eyes -}}{{- end -}}
+  {{- $coreNames := slice -}}{{- range $cores -}}{{- with .name -}}{{- $coreNames = $coreNames | append . -}}{{- end -}}{{- end -}}
+  {{- $search := lower (delimit (slice $r.name ($r.legal_entity | default "") ($r.country | default "") ($r.law | default "")
+      (delimit $engines " ") (delimit $coreNames " ") $host ($r.repo | default "") (delimit $kind " ")) " ") -}}
+  {{- $out = $out | append (dict
+      "id" $id "name" $r.name "rec" $r "file" $f
+      "state" $state "dead" (eq $r.dead true) "kind" $kind
+      "isBrowser" (in $kind "browser") "isPhone" (in $kind "cloud-phone")
+      "flag" ($r.flag | default "") "country" ($r.country | default "") "legal" ($r.legal_entity | default "")
+      "eyes" $eyes "cEyes" $cEyes
+      "engines" $engines "cores" $cores "bestLag" $bestLag
+      "platforms" $platforms "free" $free "freeText" ($r.free | default "")
+      "priceFrom" (index ($r.price | default (slice "")) 0)
+      "src" $src "stars" ($r.stars | default 0) "host" $host "since" $since
+      "checked" ($r.last_checked | default "")
+      "search" $search
+    ) -}}
+{{- end -}}
+{{- return sort $out "name" -}}

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="antidetectDB">
+  <title>antidetectDB</title>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="8" y="12" width="112" height="104" rx="18" stroke="#6e7781" stroke-width="7"/>
+    <path d="M8 38h112" stroke="#6e7781" stroke-width="7"/>
+    <g stroke="#2f81f7" stroke-width="6">
+      <path d="M46 98c-4-6-6-13-6-20 0-13 11-24 24-24s24 11 24 24"/>
+      <path d="M56 104c-4-7-6-16-6-26 0-8 6-14 14-14s14 6 14 14c0 6-1 11-3 16"/>
+      <path d="M64 78c0 11 3 20 8 28"/>
+      <path d="M88 86c0 6-1 11-3 16"/>
+    </g>
+  </g>
+  <g fill="#6e7781">
+    <circle cx="25" cy="25" r="4"/>
+    <circle cx="39" cy="25" r="4"/>
+    <circle cx="53" cy="25" r="4"/>
+  </g>
+</svg>

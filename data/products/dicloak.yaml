@@ -1,0 +1,25 @@
+# antidetectDB product record; fields are described in data/README.md
+name: DICloak
+kind: [browser]
+status: auto
+website: https://dicloak.com/
+legal_entity: DICloak Technology Limited
+platforms: [windows, macos, linux]
+open_source: false
+free: 'yes'
+price:
+- Base $8/month
+links:
+  imprint: https://dicloak.com/about-us
+  pricing: https://dicloak.com/pricing
+  download: https://dicloak.com/download
+created: '2024-02-29'
+expires: '2027-02-28'
+online_since: '2024-04-18'
+hosting: {ip: '8.209.70.189', flag: 🇩🇪, country: Germany, asn: 'AS45102 Alibaba (US) Technology Co., Ltd.'}
+http: 200
+sources:
+- https://dicloak.com/about-us
+- https://dicloak.com/pricing
+- https://dicloak.com/download
+last_checked: '2026-11-11'

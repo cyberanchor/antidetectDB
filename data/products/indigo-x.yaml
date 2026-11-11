@@ -1,0 +1,20 @@
+# antidetectDB product record; fields are described in data/README.md
+name: Indigo X
+kind: [browser]
+status: auto
+website: https://indigobrowser.com/
+engine: [chromium, firefox]
+cores:
+- {name: Mimic, engine: chromium, version: '148'}
+- {name: Stealthfox, engine: firefox, version: '146'}
+open_source: false
+note: Runs Multilogin's Mimic and Stealthfox cores (Mimic 148 and Stealthfox 146 in the Wayback copy of 2026-07-10). The site did not answer on 2026-11-11 (Cloudflare 522).
+created: '2018-07-08'
+expires: '2027-07-08'
+online_since: '2019-06-19'
+hosting: {ip: '104.26.13.248', anycast: true, asn: 'AS13335 Cloudflare, Inc.', org: 'Cloudflare, Inc.'}
+http: 522
+sources:
+- https://web.archive.org/web/20260710103656/https://indigobrowser.com/
+- https://github.com/zhaotoday/fingerprint-browser
+last_checked: '2026-11-11'

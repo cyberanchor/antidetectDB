@@ -1,0 +1,21 @@
+# antidetectDB product record; fields are described in data/README.md
+name: BotBrowser
+kind: [browser]
+status: auto
+website: https://botbrowser.io/
+engine: [chromium]
+cores:
+- {engine: chromium, version: '157'}
+platforms: [windows, macos, linux]
+open_source: false
+repo: https://github.com/botswin/BotBrowser
+license: MIT
+stars: 2663
+pushed: '2026-11-06'
+release: {version: '157.0.8103.38', date: '2026-11-06'}
+note: Public binary releases on GitHub; the core is built in-house on Chromium and its source is available on request. Some builds are sold through an enterprise channel. Release 157.0.8103.38 (2026-11-06).
+hosting: {ip: '104.21.93.124', anycast: true, asn: 'AS13335 Cloudflare, Inc.', org: 'Cloudflare, Inc.'}
+http: 200
+sources:
+- https://github.com/botswin/BotBrowser
+last_checked: '2026-11-11'

@@ -1,0 +1,23 @@
+{{- /* Under the table: what the states, columns and colours mean. */ -}}
+{{- $meta := partial "adb/meta.html" . -}}
+{{- $up := partialCached "adb/upstream.html" . "adb-up" -}}
+<section class="adb-legend" aria-label="Legend">
+  <div>
+    <h2>Status</h2>
+    <dl>
+      {{- range $s := slice "checked" "auto" "pending" "dead" }}{{ $m := index $meta $s }}
+      <div><dt><span class="adb-dot adb-{{ $m.color }}"></span>{{ $m.label }}</dt><dd>{{ $m.long }}</dd></div>
+      {{- end }}
+    </dl>
+  </div>
+  <div>
+    <h2>Columns</h2>
+    <dl>
+      <div><dt>Company</dt><dd>the legal entity as the vendor names itself in its terms, privacy policy or site footer; <i>Country</i> is where that company is registered or has its stated address. Empty: the pages do not say</dd></div>
+      <div><dt>Core</dt><dd>newest core per engine and how far it is behind the current stable <b>Chrome {{ $up.chrome }}</b> or <b>Firefox {{ $up.firefox }}</b>: <span class="adb-pill adb-green">current / 1 behind</span> <span class="adb-pill adb-yellow">2–3 behind</span> <span class="adb-pill adb-red">4+ behind</span> · <span class="adb-pill adb-yellow">ESR</span> a Firefox core on the current ESR ({{ $up.esr }}). An old core is a security risk and a detection signal</dd></div>
+      <div><dt>Source</dt><dd><span class="adb-pill adb-green">open</span> browser source published under an open-source licence · <span class="adb-pill adb-yellow">available</span> source published, commercial use not allowed · <span class="adb-pill adb-grey">closed</span></dd></div>
+      <div><dt>Domain since</dt><dd>registration year of the website's domain (RDAP), else the year of its first capture in the Wayback Machine. The domain can be older than the product</dd></div>
+    </dl>
+    <p class="adb-note">Facts come from the vendors' own pages, each listed under Sources on the product page. Prices are as the pricing page showed them on the day of the check, with monthly billing. No referral links, no paid placement.</p>
+  </div>
+</section>

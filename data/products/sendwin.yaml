@@ -1,0 +1,34 @@
+# antidetectDB product record; fields are described in data/README.md
+name: Sendwin
+kind: [browser]
+status: auto
+website: https://send.win/
+legal_entity: Sendwin LLC
+flag: 🇺🇸
+country: United States
+alliance: 5
+law: Wyoming, United States
+engine: [chromium]
+cores:
+- {engine: chromium, version: '150'}
+platforms: [windows, macos, linux, web]
+open_source: false
+free: 'no'
+price:
+- Pro $19/month
+note: 'Desktop app and cloud browser. No free trial, 7-day money-back guarantee. Version 0.6 (July 2026) moved to Chromium 150 (changelog as archived on 2026-10-15). Address: Sheridan, Wyoming.'
+links:
+  terms: https://send.win/terms-and-conditions/
+  pricing: https://send.win/pricing/
+  download: https://send.win/download/
+  changelog: https://latest.send.win/
+created: '2021-03-29'
+expires: '2027-03-29'
+online_since: '2021-05-03'
+hosting: {ip: '104.21.52.68', anycast: true, asn: 'AS13335 Cloudflare, Inc.', org: 'Cloudflare, Inc.'}
+http: 200
+sources:
+- https://send.win/
+- https://send.win/pricing/
+- https://web.archive.org/web/20261015070327/https://latest.send.win/
+last_checked: '2026-11-11'

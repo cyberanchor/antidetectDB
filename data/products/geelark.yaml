@@ -1,0 +1,27 @@
+# antidetectDB product record; fields are described in data/README.md
+name: GeeLark
+kind: [browser, cloud-phone]
+status: auto
+website: https://www.geelark.com/
+legal_entity: '42STUDIO PTE. LTD'
+flag: 🇸🇬
+country: Singapore
+platforms: [windows, macos, linux]
+open_source: false
+free: 'yes'
+note: Cloud phones for Android apps plus browser profiles in one workspace. Registered address in Singapore; the privacy policy also gives a Hong Kong address.
+links:
+  terms: https://www.geelark.com/terms-of-service/
+  privacy: https://www.geelark.com/privacy-policy/
+  pricing: https://www.geelark.com/pricing/
+  download: https://www.geelark.com/download-center/
+created: '2023-12-25'
+expires: '2028-12-25'
+hosting: {ip: '43.109.179.28', flag: 🇩🇪, country: Germany, asn: 'AS24429 Zhejiang Taobao Network Co.,Ltd', org: Alibaba Cloud (Singapore) Private Limited}
+http: 200
+sources:
+- https://www.geelark.com/
+- https://www.geelark.com/privacy-policy/
+- https://www.geelark.com/terms-of-service/
+- https://www.geelark.com/pricing/
+last_checked: '2026-11-11'

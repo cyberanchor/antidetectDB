@@ -1,0 +1,17 @@
+# antidetectDB product record; fields are described in data/README.md
+name: Chrome Power
+kind: [browser]
+status: auto
+engine: [chromium]
+open_source: true
+repo: https://github.com/zmzimpl/chrome-power-app
+license: AGPL-3.0
+stars: 1554
+pushed: '2025-12-16'
+release: {version: v1.2.6, date: '2025-12-16'}
+free: free
+note: A manager for many Chrome instances; its fingerprint changes are limited.
+sources:
+- https://github.com/zmzimpl/chrome-power-app
+- https://github.com/TheGP/untidetect-tools
+last_checked: '2026-11-11'

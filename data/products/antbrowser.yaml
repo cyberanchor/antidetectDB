@@ -1,0 +1,19 @@
+# antidetectDB product record; fields are described in data/README.md
+name: AntBrowser
+kind: [browser]
+status: pending
+website: https://antbrowser.pro/
+platforms: [windows, macos, linux]
+open_source: false
+note: The company is not named on the pages read.
+links:
+  terms: https://antbrowser.pro/en/terms-of-use.html
+created: '2019-03-08'
+expires: '2027-03-08'
+online_since: '2019-05-01'
+hosting: {ip: '31.130.128.150', flag: 🇳🇱, country: The Netherlands, asn: 'AS210976 Timeweb, LLP', org: 'Timeweb, LLP'}
+http: 200
+sources:
+- https://antbrowser.pro/
+- https://github.com/TheGP/untidetect-tools
+last_checked: '2026-11-11'

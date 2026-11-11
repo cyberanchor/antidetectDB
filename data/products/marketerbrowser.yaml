@@ -1,0 +1,25 @@
+# antidetectDB product record; fields are described in data/README.md
+name: MarketerBrowser
+kind: [browser]
+status: auto
+website: https://www.marketerbrowser.com/
+engine: [chromium]
+cores:
+- {engine: chromium, version: '150'}
+platforms: [windows]
+open_source: false
+free: GO edition
+price:
+- Pro $29/month
+note: Version 1.0.3.6 (2026-06-05) added the 150 kernel.
+links:
+  pricing: https://www.marketerbrowser.com/en/pricing/
+created: '2018-03-06'
+expires: '2027-03-06'
+online_since: '2018-04-17'
+hosting: {ip: '104.26.8.28', anycast: true, asn: 'AS13335 Cloudflare, Inc.', org: 'Cloudflare, Inc.'}
+http: 200
+sources:
+- https://www.marketerbrowser.com/
+- https://www.marketerbrowser.com/en/pricing/
+last_checked: '2026-11-11'

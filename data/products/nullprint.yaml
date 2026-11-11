@@ -1,0 +1,31 @@
+# antidetectDB product record; fields are described in data/README.md
+name: NullPrint
+kind: [browser]
+status: auto
+website: https://nullprint.net/
+legal_entity: Native Touch Ltd.
+flag: 🇬🇧
+country: United Kingdom
+alliance: 5
+law: England and Wales
+platforms: [windows, macos]
+open_source: false
+free: '5 profiles'
+trial: '7 days'
+price:
+- $9/month
+note: Also emulates Android browser profiles.
+links:
+  terms: https://nullprint.net/terms/
+  pricing: https://nullprint.net/pricing/
+  download: https://nullprint.net/downloads
+created: '2026-01-10'
+expires: '2027-01-10'
+online_since: '2026-04-07'
+hosting: {ip: '172.67.153.17', anycast: true, asn: 'AS13335 Cloudflare, Inc.', org: 'Cloudflare, Inc.'}
+http: 200
+sources:
+- https://nullprint.net/terms/
+- https://nullprint.net/pricing/
+- https://nullprint.net/
+last_checked: '2026-11-11'

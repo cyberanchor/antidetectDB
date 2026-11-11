@@ -1,0 +1,21 @@
+# antidetectDB product record; fields are described in data/README.md
+name: GPM Login
+kind: [browser]
+status: auto
+website: https://gpmlogin.com/
+engine: [chromium, firefox]
+platforms: [windows, macos]
+open_source: false
+note: The company is not named on the pages read.
+links:
+  terms: https://gpmlogin.com/terms
+  privacy: https://gpmlogin.com/privacy
+  download: https://gpmlogin.com/download
+created: '2023-06-29'
+expires: '2027-06-29'
+hosting: {ip: '188.114.97.3', anycast: true, asn: 'AS13335 Cloudflare, Inc.', org: 'CloudFlare, Inc.'}
+http: 200
+sources:
+- https://gpmlogin.com/
+- https://gpmlogin.com/download
+last_checked: '2026-11-11'

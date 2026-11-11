@@ -1,0 +1,22 @@
+# antidetectDB product record; fields are described in data/README.md
+name: VirtualBrowser
+kind: [browser]
+status: auto
+website: https://virtualbrowser.cc/
+engine: [chromium]
+platforms: [windows, macos, linux]
+open_source: true
+repo: https://github.com/Virtual-Browser/VirtualBrowser
+license: BSD-3-Clause
+stars: 3272
+pushed: '2026-10-16'
+release: {version: '2.4.0', date: '2026-10-16'}
+free: free
+note: Chinese-language project.
+created: '2023-04-25'
+expires: '2027-04-25'
+hosting: {ip: '45.152.67.108', flag: 🇬🇧, country: United Kingdom, asn: AS139659 LUCIDACLOUD LIMITED, org: Zhihua Lu}
+http: 200
+sources:
+- https://github.com/Virtual-Browser/VirtualBrowser
+last_checked: '2026-11-11'

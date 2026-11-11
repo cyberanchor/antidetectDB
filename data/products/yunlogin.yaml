@@ -1,0 +1,25 @@
+# antidetectDB product record; fields are described in data/README.md
+name: Yunlogin (云登)
+kind: [browser]
+status: auto
+website: https://www.yunlogin.com/
+legal_entity: 杭州辰链信息科技有限公司
+flag: 🇨🇳
+country: China
+open_source: false
+free: '10 profiles'
+price:
+- ¥41.70/month (30 profiles)
+note: Device networks (proxies) are sold separately.
+links:
+  imprint: https://www.yunlogin.com/about
+  pricing: https://www.yunlogin.com/price
+created: '2021-11-20'
+expires: '2027-11-20'
+online_since: '2018-08-07'
+hosting: {ip: '43.152.26.209', flag: 🇩🇪, country: Germany, asn: AS139341 ACE}
+http: 200
+sources:
+- https://www.yunlogin.com/about
+- https://www.yunlogin.com/price
+last_checked: '2026-11-11'

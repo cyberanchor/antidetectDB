@@ -1,0 +1,25 @@
+# antidetectDB product record; fields are described in data/README.md
+name: Nstbrowser
+kind: [browser]
+status: auto
+website: https://www.nstbrowser.io/
+legal_entity: NST LABS TECH LTD.
+engine: [chromium]
+platforms: [windows, macos]
+open_source: false
+free: pay as you go ($0 a month)
+note: The site footer names NST LABS TECH LTD., the terms name Nstbrowser LLC. Also sells a cloud browser.
+links:
+  terms: https://www.nstbrowser.io/en/policy/terms-conditions
+  privacy: https://www.nstbrowser.io/en/policy/privacy
+  pricing: https://www.nstbrowser.io/en/pricing
+  download: https://www.nstbrowser.io/en/download
+  changelog: https://www.nstbrowser.io/en/release-notes
+online_since: '2023-12-31'
+hosting: {ip: '104.26.10.221', anycast: true, asn: 'AS13335 Cloudflare, Inc.', org: 'Cloudflare, Inc.'}
+http: 200
+sources:
+- https://www.nstbrowser.io/en/policy/privacy
+- https://www.nstbrowser.io/en/policy/terms-conditions
+- https://www.nstbrowser.io/en/pricing
+last_checked: '2026-11-11'

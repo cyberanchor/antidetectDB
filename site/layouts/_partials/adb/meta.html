@@ -1,0 +1,7 @@
+{{- /* Labels and colours of the record states, shared by every template (same order as the filter). */ -}}
+{{- return dict
+  "checked" (dict "label" "Tested by hand" "long" "Installed and tested by hand: a fresh profile on the fingerprint test pages" "color" "green" "icon" "✅")
+  "auto" (dict "label" "Collected" "long" "Facts from the vendor's own pages and the automatic checks; not tested by hand" "color" "blue" "icon" "🤖")
+  "pending" (dict "label" "Not reviewed" "long" "Little more than a name and a link so far" "color" "yellow" "icon" "⏳")
+  "dead" (dict "label" "Gone" "long" "The product is gone: the domain no longer resolves, it was closed or the project is archived" "color" "grey" "icon" "❌")
+-}}

@@ -1,0 +1,22 @@
+# antidetectDB product record; fields are described in data/README.md
+name: GeekEZ Browser
+kind: [browser]
+status: auto
+website: https://browser.geekez.net/
+engine: [chromium]
+platforms: [windows, macos, linux]
+open_source: false
+repo: https://github.com/EchoHS/GeekezBrowser
+license: PolyForm-Noncommercial-1.0.0
+stars: 1160
+pushed: '2026-11-01'
+release: {version: v1.8.2, date: '2026-11-01'}
+note: Built on Electron and Puppeteer with Xray-core. Source available under the PolyForm Noncommercial License 1.0.0; commercial use needs a separate licence.
+created: '2023-07-25'
+expires: '2032-07-25'
+online_since: '2023-12-27'
+hosting: {ip: '172.67.154.245', anycast: true, asn: 'AS13335 Cloudflare, Inc.', org: 'Cloudflare, Inc.'}
+http: 200
+sources:
+- https://github.com/EchoHS/GeekezBrowser
+last_checked: '2026-11-11'

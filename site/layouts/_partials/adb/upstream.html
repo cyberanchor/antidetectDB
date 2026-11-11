@@ -1,0 +1,12 @@
+{{- /* data/upstream.yaml (hugo.Data.upstream) as numbers: major versions of the current stable Chrome and Firefox
+       and of the Firefox ESR. Call it as partialCached "adb/upstream.html" . "adb-up". */ -}}
+{{- $u := hugo.Data.upstream -}}
+{{- if not $u -}}{{- errorf "adb/upstream: data/upstream.yaml was not loaded (python3 tools/upstream.py; the mount in hugo.toml)" -}}{{- end -}}
+{{- $major := dict -}}
+{{- range $k, $v := dict "chrome" $u.chrome.version "firefox" $u.firefox.version "esr" $u.firefox.esr -}}
+  {{- $m := findRE `^\d+` (string $v) -}}
+  {{- if not $m -}}{{- errorf "adb/upstream: no version for %s in data/upstream.yaml" $k -}}{{- end -}}
+  {{- $major = merge $major (dict $k (int (index $m 0))) -}}
+{{- end -}}
+{{- return merge $major (dict "chromeVersion" $u.chrome.version "firefoxVersion" $u.firefox.version
+    "esrVersion" $u.firefox.esr "date" $u.chrome.date) -}}

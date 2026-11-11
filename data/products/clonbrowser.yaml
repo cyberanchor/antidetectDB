@@ -1,0 +1,23 @@
+# antidetectDB product record; fields are described in data/README.md
+name: ClonBrowser
+kind: [browser]
+status: auto
+website: https://www.clonbrowser.com/
+legal_entity: CLOUND NEXUS ECOM SERVICE CO., Limited
+open_source: false
+free: 'yes'
+price:
+- from $6/month
+links:
+  privacy: https://www.clonbrowser.com/privacy-policy/
+  pricing: https://www.clonbrowser.com/price/
+created: '2019-01-03'
+expires: '2027-01-03'
+online_since: '2020-09-26'
+hosting: {ip: '8.219.211.126', flag: 🇸🇬, country: Singapore, asn: 'AS45102 Alibaba (US) Technology Co., Ltd.', org: Alibaba.com Singapore E-Commerce Private Limited}
+http: 200
+sources:
+- https://www.clonbrowser.com/
+- https://www.clonbrowser.com/privacy-policy/
+- https://www.clonbrowser.com/price/
+last_checked: '2026-11-11'

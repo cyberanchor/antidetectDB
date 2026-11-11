@@ -1,0 +1,33 @@
+# antidetectDB product record; fields are described in data/README.md
+name: Gologin
+kind: [browser, cloud-phone]
+status: auto
+website: https://gologin.com/
+legal_entity: Gologin LLC
+flag: 🇺🇸
+country: United States
+alliance: 5
+engine: [chromium]
+platforms: [windows, macos, linux]
+open_source: false
+free: '3 profiles'
+trial: '7 days'
+price:
+- Professional $9/month
+note: 'Core: Orbita (Chromium); the current version is not published on the site. Address: Venice, Florida. Affiliates Scalehat LLC (USA) and GOLESS S.à r.l. (Paris) may accept payments. Also sells Cloud Android phones.'
+links:
+  terms: https://gologin.com/terms-of-service/
+  privacy: https://gologin.com/privacy-policy/
+  pricing: https://gologin.com/pricing/
+  download: https://gologin.com/download/
+  changelog: https://gologin.com/release-notes/
+created: '2005-10-06'
+expires: '2028-10-06'
+hosting: {ip: '104.20.17.216', anycast: true, asn: 'AS13335 Cloudflare, Inc.', org: 'Cloudflare, Inc.'}
+http: 200
+sources:
+- https://gologin.com/terms-of-service/
+- https://gologin.com/privacy-policy/
+- https://gologin.com/pricing/
+- https://gologin.com/download/
+last_checked: '2026-11-11'

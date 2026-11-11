@@ -1,0 +1,26 @@
+# antidetectDB product record; fields are described in data/README.md
+name: MBBrowser (候鸟浏览器)
+kind: [browser]
+status: auto
+website: https://www.mbbrowser.com/
+engine: [chromium]
+cores:
+- {engine: chromium, version: '140'}
+platforms: [windows]
+open_source: false
+free: '2 profiles'
+price:
+- Personal ¥100/month (10 profiles)
+note: The site names Chromium 129 and 140 fingerprint kernels. The company is not named on the pages read.
+links:
+  terms: https://www.mbbrowser.com/terms
+  pricing: https://www.mbbrowser.com/price
+created: '2020-07-20'
+expires: '2029-07-20'
+online_since: '2020-12-16'
+hosting: {ip: '180.163.147.83', flag: 🇨🇳, country: China, asn: AS4811 China Telecom (Group), org: Chinanet SH}
+http: 200
+sources:
+- https://www.mbbrowser.com/
+- https://www.mbbrowser.com/price
+last_checked: '2026-11-11'

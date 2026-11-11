@@ -1,0 +1,14 @@
+# antidetectDB product record; fields are described in data/README.md
+name: DashNull
+kind: [browser]
+status: pending
+website: https://dashnull.com/
+open_source: false
+note: The domain is registered until 2027-02-21 but had no DNS records on 2026-11-11; the site did not answer.
+created: '2026-02-21'
+expires: '2027-02-21'
+online_since: '2026-03-20'
+http: 0
+sources:
+- https://github.com/TheGP/untidetect-tools
+last_checked: '2026-11-11'

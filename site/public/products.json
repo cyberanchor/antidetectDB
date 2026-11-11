@@ -1,0 +1,2713 @@
+[
+ {
+  "created": "2024-11-30",
+  "expires": "2027-11-30",
+  "free": "1 profile; multi-accounting is not allowed on the free plan since 2025-06-09",
+  "hosting": {
+   "anycast": true,
+   "asn": "AS13335 Cloudflare, Inc.",
+   "ip": "104.20.22.210",
+   "org": "Cloudflare, Inc."
+  },
+  "http": 200,
+  "id": "0detect",
+  "kind": [
+   "browser"
+  ],
+  "last_checked": "2026-11-11",
+  "law": "United Kingdom",
+  "legal_entity": "Green Advex Technology LLC",
+  "links": {
+   "pricing": "https://0detect.com/prices",
+   "terms": "https://0detect.com/documents/terms"
+  },
+  "name": "0detect",
+  "online_since": "2024-12-02",
+  "open_source": false,
+  "platforms": [
+   "windows",
+   "macos"
+  ],
+  "sources": [
+   "https://0detect.com/documents/terms",
+   "https://0detect.com/"
+  ],
+  "status": "auto",
+  "website": "https://0detect.com/"
+ },
+ {
+  "created": "2024-05-28",
+  "expires": "2030-05-28",
+  "hosting": {
+   "anycast": true,
+   "asn": "AS13335 Cloudflare, Inc.",
+   "ip": "104.21.3.107",
+   "org": "Cloudflare, Inc."
+  },
+  "http": 200,
+  "id": "adblogin",
+  "kind": [
+   "browser"
+  ],
+  "last_checked": "2026-11-11",
+  "law": "Vietnam",
+  "links": {
+   "terms": "https://adblogin.com/terms-and-conditions/"
+  },
+  "name": "ADBLogin",
+  "note": "Calls itself a free \"Social Account Manager\". The company is not named on the pages read.",
+  "online_since": "2024-05-29",
+  "open_source": false,
+  "sources": [
+   "https://adblogin.com/",
+   "https://adblogin.com/terms-and-conditions/",
+   "https://github.com/TheGP/untidetect-tools"
+  ],
+  "status": "pending",
+  "website": "https://adblogin.com/"
+ },
+ {
+  "cores": [
+   {
+    "engine": "chromium",
+    "name": "SunBrowser",
+    "version": "156"
+   },
+   {
+    "engine": "firefox",
+    "name": "FlowerBrowser",
+    "version": "156"
+   }
+  ],
+  "country": "Singapore",
+  "created": "1995-12-20",
+  "engine": [
+   "chromium",
+   "firefox"
+  ],
+  "expires": "2031-12-19",
+  "flag": "🇸🇬",
+  "free": "2 profiles",
+  "hosting": {
+   "anycast": true,
+   "asn": "AS16509 Amazon.com, Inc.",
+   "ip": "13.35.58.110",
+   "org": "AWS CloudFront (GLOBAL)"
+  },
+  "http": 200,
+  "id": "adspower",
+  "incidents": [
+   {
+    "date": "2025-01",
+    "links": [
+     "https://www.halborn.com/blog/post/explained-the-adspower-hack-january-2025",
+     "https://news.risky.biz/risky-bulletin-supply-chain-attack-at-adspower-browser-platform/"
+    ],
+    "text": "Supply-chain attack: a tampered crypto-wallet extension was served through AdsPower's own extension distribution; about $4.7M was stolen from users' wallets. AdsPower reported it to the authorities in Singapore."
+   }
+  ],
+  "kind": [
+   "browser"
+  ],
+  "last_checked": "2026-11-11",
+  "law": "Singapore",
+  "legal_entity": "SUNFLOWER TECH PTE. LTD.",
+  "links": {
+   "download": "https://www.adspower.com/download",
+   "imprint": "https://www.adspower.com/about-us",
+   "pricing": "https://www.adspower.com/pricing",
+   "privacy": "https://www.adspower.com/privacy-policy",
+   "terms": "https://www.adspower.com/terms-of-use"
+  },
+  "name": "AdsPower",
+  "online_since": "1996-10-24",
+  "open_source": false,
+  "platforms": [
+   "windows",
+   "macos",
+   "linux"
+  ],
+  "price": [
+   "$0.90 per profile a month up to 10 profiles, less above",
+   "team members $5 each"
+  ],
+  "sources": [
+   "https://www.adspower.com/",
+   "https://www.adspower.com/about-us",
+   "https://www.adspower.com/terms-of-use",
+   "https://www.adspower.com/pricing",
+   "https://www.adspower.com/download"
+  ],
+  "status": "auto",
+  "website": "https://www.adspower.com/"
+ },
+ {
+  "engine": [
+   "chromium"
+  ],
+  "hosting": {
+   "asn": "AS16509 Amazon.com, Inc.",
+   "country": "United States",
+   "flag": "🇺🇸",
+   "ip": "216.150.16.193",
+   "org": "Vercel, Inc"
+  },
+  "http": 200,
+  "id": "afina",
+  "kind": [
+   "browser"
+  ],
+  "last_checked": "2026-11-11",
+  "legal_entity": "SMARTORAMA INC.",
+  "links": {
+   "imprint": "https://afina.io/en/about",
+   "pricing": "https://afina.io/en/plan"
+  },
+  "name": "Afina",
+  "online_since": "2020-04-23",
+  "open_source": false,
+  "platforms": [
+   "windows",
+   "macos"
+  ],
+  "sources": [
+   "https://afina.io/",
+   "https://afina.io/en/about",
+   "https://afina.io/en/plan"
+  ],
+  "status": "auto",
+  "website": "https://afina.io/"
+ },
+ {
+  "cores": [
+   {
+    "engine": "chromium",
+    "name": "AliasMode Chromium",
+    "version": "155"
+   }
+  ],
+  "created": "2026-08-09",
+  "engine": [
+   "chromium",
+   "firefox"
+  ],
+  "expires": "2027-08-09",
+  "free": "free",
+  "hosting": {
+   "asn": "AS16276 OVH SAS",
+   "country": "Canada",
+   "flag": "🇨🇦",
+   "ip": "167.114.96.190",
+   "org": "OVH Hosting, Inc."
+  },
+  "http": 200,
+  "id": "aliasmode",
+  "kind": [
+   "browser"
+  ],
+  "last_checked": "2026-11-11",
+  "license": "Apache-2.0",
+  "name": "AliasMode",
+  "note": "Open source from engine to app: AliasMode Chromium and AliasMode Firefox. Public beta for Windows and macOS.",
+  "online_since": "2026-09-24",
+  "open_source": true,
+  "platforms": [
+   "windows",
+   "macos"
+  ],
+  "pushed": "2026-11-08",
+  "repo": "https://github.com/aliasmode/aliasmode",
+  "sources": [
+   "https://github.com/aliasmode/aliasmode"
+  ],
+  "stars": 153,
+  "status": "auto",
+  "website": "https://aliasmode.com/"
+ },
+ {
+  "engine": [
+   "chromium"
+  ],
+  "id": "ant-browser",
+  "kind": [
+   "browser"
+  ],
+  "last_checked": "2026-11-11",
+  "license": "PolyForm-Noncommercial-1.0.0",
+  "name": "Ant Browser",
+  "note": "Source available under the PolyForm Noncommercial License 1.0.0 (no commercial use). Recommends the fingerprint-chromium core. Chinese-language project.",
+  "open_source": false,
+  "platforms": [
+   "windows",
+   "macos",
+   "linux"
+  ],
+  "pushed": "2026-11-11",
+  "release": {
+   "date": "2026-11-11",
+   "version": "v1.9.3"
+  },
+  "repo": "https://github.com/black-ant/Ant-Browser",
+  "sources": [
+   "https://github.com/black-ant/Ant-Browser",
+   "https://github.com/zhaotoday/fingerprint-browser"
+  ],
+  "stars": 2140,
+  "status": "auto"
+ },
+ {
+  "created": "2019-03-08",
+  "expires": "2027-03-08",
+  "hosting": {
+   "asn": "AS210976 Timeweb, LLP",
+   "country": "The Netherlands",
+   "flag": "🇳🇱",
+   "ip": "31.130.128.150",
+   "org": "Timeweb, LLP"
+  },
+  "http": 200,
+  "id": "antbrowser",
+  "kind": [
+   "browser"
+  ],
+  "last_checked": "2026-11-11",
+  "links": {
+   "terms": "https://antbrowser.pro/en/terms-of-use.html"
+  },
+  "name": "AntBrowser",
+  "note": "The company is not named on the pages read.",
+  "online_since": "2019-05-01",
+  "open_source": false,
+  "platforms": [
+   "windows",
+   "macos",
+   "linux"
+  ],
+  "sources": [
+   "https://antbrowser.pro/",
+   "https://github.com/TheGP/untidetect-tools"
+  ],
+  "status": "pending",
+  "website": "https://antbrowser.pro/"
+ },
+ {
+  "dead": true,
+  "engine": [
+   "firefox"
+  ],
+  "id": "antidetect-firefox",
+  "kind": [
+   "browser"
+  ],
+  "last_checked": "2026-11-11",
+  "name": "AntidetectFirefox (Vektor T13)",
+  "note": "Archived: the repository says the project is not maintained (last change 2020).",
+  "open_source": true,
+  "pushed": "2020-07-17",
+  "repo": "https://github.com/vektort13/AntidetectFirefox",
+  "sources": [
+   "https://github.com/vektort13/AntidetectFirefox"
+  ],
+  "stars": 92,
+  "status": "auto"
+ },
+ {
+  "cores": [
+   {
+    "engine": "chromium",
+    "version": "155"
+   }
+  ],
+  "created": "2026-09-27",
+  "engine": [
+   "chromium"
+  ],
+  "expires": "2027-09-27",
+  "free": "free, no paid tier",
+  "hosting": {
+   "anycast": true,
+   "asn": "AS13335 Cloudflare, Inc.",
+   "ip": "188.114.96.3",
+   "org": "CloudFlare, Inc."
+  },
+  "http": 200,
+  "id": "apostate",
+  "kind": [
+   "browser"
+  ],
+  "last_checked": "2026-11-11",
+  "license": "GPL-3.0",
+  "name": "Apostate",
+  "note": "Release builds named 155.0.8059.31 for Linux x64 and arm64.",
+  "online_since": "2026-09-28",
+  "open_source": true,
+  "platforms": [
+   "linux"
+  ],
+  "pushed": "2026-10-02",
+  "release": {
+   "date": "2026-09-30",
+   "version": "v0.5.1"
+  },
+  "repo": "https://github.com/heretic-tech/apostate",
+  "sources": [
+   "https://github.com/heretic-tech/apostate"
+  ],
+  "stars": 87,
+  "status": "auto",
+  "website": "https://apostate.dev/"
+ },
+ {
+  "country": "Hong Kong",
+  "created": "2021-08-06",
+  "engine": [
+   "chromium",
+   "firefox"
+  ],
+  "expires": "2029-08-06",
+  "flag": "🇭🇰",
+  "free": "10 profiles",
+  "hosting": {
+   "asn": "AS21859 Zenlayer Inc",
+   "country": "Germany",
+   "flag": "🇩🇪",
+   "ip": "185.207.114.89",
+   "org": "Zenlayer Inc"
+  },
+  "http": 200,
+  "id": "bitbrowser",
+  "kind": [
+   "browser",
+   "cloud-phone"
+  ],
+  "last_checked": "2026-11-11",
+  "law": "China",
+  "legal_entity": "HongKong Bit-Internet Technology Limited",
+  "links": {
+   "download": "https://www.bitbrowser.net/download",
+   "pricing": "https://www.bitbrowser.net/price",
+   "privacy": "https://www.bitbrowser.net/policy",
+   "terms": "https://www.bitbrowser.net/agreement"
+  },
+  "name": "BitBrowser",
+  "note": "The privacy policy is governed by the law of the People's Republic of China. Chinese site: bitbrowser.cn.",
+  "online_since": "2017-06-03",
+  "open_source": false,
+  "platforms": [
+   "windows",
+   "macos"
+  ],
+  "price": [
+   "$10/month (50 profiles, 2 users)"
+  ],
+  "sources": [
+   "https://www.bitbrowser.net/agreement",
+   "https://www.bitbrowser.net/policy",
+   "https://www.bitbrowser.net/price"
+  ],
+  "status": "auto",
+  "website": "https://www.bitbrowser.net/"
+ },
+ {
+  "cores": [
+   {
+    "engine": "chromium",
+    "version": "157"
+   }
+  ],
+  "engine": [
+   "chromium"
+  ],
+  "hosting": {
+   "anycast": true,
+   "asn": "AS13335 Cloudflare, Inc.",
+   "ip": "104.21.93.124",
+   "org": "Cloudflare, Inc."
+  },
+  "http": 200,
+  "id": "botbrowser",
+  "kind": [
+   "browser"
+  ],
+  "last_checked": "2026-11-11",
+  "license": "MIT",
+  "name": "BotBrowser",
+  "note": "Public binary releases on GitHub; the core is built in-house on Chromium and its source is available on request. Some builds are sold through an enterprise channel. Release 157.0.8103.38 (2026-11-06).",
+  "open_source": false,
+  "platforms": [
+   "windows",
+   "macos",
+   "linux"
+  ],
+  "pushed": "2026-11-06",
+  "release": {
+   "date": "2026-11-06",
+   "version": "157.0.8103.38"
+  },
+  "repo": "https://github.com/botswin/BotBrowser",
+  "sources": [
+   "https://github.com/botswin/BotBrowser"
+  ],
+  "stars": 2663,
+  "status": "auto",
+  "website": "https://botbrowser.io/"
+ },
+ {
+  "cores": [
+   {
+    "engine": "firefox",
+    "version": "158"
+   }
+  ],
+  "created": "2024-10-16",
+  "engine": [
+   "firefox"
+  ],
+  "expires": "2027-10-16",
+  "free": "free",
+  "hosting": {
+   "anycast": true,
+   "asn": "AS13335 Cloudflare, Inc.",
+   "ip": "188.114.97.3",
+   "org": "CloudFlare, Inc."
+  },
+  "http": 200,
+  "id": "camoufox",
+  "kind": [
+   "browser"
+  ],
+  "last_checked": "2026-11-11",
+  "license": "MPL-2.0",
+  "name": "Camoufox",
+  "note": "Patched Firefox driven from Python (Playwright); the patches and the build are in the repository. Release v158.0.1-beta.41 (2026-10-29) is based on Firefox 158.",
+  "online_since": "2024-11-14",
+  "open_source": true,
+  "platforms": [
+   "windows",
+   "macos",
+   "linux"
+  ],
+  "pushed": "2026-11-11",
+  "release": {
+   "date": "2026-10-29",
+   "version": "v158.0.1-beta.41"
+  },
+  "repo": "https://github.com/daijro/camoufox",
+  "sources": [
+   "https://github.com/daijro/camoufox",
+   "https://camoufox.com/"
+  ],
+  "stars": 13192,
+  "status": "auto",
+  "website": "https://camoufox.com/"
+ },
+ {
+  "engine": [
+   "chromium"
+  ],
+  "free": "free",
+  "id": "chrome-power",
+  "kind": [
+   "browser"
+  ],
+  "last_checked": "2026-11-11",
+  "license": "AGPL-3.0",
+  "name": "Chrome Power",
+  "note": "A manager for many Chrome instances; its fingerprint changes are limited.",
+  "open_source": true,
+  "pushed": "2025-12-16",
+  "release": {
+   "date": "2025-12-16",
+   "version": "v1.2.6"
+  },
+  "repo": "https://github.com/zmzimpl/chrome-power-app",
+  "sources": [
+   "https://github.com/zmzimpl/chrome-power-app",
+   "https://github.com/TheGP/untidetect-tools"
+  ],
+  "stars": 1554,
+  "status": "auto"
+ },
+ {
+  "created": "2026-06-17",
+  "engine": [
+   "chromium"
+  ],
+  "expires": "2027-06-17",
+  "free": "free open build",
+  "hosting": {
+   "asn": "AS16509 Amazon.com, Inc.",
+   "country": "United States",
+   "flag": "🇺🇸",
+   "ip": "216.150.16.193",
+   "org": "Vercel, Inc"
+  },
+  "http": 308,
+  "id": "clearcote",
+  "kind": [
+   "browser"
+  ],
+  "last_checked": "2026-11-11",
+  "license": "BSD-3-Clause",
+  "name": "Clearcote",
+  "note": "Code and patches under BSD-3-Clause; the open build is reproducible from the repository. A licensed and a hosted build exist too.",
+  "online_since": "2026-11-04",
+  "open_source": true,
+  "platforms": [
+   "windows",
+   "linux"
+  ],
+  "pushed": "2026-11-05",
+  "release": {
+   "date": "2026-10-28",
+   "version": "v0.1.0-pre.25"
+  },
+  "repo": "https://github.com/clearcotelabs/clearcote-browser",
+  "sources": [
+   "https://github.com/clearcotelabs/clearcote-browser"
+  ],
+  "stars": 253,
+  "status": "auto",
+  "website": "https://clearcotelabs.com/"
+ },
+ {
+  "cores": [
+   {
+    "engine": "chromium",
+    "version": "156"
+   }
+  ],
+  "created": "2026-02-26",
+  "engine": [
+   "chromium"
+  ],
+  "expires": "2027-02-26",
+  "free": "free licence key by e-mail",
+  "hosting": {
+   "anycast": true,
+   "asn": "AS13335 Cloudflare, Inc.",
+   "ip": "104.21.53.44",
+   "org": "Cloudflare, Inc."
+  },
+  "http": 200,
+  "id": "cloakbrowser",
+  "kind": [
+   "browser"
+  ],
+  "last_checked": "2026-11-11",
+  "license": "MIT",
+  "links": {
+   "terms": "https://cloakbrowser.dev/legal"
+  },
+  "name": "CloakBrowser",
+  "note": "The Python / JavaScript wrapper is MIT-licensed; the patched Chromium binary is downloaded on first run and needs a licence key. Release 0.7.2: Chromium 156.0.8078.47.",
+  "online_since": "2026-03-20",
+  "open_source": false,
+  "platforms": [
+   "windows",
+   "macos",
+   "linux"
+  ],
+  "pushed": "2026-11-10",
+  "release": {
+   "date": "2026-11-03",
+   "version": "chromium-v156.0.8078.47.1-pro"
+  },
+  "repo": "https://github.com/CloakHQ/CloakBrowser",
+  "sources": [
+   "https://github.com/CloakHQ/CloakBrowser",
+   "https://cloakbrowser.dev/"
+  ],
+  "stars": 32835,
+  "status": "auto",
+  "website": "https://cloakbrowser.dev/"
+ },
+ {
+  "created": "2019-01-03",
+  "expires": "2027-01-03",
+  "free": "yes",
+  "hosting": {
+   "asn": "AS45102 Alibaba (US) Technology Co., Ltd.",
+   "country": "Singapore",
+   "flag": "🇸🇬",
+   "ip": "8.219.211.126",
+   "org": "Alibaba.com Singapore E-Commerce Private Limited"
+  },
+  "http": 200,
+  "id": "clonbrowser",
+  "kind": [
+   "browser"
+  ],
+  "last_checked": "2026-11-11",
+  "legal_entity": "CLOUND NEXUS ECOM SERVICE CO., Limited",
+  "links": {
+   "pricing": "https://www.clonbrowser.com/price/",
+   "privacy": "https://www.clonbrowser.com/privacy-policy/"
+  },
+  "name": "ClonBrowser",
+  "online_since": "2020-09-26",
+  "open_source": false,
+  "price": [
+   "from $6/month"
+  ],
+  "sources": [
+   "https://www.clonbrowser.com/",
+   "https://www.clonbrowser.com/privacy-policy/",
+   "https://www.clonbrowser.com/price/"
+  ],
+  "status": "auto",
+  "website": "https://www.clonbrowser.com/"
+ },
+ {
+  "created": "2026-02-21",
+  "expires": "2027-02-21",
+  "http": 0,
+  "id": "dashnull",
+  "kind": [
+   "browser"
+  ],
+  "last_checked": "2026-11-11",
+  "name": "DashNull",
+  "note": "The domain is registered until 2027-02-21 but had no DNS records on 2026-11-11; the site did not answer.",
+  "online_since": "2026-03-20",
+  "open_source": false,
+  "sources": [
+   "https://github.com/TheGP/untidetect-tools"
+  ],
+  "status": "pending",
+  "website": "https://dashnull.com/"
+ },
+ {
+  "created": "2024-02-29",
+  "expires": "2027-02-28",
+  "free": "yes",
+  "hosting": {
+   "asn": "AS45102 Alibaba (US) Technology Co., Ltd.",
+   "country": "Germany",
+   "flag": "🇩🇪",
+   "ip": "8.209.70.189"
+  },
+  "http": 200,
+  "id": "dicloak",
+  "kind": [
+   "browser"
+  ],
+  "last_checked": "2026-11-11",
+  "legal_entity": "DICloak Technology Limited",
+  "links": {
+   "download": "https://dicloak.com/download",
+   "imprint": "https://dicloak.com/about-us",
+   "pricing": "https://dicloak.com/pricing"
+  },
+  "name": "DICloak",
+  "online_since": "2024-04-18",
+  "open_source": false,
+  "platforms": [
+   "windows",
+   "macos",
+   "linux"
+  ],
+  "price": [
+   "Base $8/month"
+  ],
+  "sources": [
+   "https://dicloak.com/about-us",
+   "https://dicloak.com/pricing",
+   "https://dicloak.com/download"
+  ],
+  "status": "auto",
+  "website": "https://dicloak.com/"
+ },
+ {
+  "country": "Cyprus",
+  "created": "2023-02-09",
+  "engine": [
+   "chromium",
+   "firefox"
+  ],
+  "expires": "2027-02-09",
+  "flag": "🇨🇾",
+  "free": "3 profiles, 20 profile creations a month",
+  "hosting": {
+   "asn": "AS16509 Amazon.com, Inc.",
+   "country": "Germany",
+   "flag": "🇩🇪",
+   "ip": "18.185.251.195",
+   "org": "AWS EC2 (eu-central-1)"
+  },
+  "http": 200,
+  "id": "dolphin-anty",
+  "kind": [
+   "browser"
+  ],
+  "last_checked": "2026-11-11",
+  "law": "Cyprus",
+  "legal_entity": "Zhitnyakov Software Solutions LTD",
+  "links": {
+   "download": "https://dolphin-anty.com/download/",
+   "pricing": "https://dolphin-anty.com/tarifs/",
+   "privacy": "https://dolphin-anty.com/privacy-policy/",
+   "terms": "https://dolphin-anty.com/terms-of-use/"
+  },
+  "name": "Dolphin {anty}",
+  "note": "Address: Germasogeia, Limassol. The core version is not published on the site.",
+  "online_since": "2023-07-10",
+  "open_source": false,
+  "platforms": [
+   "windows",
+   "macos",
+   "linux"
+  ],
+  "price": [
+   "Starter $10/month (20 profiles)",
+   "Base $89/month (100 profiles)"
+  ],
+  "sources": [
+   "https://dolphin-anty.com/terms-of-use/",
+   "https://dolphin-anty.com/privacy-policy/",
+   "https://dolphin-anty.com/tarifs/",
+   "https://dolphin-anty.com/download/"
+  ],
+  "status": "auto",
+  "website": "https://dolphin-anty.com/"
+ },
+ {
+  "created": "2025-04-27",
+  "engine": [
+   "chromium"
+  ],
+  "expires": "2027-04-27",
+  "free": "unlimited local profiles, no account needed",
+  "hosting": {
+   "anycast": true,
+   "asn": "AS13335 Cloudflare, Inc.",
+   "ip": "188.114.96.3",
+   "org": "CloudFlare, Inc."
+  },
+  "http": 200,
+  "id": "donut-browser",
+  "kind": [
+   "browser"
+  ],
+  "last_checked": "2026-11-11",
+  "legal_entity": "Internet Technology Services LLC",
+  "license": "AGPL-3.0",
+  "links": {
+   "pricing": "https://donutbrowser.com/pricing",
+   "terms": "https://donutbrowser.com/terms-of-service"
+  },
+  "name": "Donut Browser",
+  "online_since": "2025-05-30",
+  "open_source": true,
+  "platforms": [
+   "windows",
+   "macos",
+   "linux"
+  ],
+  "price": [
+   "Solo $29/month (cloud backups)"
+  ],
+  "pushed": "2026-11-11",
+  "release": {
+   "date": "2026-11-01",
+   "version": "v0.36.0"
+  },
+  "repo": "https://github.com/zhom/donutbrowser",
+  "sources": [
+   "https://donutbrowser.com/",
+   "https://donutbrowser.com/pricing",
+   "https://web.archive.org/web/20261021013857/https://donutbrowser.com/terms-of-service/"
+  ],
+  "stars": 4269,
+  "status": "auto",
+  "website": "https://donutbrowser.com/"
+ },
+ {
+  "android": [
+   "10",
+   "11",
+   "12",
+   "15"
+  ],
+  "country": "Singapore",
+  "created": "2024-04-03",
+  "expires": "2031-04-03",
+  "flag": "🇸🇬",
+  "hosting": {
+   "anycast": true,
+   "asn": "AS16509 Amazon.com, Inc.",
+   "ip": "18.64.211.80",
+   "org": "AWS CloudFront (GLOBAL)"
+  },
+  "http": 200,
+  "id": "duoplus",
+  "kind": [
+   "cloud-phone"
+  ],
+  "last_checked": "2026-11-11",
+  "law": "Singapore",
+  "legal_entity": "DUOPLUS PTE. LTD.",
+  "links": {
+   "changelog": "https://www.duoplus.net/changelog/",
+   "download": "https://www.duoplus.net/download/",
+   "pricing": "https://www.duoplus.net/pricing/",
+   "privacy": "https://www.duoplus.net/privacy-policy/",
+   "terms": "https://www.duoplus.net/terms-of-use/"
+  },
+  "name": "DuoPlus",
+  "online_since": "2004-02-05",
+  "open_source": false,
+  "platforms": [
+   "windows",
+   "macos"
+  ],
+  "price": [
+   "startup time from $0.0042 a minute",
+   "monthly startup package $16.91"
+  ],
+  "sources": [
+   "https://www.duoplus.net/",
+   "https://www.duoplus.net/terms-of-use/",
+   "https://www.duoplus.net/pricing/"
+  ],
+  "status": "auto",
+  "trial": "1 cloud phone for 30 days with 30 minutes of startup time",
+  "website": "https://www.duoplus.net/"
+ },
+ {
+  "cores": [
+   {
+    "engine": "chromium",
+    "version": "150"
+   }
+  ],
+  "engine": [
+   "chromium"
+  ],
+  "free": "free",
+  "id": "fingerprint-chromium",
+  "kind": [
+   "browser"
+  ],
+  "last_checked": "2026-11-11",
+  "license": "BSD-3-Clause",
+  "name": "fingerprint-chromium",
+  "note": "Based on Ungoogled Chromium; the source of each version is published after its build.",
+  "open_source": true,
+  "platforms": [
+   "windows",
+   "macos",
+   "linux"
+  ],
+  "pushed": "2026-10-02",
+  "release": {
+   "date": "2026-10-02",
+   "version": "150.0.7871.186"
+  },
+  "repo": "https://github.com/adryfish/fingerprint-chromium",
+  "sources": [
+   "https://github.com/adryfish/fingerprint-chromium"
+  ],
+  "stars": 3250,
+  "status": "auto"
+ },
+ {
+  "engine": [
+   "firefox",
+   "chromium"
+  ],
+  "free": "free",
+  "id": "foxprofile",
+  "kind": [
+   "browser"
+  ],
+  "last_checked": "2026-11-11",
+  "license": "MIT",
+  "name": "FoxProfile",
+  "note": "A profile manager that runs Camoufox (Firefox) or fingerprint-chromium.",
+  "open_source": true,
+  "platforms": [
+   "windows",
+   "macos",
+   "linux"
+  ],
+  "pushed": "2026-11-04",
+  "release": {
+   "date": "2026-10-30",
+   "version": "v2.4.0"
+  },
+  "repo": "https://github.com/chienbm98/foxprofile",
+  "sources": [
+   "https://github.com/chienbm98/foxprofile"
+  ],
+  "stars": 196,
+  "status": "auto"
+ },
+ {
+  "cores": [
+   {
+    "engine": "chromium",
+    "version": "157"
+   }
+  ],
+  "engine": [
+   "chromium"
+  ],
+  "free": "free",
+  "hosting": {
+   "anycast": true,
+   "asn": "AS54113 Fastly, Inc.",
+   "ip": "185.199.108.153",
+   "org": "GitHub, Inc"
+  },
+  "http": 200,
+  "id": "fury",
+  "kind": [
+   "browser"
+  ],
+  "last_checked": "2026-11-11",
+  "license": "AGPL-3.0",
+  "name": "Fury Antidetect Browser",
+  "note": "In development. A Chromium 157 fork that changes the fingerprint in C++. macOS builds are signed and notarised (since 2026-09-21), Windows builds are not.",
+  "open_source": true,
+  "platforms": [
+   "windows",
+   "macos"
+  ],
+  "pushed": "2026-11-10",
+  "release": {
+   "date": "2026-11-10",
+   "version": "v0.5.3"
+  },
+  "repo": "https://github.com/furyteamtop/fury-antidetect-browser",
+  "sources": [
+   "https://github.com/furyteamtop/fury-antidetect-browser"
+  ],
+  "stars": 146,
+  "status": "auto",
+  "website": "https://furyteamtop.github.io/fury-antidetect-browser/"
+ },
+ {
+  "created": "2023-07-25",
+  "engine": [
+   "chromium"
+  ],
+  "expires": "2032-07-25",
+  "hosting": {
+   "anycast": true,
+   "asn": "AS13335 Cloudflare, Inc.",
+   "ip": "172.67.154.245",
+   "org": "Cloudflare, Inc."
+  },
+  "http": 200,
+  "id": "geekez-browser",
+  "kind": [
+   "browser"
+  ],
+  "last_checked": "2026-11-11",
+  "license": "PolyForm-Noncommercial-1.0.0",
+  "name": "GeekEZ Browser",
+  "note": "Built on Electron and Puppeteer with Xray-core. Source available under the PolyForm Noncommercial License 1.0.0; commercial use needs a separate licence.",
+  "online_since": "2023-12-27",
+  "open_source": false,
+  "platforms": [
+   "windows",
+   "macos",
+   "linux"
+  ],
+  "pushed": "2026-11-01",
+  "release": {
+   "date": "2026-11-01",
+   "version": "v1.8.2"
+  },
+  "repo": "https://github.com/EchoHS/GeekezBrowser",
+  "sources": [
+   "https://github.com/EchoHS/GeekezBrowser"
+  ],
+  "stars": 1160,
+  "status": "auto",
+  "website": "https://browser.geekez.net/"
+ },
+ {
+  "country": "Singapore",
+  "created": "2023-12-25",
+  "expires": "2028-12-25",
+  "flag": "🇸🇬",
+  "free": "yes",
+  "hosting": {
+   "asn": "AS24429 Zhejiang Taobao Network Co.,Ltd",
+   "country": "Germany",
+   "flag": "🇩🇪",
+   "ip": "43.109.179.28",
+   "org": "Alibaba Cloud (Singapore) Private Limited"
+  },
+  "http": 200,
+  "id": "geelark",
+  "kind": [
+   "browser",
+   "cloud-phone"
+  ],
+  "last_checked": "2026-11-11",
+  "legal_entity": "42STUDIO PTE. LTD",
+  "links": {
+   "download": "https://www.geelark.com/download-center/",
+   "pricing": "https://www.geelark.com/pricing/",
+   "privacy": "https://www.geelark.com/privacy-policy/",
+   "terms": "https://www.geelark.com/terms-of-service/"
+  },
+  "name": "GeeLark",
+  "note": "Cloud phones for Android apps plus browser profiles in one workspace. Registered address in Singapore; the privacy policy also gives a Hong Kong address.",
+  "open_source": false,
+  "platforms": [
+   "windows",
+   "macos",
+   "linux"
+  ],
+  "sources": [
+   "https://www.geelark.com/",
+   "https://www.geelark.com/privacy-policy/",
+   "https://www.geelark.com/terms-of-service/",
+   "https://www.geelark.com/pricing/"
+  ],
+  "status": "auto",
+  "website": "https://www.geelark.com/"
+ },
+ {
+  "created": "2021-12-25",
+  "expires": "2028-12-25",
+  "hosting": {
+   "anycast": true,
+   "asn": "AS13335 Cloudflare, Inc.",
+   "ip": "104.26.6.158",
+   "org": "Cloudflare, Inc."
+  },
+  "http": 200,
+  "id": "genlogin",
+  "kind": [
+   "browser",
+   "cloud-phone"
+  ],
+  "last_checked": "2026-11-11",
+  "links": {
+   "pricing": "https://genlogin.com/pricing",
+   "privacy": "https://genlogin.com/privacy-policy",
+   "terms": "https://genlogin.com/sale-policy"
+  },
+  "name": "GenLogin",
+  "note": "The company is not named on the pages read.",
+  "open_source": false,
+  "price": [
+   "Mini Plus from $10/month"
+  ],
+  "sources": [
+   "https://genlogin.com/",
+   "https://genlogin.com/pricing"
+  ],
+  "status": "auto",
+  "website": "https://genlogin.com/"
+ },
+ {
+  "alliance": 5,
+  "country": "United States",
+  "created": "2015-04-14",
+  "engine": [
+   "chromium"
+  ],
+  "expires": "2027-04-14",
+  "flag": "🇺🇸",
+  "free": "3 identities",
+  "hosting": {
+   "asn": "AS14618 Amazon.com, Inc.",
+   "country": "United States",
+   "flag": "🇺🇸",
+   "ip": "3.224.35.92",
+   "org": "AWS EC2 (us-east-1)"
+  },
+  "http": 200,
+  "id": "ghost-browser",
+  "kind": [
+   "browser"
+  ],
+  "last_checked": "2026-11-11",
+  "legal_entity": "Webatix, Inc.",
+  "links": {
+   "pricing": "https://ghostbrowser.com/upgrade/",
+   "terms": "https://ghostbrowser.com/terms-of-use/"
+  },
+  "name": "Ghost Browser",
+  "note": "A multi-session browser (identities with their own cookies and proxies) rather than a fingerprint changer. Address: Wheat Ridge, Colorado.",
+  "open_source": false,
+  "sources": [
+   "https://ghostbrowser.com/terms-of-use/",
+   "https://ghostbrowser.com/upgrade/"
+  ],
+  "status": "auto",
+  "website": "https://ghostbrowser.com/"
+ },
+ {
+  "alliance": 5,
+  "country": "United States",
+  "created": "2005-10-06",
+  "engine": [
+   "chromium"
+  ],
+  "expires": "2028-10-06",
+  "flag": "🇺🇸",
+  "free": "3 profiles",
+  "hosting": {
+   "anycast": true,
+   "asn": "AS13335 Cloudflare, Inc.",
+   "ip": "104.20.17.216",
+   "org": "Cloudflare, Inc."
+  },
+  "http": 200,
+  "id": "gologin",
+  "kind": [
+   "browser",
+   "cloud-phone"
+  ],
+  "last_checked": "2026-11-11",
+  "legal_entity": "Gologin LLC",
+  "links": {
+   "changelog": "https://gologin.com/release-notes/",
+   "download": "https://gologin.com/download/",
+   "pricing": "https://gologin.com/pricing/",
+   "privacy": "https://gologin.com/privacy-policy/",
+   "terms": "https://gologin.com/terms-of-service/"
+  },
+  "name": "Gologin",
+  "note": "Core: Orbita (Chromium); the current version is not published on the site. Address: Venice, Florida. Affiliates Scalehat LLC (USA) and GOLESS S.à r.l. (Paris) may accept payments. Also sells Cloud Android phones.",
+  "open_source": false,
+  "platforms": [
+   "windows",
+   "macos",
+   "linux"
+  ],
+  "price": [
+   "Professional $9/month"
+  ],
+  "sources": [
+   "https://gologin.com/terms-of-service/",
+   "https://gologin.com/privacy-policy/",
+   "https://gologin.com/pricing/",
+   "https://gologin.com/download/"
+  ],
+  "status": "auto",
+  "trial": "7 days",
+  "website": "https://gologin.com/"
+ },
+ {
+  "created": "2023-06-29",
+  "engine": [
+   "chromium",
+   "firefox"
+  ],
+  "expires": "2027-06-29",
+  "hosting": {
+   "anycast": true,
+   "asn": "AS13335 Cloudflare, Inc.",
+   "ip": "188.114.97.3",
+   "org": "CloudFlare, Inc."
+  },
+  "http": 200,
+  "id": "gpm-login",
+  "kind": [
+   "browser"
+  ],
+  "last_checked": "2026-11-11",
+  "links": {
+   "download": "https://gpmlogin.com/download",
+   "privacy": "https://gpmlogin.com/privacy",
+   "terms": "https://gpmlogin.com/terms"
+  },
+  "name": "GPM Login",
+  "note": "The company is not named on the pages read.",
+  "open_source": false,
+  "platforms": [
+   "windows",
+   "macos"
+  ],
+  "sources": [
+   "https://gpmlogin.com/",
+   "https://gpmlogin.com/download"
+  ],
+  "status": "auto",
+  "website": "https://gpmlogin.com/"
+ },
+ {
+  "cores": [
+   {
+    "engine": "chromium",
+    "name": "Hidemium",
+    "version": "156"
+   }
+  ],
+  "engine": [
+   "chromium"
+  ],
+  "free": "5 profiles",
+  "hosting": {
+   "anycast": true,
+   "asn": "AS13335 Cloudflare, Inc.",
+   "ip": "172.67.73.42",
+   "org": "Cloudflare, Inc."
+  },
+  "http": 200,
+  "id": "hidemium",
+  "kind": [
+   "browser"
+  ],
+  "last_checked": "2026-11-11",
+  "legal_entity": "Hachitech",
+  "links": {
+   "changelog": "https://hidemium.io/release-notes/",
+   "download": "https://hidemium.io/download/",
+   "pricing": "https://hidemium.io/pricing/",
+   "terms": "https://hidemium.io/terms-of-service/"
+  },
+  "name": "Hidemium",
+  "note": "Version 5.0.0 ships the Hidemium 156 core.",
+  "open_source": false,
+  "platforms": [
+   "windows",
+   "macos"
+  ],
+  "price": [
+   "Basic $15/month (30 profiles)"
+  ],
+  "sources": [
+   "https://hidemium.io/",
+   "https://hidemium.io/pricing/",
+   "https://hidemium.io/release-notes/"
+  ],
+  "status": "auto",
+  "website": "https://hidemium.io/"
+ },
+ {
+  "cores": [
+   {
+    "engine": "chromium",
+    "name": "Marco",
+    "version": "155"
+   }
+  ],
+  "country": "Vietnam",
+  "created": "2021-06-03",
+  "engine": [
+   "chromium"
+  ],
+  "expires": "2027-06-03",
+  "flag": "🇻🇳",
+  "hosting": {
+   "anycast": true,
+   "asn": "AS13335 Cloudflare, Inc.",
+   "ip": "104.26.11.205",
+   "org": "Cloudflare, Inc."
+  },
+  "http": 200,
+  "id": "hidemyacc",
+  "kind": [
+   "browser"
+  ],
+  "last_checked": "2026-11-11",
+  "law": "Vietnam",
+  "legal_entity": "ONEADX Co., Ltd.",
+  "links": {
+   "changelog": "https://hidemyacc.com/release-notes",
+   "download": "https://hidemyacc.com/download",
+   "pricing": "https://hidemyacc.com/pricing",
+   "terms": "https://hidemyacc.com/terms-of-service"
+  },
+  "name": "Hidemyacc",
+  "note": "Address: Hanoi. Version 3.1.12 (2026-10-19) updated its Marco browser to 155.",
+  "open_source": false,
+  "platforms": [
+   "windows",
+   "macos"
+  ],
+  "price": [
+   "Mini $10/month (5 profiles)"
+  ],
+  "sources": [
+   "https://hidemyacc.com/",
+   "https://hidemyacc.com/terms-of-service",
+   "https://hidemyacc.com/pricing",
+   "https://hidemyacc.com/release-notes"
+  ],
+  "status": "auto",
+  "trial": "7 days (30 profiles)",
+  "website": "https://hidemyacc.com/"
+ },
+ {
+  "country": "China",
+  "flag": "🇨🇳",
+  "free": "unlimited profiles",
+  "hosting": {
+   "asn": "AS4837 CHINA UNICOM China169 Backbone",
+   "country": "China",
+   "flag": "🇨🇳",
+   "ip": "116.153.34.49"
+  },
+  "http": 0,
+  "id": "hubstudio",
+  "kind": [
+   "browser",
+   "cloud-phone"
+  ],
+  "last_checked": "2026-11-11",
+  "legal_entity": "福州科鑫创科技有限公司",
+  "name": "Hubstudio",
+  "note": "Chinese-language site; sells cloud phones next to the browser.",
+  "online_since": "2022-05-23",
+  "open_source": false,
+  "sources": [
+   "https://www.hubstudio.cn/",
+   "https://github.com/zhaotoday/fingerprint-browser"
+  ],
+  "status": "auto",
+  "website": "https://www.hubstudio.cn/"
+ },
+ {
+  "alliance": 9,
+  "android": [
+   "12",
+   "15"
+  ],
+  "cores": [
+   {
+    "engine": "chromium",
+    "version": "152"
+   }
+  ],
+  "country": "Netherlands",
+  "created": "2019-11-19",
+  "engine": [
+   "chromium"
+  ],
+  "expires": "2027-11-19",
+  "flag": "🇳🇱",
+  "free": "10 profiles for 2 months, then 3",
+  "hosting": {
+   "anycast": true,
+   "asn": "AS13335 Cloudflare, Inc.",
+   "ip": "188.114.97.3",
+   "org": "CloudFlare, Inc."
+  },
+  "http": 200,
+  "id": "incogniton",
+  "kind": [
+   "browser",
+   "cloud-phone"
+  ],
+  "last_checked": "2026-11-11",
+  "legal_entity": "WorkingGreen B.V.",
+  "links": {
+   "changelog": "https://docs.incogniton.com/changelog",
+   "download": "https://incogniton.com/download-incogniton/",
+   "pricing": "https://incogniton.com/pricing/",
+   "privacy": "https://incogniton.com/privacy-policy/",
+   "terms": "https://incogniton.com/terms-of-service/"
+  },
+  "name": "Incogniton",
+  "note": "Address: Schiphol-Rijk. Version 5.0.1.0 (2026-09-10) moved to Chrome 152.",
+  "online_since": "2020-08-11",
+  "open_source": false,
+  "platforms": [
+   "windows",
+   "macos"
+  ],
+  "price": [
+   "Starter Plus $19.99/month",
+   "cloud phone $3/month each"
+  ],
+  "sources": [
+   "https://incogniton.com/terms-of-service/",
+   "https://incogniton.com/privacy-policy/",
+   "https://incogniton.com/pricing/",
+   "https://incogniton.com/cloud-phone-pricing/",
+   "https://docs.incogniton.com/changelog",
+   "https://github.com/TheGP/untidetect-tools"
+  ],
+  "status": "auto",
+  "website": "https://incogniton.com/"
+ },
+ {
+  "cores": [
+   {
+    "engine": "chromium",
+    "name": "Mimic",
+    "version": "148"
+   },
+   {
+    "engine": "firefox",
+    "name": "Stealthfox",
+    "version": "146"
+   }
+  ],
+  "created": "2018-07-08",
+  "engine": [
+   "chromium",
+   "firefox"
+  ],
+  "expires": "2027-07-08",
+  "hosting": {
+   "anycast": true,
+   "asn": "AS13335 Cloudflare, Inc.",
+   "ip": "104.26.13.248",
+   "org": "Cloudflare, Inc."
+  },
+  "http": 522,
+  "id": "indigo-x",
+  "kind": [
+   "browser"
+  ],
+  "last_checked": "2026-11-11",
+  "name": "Indigo X",
+  "note": "Runs Multilogin's Mimic and Stealthfox cores (Mimic 148 and Stealthfox 146 in the Wayback copy of 2026-07-10). The site did not answer on 2026-11-11 (Cloudflare 522).",
+  "online_since": "2019-06-19",
+  "open_source": false,
+  "sources": [
+   "https://web.archive.org/web/20260710103656/https://indigobrowser.com/",
+   "https://github.com/zhaotoday/fingerprint-browser"
+  ],
+  "status": "auto",
+  "website": "https://indigobrowser.com/"
+ },
+ {
+  "created": "2022-04-25",
+  "expires": "2027-04-25",
+  "free": "yes, with daily limits",
+  "hosting": {
+   "anycast": true,
+   "asn": "AS13335 Cloudflare, Inc.",
+   "ip": "188.114.97.3",
+   "org": "CloudFlare, Inc."
+  },
+  "http": 200,
+  "id": "ixbrowser",
+  "kind": [
+   "browser"
+  ],
+  "last_checked": "2026-11-11",
+  "links": {
+   "pricing": "https://www.ixbrowser.com/en/pricing"
+  },
+  "name": "ixBrowser",
+  "note": "The company is not named on the pages read.",
+  "online_since": "2011-02-02",
+  "open_source": false,
+  "price": [
+   "Professional $3.99/month"
+  ],
+  "sources": [
+   "https://www.ixbrowser.com/en/pricing",
+   "https://github.com/TheGP/untidetect-tools"
+  ],
+  "status": "auto",
+  "website": "https://www.ixbrowser.com/"
+ },
+ {
+  "cores": [
+   {
+    "engine": "chromium",
+    "name": "Chroma",
+    "version": "157"
+   },
+   {
+    "engine": "firefox",
+    "name": "Junglefox",
+    "version": "153"
+   }
+  ],
+  "country": "Hungary",
+  "engine": [
+   "chromium",
+   "firefox"
+  ],
+  "flag": "🇭🇺",
+  "free": "2 browsers at a time, 300 minutes a month, 100 cloud profiles",
+  "hosting": {
+   "anycast": true,
+   "asn": "AS209242 Cloudflare London, LLC",
+   "ip": "198.202.211.1",
+   "org": "Webflow, Inc"
+  },
+  "http": 200,
+  "id": "kameleo",
+  "kind": [
+   "browser"
+  ],
+  "last_checked": "2026-11-11",
+  "legal_entity": "Outis Nemo Ltd.",
+  "links": {
+   "changelog": "https://kameleo.io/browser-kernel-releases",
+   "download": "https://kameleo.io/downloads",
+   "pricing": "https://kameleo.io/pricing",
+   "privacy": "https://kameleo.io/privacy-policy",
+   "terms": "https://kameleo.io/terms-conditions"
+  },
+  "name": "Kameleo",
+  "note": "Billed by browsers running at the same time, not by profiles. Chroma 157 (Chromium 157.0.8103.27) came out on 2026-11-10. Registered office in Budapest, company number 01-09-303201.",
+  "online_since": "2018-05-16",
+  "open_source": false,
+  "platforms": [
+   "windows",
+   "macos"
+  ],
+  "price": [
+   "Startup €59/month"
+  ],
+  "sources": [
+   "https://kameleo.io/privacy-policy",
+   "https://kameleo.io/pricing",
+   "https://kameleo.io/browser-kernel-releases",
+   "https://kameleo.io/downloads"
+  ],
+  "status": "auto",
+  "website": "https://kameleo.io/"
+ },
+ {
+  "created": "2021-08-30",
+  "expires": "2027-08-30",
+  "hosting": {
+   "anycast": true,
+   "asn": "AS13335 Cloudflare, Inc.",
+   "ip": "188.114.96.3",
+   "org": "CloudFlare, Inc."
+  },
+  "http": 200,
+  "id": "lalicat",
+  "kind": [
+   "browser"
+  ],
+  "last_checked": "2026-11-11",
+  "law": "United States",
+  "links": {
+   "pricing": "https://www.lalicat.com/pricing",
+   "terms": "https://www.lalicat.com/terms-of-conditions"
+  },
+  "name": "Lalicat",
+  "note": "The terms name no company; disputes go to US courts.",
+  "online_since": "2021-12-23",
+  "open_source": false,
+  "price": [
+   "Personal $59/month"
+  ],
+  "sources": [
+   "https://www.lalicat.com/terms-of-conditions",
+   "https://www.lalicat.com/pricing"
+  ],
+  "status": "auto",
+  "trial": "3 days",
+  "website": "https://www.lalicat.com/"
+ },
+ {
+  "alliance": 5,
+  "country": "United Kingdom",
+  "created": "2023-02-02",
+  "domains": [
+   "linkensphere.info"
+  ],
+  "engine": [
+   "chromium"
+  ],
+  "expires": "2027-02-02",
+  "flag": "🇬🇧",
+  "free": "5 sessions, no time limit",
+  "hosting": {
+   "asn": "AS16509 Amazon.com, Inc.",
+   "country": "Ireland",
+   "flag": "🇮🇪",
+   "ip": "79.125.46.100",
+   "org": "AWS EC2 (eu-west-1)"
+  },
+  "http": 200,
+  "id": "linken-sphere",
+  "kind": [
+   "browser"
+  ],
+  "last_checked": "2026-11-11",
+  "legal_entity": "Legendary Software LTD",
+  "links": {
+   "changelog": "https://ls.app/version-history",
+   "pricing": "https://ls.app/pricing",
+   "privacy": "https://ls.app/privacy-notice",
+   "terms": "https://ls.app/license-agreement"
+  },
+  "name": "Linken Sphere",
+  "note": "Billed by sessions (profiles). Address: Ruislip, London. The core version is not published on the site.",
+  "online_since": "2023-07-22",
+  "open_source": false,
+  "platforms": [
+   "windows",
+   "macos",
+   "linux"
+  ],
+  "price": [
+   "Pure $30/month (30 sessions)"
+  ],
+  "release": {
+   "date": "2026-11-09",
+   "version": "v2.27.3"
+  },
+  "sources": [
+   "https://ls.app/license-agreement",
+   "https://ls.app/pricing",
+   "https://ls.app/version-history",
+   "https://github.com/zhaotoday/fingerprint-browser"
+  ],
+  "status": "auto",
+  "website": "https://ls.app/"
+ },
+ {
+  "cores": [
+   {
+    "engine": "chromium",
+    "version": "150"
+   }
+  ],
+  "created": "2018-03-06",
+  "engine": [
+   "chromium"
+  ],
+  "expires": "2027-03-06",
+  "free": "GO edition",
+  "hosting": {
+   "anycast": true,
+   "asn": "AS13335 Cloudflare, Inc.",
+   "ip": "104.26.8.28",
+   "org": "Cloudflare, Inc."
+  },
+  "http": 200,
+  "id": "marketerbrowser",
+  "kind": [
+   "browser"
+  ],
+  "last_checked": "2026-11-11",
+  "links": {
+   "pricing": "https://www.marketerbrowser.com/en/pricing/"
+  },
+  "name": "MarketerBrowser",
+  "note": "Version 1.0.3.6 (2026-06-05) added the 150 kernel.",
+  "online_since": "2018-04-17",
+  "open_source": false,
+  "platforms": [
+   "windows"
+  ],
+  "price": [
+   "Pro $29/month"
+  ],
+  "sources": [
+   "https://www.marketerbrowser.com/",
+   "https://www.marketerbrowser.com/en/pricing/"
+  ],
+  "status": "auto",
+  "website": "https://www.marketerbrowser.com/"
+ },
+ {
+  "cores": [
+   {
+    "engine": "chromium",
+    "version": "140"
+   }
+  ],
+  "created": "2020-07-20",
+  "engine": [
+   "chromium"
+  ],
+  "expires": "2029-07-20",
+  "free": "2 profiles",
+  "hosting": {
+   "asn": "AS4811 China Telecom (Group)",
+   "country": "China",
+   "flag": "🇨🇳",
+   "ip": "180.163.147.83",
+   "org": "Chinanet SH"
+  },
+  "http": 200,
+  "id": "mbbrowser",
+  "kind": [
+   "browser"
+  ],
+  "last_checked": "2026-11-11",
+  "links": {
+   "pricing": "https://www.mbbrowser.com/price",
+   "terms": "https://www.mbbrowser.com/terms"
+  },
+  "name": "MBBrowser (候鸟浏览器)",
+  "note": "The site names Chromium 129 and 140 fingerprint kernels. The company is not named on the pages read.",
+  "online_since": "2020-12-16",
+  "open_source": false,
+  "platforms": [
+   "windows"
+  ],
+  "price": [
+   "Personal ¥100/month (10 profiles)"
+  ],
+  "sources": [
+   "https://www.mbbrowser.com/",
+   "https://www.mbbrowser.com/price"
+  ],
+  "status": "auto",
+  "website": "https://www.mbbrowser.com/"
+ },
+ {
+  "android": [
+   "12",
+   "15"
+  ],
+  "created": "2022-09-23",
+  "engine": [
+   "chromium",
+   "firefox"
+  ],
+  "expires": "2027-09-23",
+  "free": "2 profiles, 2 users",
+  "hosting": {
+   "asn": "AS24429 Zhejiang Taobao Network Co.,Ltd",
+   "country": "Germany",
+   "flag": "🇩🇪",
+   "ip": "163.181.254.209",
+   "org": "Alibaba.com LLC"
+  },
+  "http": 200,
+  "id": "morelogin",
+  "kind": [
+   "browser",
+   "cloud-phone"
+  ],
+  "last_checked": "2026-11-11",
+  "law": "Singapore",
+  "links": {
+   "download": "https://www.morelogin.com/download",
+   "pricing": "https://www.morelogin.com/pricing",
+   "privacy": "https://www.morelogin.com/protocol/privacyservice/",
+   "terms": "https://www.morelogin.com/protocol/"
+  },
+  "name": "MoreLogin",
+  "note": "The terms and the privacy policy do not name the company.",
+  "online_since": "2022-11-13",
+  "open_source": false,
+  "platforms": [
+   "windows",
+   "macos",
+   "linux"
+  ],
+  "price": [
+   "$9/month (10 profiles)",
+   "cloud phone $0.006 a minute"
+  ],
+  "sources": [
+   "https://www.morelogin.com/",
+   "https://www.morelogin.com/protocol/",
+   "https://www.morelogin.com/pricing"
+  ],
+  "status": "auto",
+  "website": "https://www.morelogin.com/"
+ },
+ {
+  "country": "Hong Kong",
+  "created": "2024-06-25",
+  "engine": [
+   "chromium"
+  ],
+  "expires": "2027-06-25",
+  "flag": "🇭🇰",
+  "free": "5 profiles",
+  "hosting": {
+   "asn": "AS21859 Zenlayer Inc",
+   "country": "Germany",
+   "flag": "🇩🇪",
+   "ip": "185.207.114.90",
+   "org": "Zenlayer Inc"
+  },
+  "http": 200,
+  "id": "mostlogin",
+  "kind": [
+   "browser",
+   "cloud-phone"
+  ],
+  "last_checked": "2026-11-11",
+  "legal_entity": "HONGKONG SUPERSOFT TECHNOLOGY LIMITED",
+  "links": {
+   "download": "https://www.mostlogin.com/download",
+   "pricing": "https://www.mostlogin.com/pricing",
+   "privacy": "https://www.mostlogin.com/policy",
+   "terms": "https://www.mostlogin.com/agreement"
+  },
+  "name": "MostLogin",
+  "online_since": "2025-02-24",
+  "open_source": false,
+  "platforms": [
+   "windows",
+   "macos"
+  ],
+  "price": [
+   "Plus $3/month (20 profiles)"
+  ],
+  "sources": [
+   "https://www.mostlogin.com/agreement",
+   "https://www.mostlogin.com/pricing",
+   "https://www.mostlogin.com/"
+  ],
+  "status": "auto",
+  "website": "https://www.mostlogin.com/"
+ },
+ {
+  "created": "2021-09-01",
+  "expires": "2027-09-01",
+  "hosting": {
+   "asn": "AS37963 Hangzhou Alibaba Advertising Co.,Ltd.",
+   "country": "China",
+   "flag": "🇨🇳",
+   "ip": "118.178.234.83",
+   "org": "Aliyun Computing Co., LTD"
+  },
+  "http": 200,
+  "id": "mulogin",
+  "kind": [
+   "browser"
+  ],
+  "last_checked": "2026-11-11",
+  "links": {
+   "pricing": "https://www.mulogin.com/pricing.php?l=en",
+   "terms": "https://www.mulogin.com/terms-service.php?l=en"
+  },
+  "name": "MuLogin",
+  "note": "The company is not named on the pages read.",
+  "online_since": "2006-08-22",
+  "open_source": false,
+  "price": [
+   "$59/month (100 profiles)"
+  ],
+  "sources": [
+   "https://www.mulogin.com/terms-service.php?l=en",
+   "https://www.mulogin.com/pricing.php?l=en"
+  ],
+  "status": "auto",
+  "trial": "free trial, approved by hand",
+  "website": "https://www.mulogin.com/"
+ },
+ {
+  "android": [
+   "14",
+   "15",
+   "16"
+  ],
+  "cores": [
+   {
+    "engine": "chromium",
+    "name": "Mimic",
+    "version": "156"
+   },
+   {
+    "engine": "firefox",
+    "name": "Stealthfox",
+    "version": "146"
+   }
+  ],
+  "country": "United Arab Emirates",
+  "created": "2017-06-13",
+  "engine": [
+   "chromium",
+   "firefox"
+  ],
+  "expires": "2029-06-13",
+  "flag": "🇦🇪",
+  "free": "5 profiles, no time limit (since July 2026)",
+  "hosting": {
+   "anycast": true,
+   "asn": "AS13335 Cloudflare, Inc.",
+   "ip": "104.20.46.153",
+   "org": "Cloudflare, Inc."
+  },
+  "http": 200,
+  "id": "multilogin",
+  "kind": [
+   "browser",
+   "cloud-phone"
+  ],
+  "last_checked": "2026-11-11",
+  "law": "United Arab Emirates",
+  "legal_entity": "Eyes of Wonder Software LLC",
+  "links": {
+   "changelog": "https://multilogin.com/release-notes/",
+   "download": "https://multilogin.com/download/",
+   "pricing": "https://multilogin.com/pricing/",
+   "privacy": "https://multilogin.com/privacy-policy/",
+   "terms": "https://multilogin.com/terms-of-service/"
+  },
+  "name": "Multilogin",
+  "note": "Mimic got the 156 core on 2026-11-03. Stealthfox is legacy: the release notes say no new cores or fixes will come (last core 146, December 2025). Office address in Dubai.",
+  "online_since": "2008-06-02",
+  "open_source": false,
+  "price": [
+   "Pro $11/month"
+  ],
+  "sources": [
+   "https://multilogin.com/terms-of-service/",
+   "https://multilogin.com/privacy-policy/",
+   "https://multilogin.com/pricing/",
+   "https://multilogin.com/release-notes/",
+   "https://multilogin.com/"
+  ],
+  "status": "auto",
+  "website": "https://multilogin.com/"
+ },
+ {
+  "engine": [
+   "chromium"
+  ],
+  "free": "pay as you go ($0 a month)",
+  "hosting": {
+   "anycast": true,
+   "asn": "AS13335 Cloudflare, Inc.",
+   "ip": "104.26.10.221",
+   "org": "Cloudflare, Inc."
+  },
+  "http": 200,
+  "id": "nstbrowser",
+  "kind": [
+   "browser"
+  ],
+  "last_checked": "2026-11-11",
+  "legal_entity": "NST LABS TECH LTD.",
+  "links": {
+   "changelog": "https://www.nstbrowser.io/en/release-notes",
+   "download": "https://www.nstbrowser.io/en/download",
+   "pricing": "https://www.nstbrowser.io/en/pricing",
+   "privacy": "https://www.nstbrowser.io/en/policy/privacy",
+   "terms": "https://www.nstbrowser.io/en/policy/terms-conditions"
+  },
+  "name": "Nstbrowser",
+  "note": "The site footer names NST LABS TECH LTD., the terms name Nstbrowser LLC. Also sells a cloud browser.",
+  "online_since": "2023-12-31",
+  "open_source": false,
+  "platforms": [
+   "windows",
+   "macos"
+  ],
+  "sources": [
+   "https://www.nstbrowser.io/en/policy/privacy",
+   "https://www.nstbrowser.io/en/policy/terms-conditions",
+   "https://www.nstbrowser.io/en/pricing"
+  ],
+  "status": "auto",
+  "website": "https://www.nstbrowser.io/"
+ },
+ {
+  "alliance": 5,
+  "country": "United Kingdom",
+  "created": "2026-01-10",
+  "expires": "2027-01-10",
+  "flag": "🇬🇧",
+  "free": "5 profiles",
+  "hosting": {
+   "anycast": true,
+   "asn": "AS13335 Cloudflare, Inc.",
+   "ip": "172.67.153.17",
+   "org": "Cloudflare, Inc."
+  },
+  "http": 200,
+  "id": "nullprint",
+  "kind": [
+   "browser"
+  ],
+  "last_checked": "2026-11-11",
+  "law": "England and Wales",
+  "legal_entity": "Native Touch Ltd.",
+  "links": {
+   "download": "https://nullprint.net/downloads",
+   "pricing": "https://nullprint.net/pricing/",
+   "terms": "https://nullprint.net/terms/"
+  },
+  "name": "NullPrint",
+  "note": "Also emulates Android browser profiles.",
+  "online_since": "2026-04-07",
+  "open_source": false,
+  "platforms": [
+   "windows",
+   "macos"
+  ],
+  "price": [
+   "$9/month"
+  ],
+  "sources": [
+   "https://nullprint.net/terms/",
+   "https://nullprint.net/pricing/",
+   "https://nullprint.net/"
+  ],
+  "status": "auto",
+  "trial": "7 days",
+  "website": "https://nullprint.net/"
+ },
+ {
+  "alliance": 5,
+  "country": "United Kingdom",
+  "created": "2020-11-23",
+  "domains": [
+   "octobrowser.org"
+  ],
+  "engine": [
+   "chromium"
+  ],
+  "expires": "2033-11-23",
+  "flag": "🇬🇧",
+  "free": "no",
+  "hosting": {
+   "anycast": true,
+   "asn": "AS209242 Cloudflare London, LLC",
+   "ip": "199.60.103.97",
+   "org": "HubSpot, Inc."
+  },
+  "http": 200,
+  "id": "octo-browser",
+  "kind": [
+   "browser"
+  ],
+  "last_checked": "2026-11-11",
+  "legal_entity": "BLACKBIRD SECURE BROWSING LTD",
+  "links": {
+   "download": "https://octobrowser.org/download/",
+   "pricing": "https://octobrowser.net/pricing/",
+   "privacy": "https://octobrowser.net/privacy-policy/",
+   "terms": "https://octobrowser.net/terms/"
+  },
+  "name": "Octo Browser",
+  "note": "Address: London. EU representative: FINWIN TECHNOLOGIES Sp. z o.o. (Białystok, Poland). The core version is not published on the site.",
+  "online_since": "2021-02-18",
+  "open_source": false,
+  "platforms": [
+   "windows",
+   "macos",
+   "linux"
+  ],
+  "price": [
+   "Lite €10/month (3 profiles)",
+   "Starter €29/month (10 profiles)"
+  ],
+  "sources": [
+   "https://octobrowser.net/",
+   "https://octobrowser.net/privacy-policy/",
+   "https://octobrowser.net/pricing/",
+   "https://octobrowser.org/download/"
+  ],
+  "status": "auto",
+  "website": "https://octobrowser.net/"
+ },
+ {
+  "created": "2024-11-07",
+  "engine": [
+   "chromium"
+  ],
+  "expires": "2027-11-07",
+  "free": "2 profiles",
+  "hosting": {
+   "asn": "AS45090 Shenzhen Tencent Computer Systems Company Limited",
+   "country": "China",
+   "flag": "🇨🇳",
+   "ip": "119.91.50.201",
+   "org": "Tencent cloud computing (Beijing) Co., Ltd."
+  },
+  "http": 200,
+  "id": "okbrowser",
+  "kind": [
+   "browser"
+  ],
+  "last_checked": "2026-11-11",
+  "name": "OKBrowser",
+  "note": "Chinese-language site. The company is not named on the pages read.",
+  "online_since": "2024-11-19",
+  "open_source": false,
+  "platforms": [
+   "windows"
+  ],
+  "sources": [
+   "https://okbrow.com/",
+   "https://github.com/zhaotoday/fingerprint-browser"
+  ],
+  "status": "pending",
+  "website": "https://okbrow.com/"
+ },
+ {
+  "cores": [
+   {
+    "engine": "chromium",
+    "version": "156"
+   }
+  ],
+  "country": "Singapore",
+  "created": "2024-07-05",
+  "engine": [
+   "chromium"
+  ],
+  "expires": "2029-07-05",
+  "flag": "🇸🇬",
+  "free": "2 profiles",
+  "hosting": {
+   "asn": "AS45102 Alibaba (US) Technology Co., Ltd.",
+   "country": "Hong Kong",
+   "flag": "🇭🇰",
+   "ip": "8.217.98.238",
+   "org": "Alibaba.com Singapore E-Commerce Private Limited"
+  },
+  "http": 200,
+  "id": "roxybrowser",
+  "kind": [
+   "browser"
+  ],
+  "last_checked": "2026-11-11",
+  "law": "Singapore",
+  "legal_entity": "LINKV TECH PTE. LTD.",
+  "links": {
+   "changelog": "https://roxybrowser.com/changelog",
+   "download": "https://roxybrowser.com/download",
+   "pricing": "https://roxybrowser.com/pricing",
+   "privacy": "https://roxybrowser.com/copyright/privacy",
+   "terms": "https://roxybrowser.com/copyright/user"
+  },
+  "name": "RoxyBrowser",
+  "note": "Chromium 156 kernel update on 2026-11-11.",
+  "online_since": "2024-12-31",
+  "open_source": false,
+  "platforms": [
+   "windows",
+   "macos",
+   "linux"
+  ],
+  "sources": [
+   "https://roxybrowser.com/copyright/privacy",
+   "https://roxybrowser.com/copyright/user",
+   "https://roxybrowser.com/changelog",
+   "https://roxybrowser.com/download"
+  ],
+  "status": "auto",
+  "website": "https://roxybrowser.com/"
+ },
+ {
+  "alliance": 5,
+  "cores": [
+   {
+    "engine": "chromium",
+    "version": "150"
+   }
+  ],
+  "country": "United States",
+  "created": "2021-03-29",
+  "engine": [
+   "chromium"
+  ],
+  "expires": "2027-03-29",
+  "flag": "🇺🇸",
+  "free": "no",
+  "hosting": {
+   "anycast": true,
+   "asn": "AS13335 Cloudflare, Inc.",
+   "ip": "104.21.52.68",
+   "org": "Cloudflare, Inc."
+  },
+  "http": 200,
+  "id": "sendwin",
+  "kind": [
+   "browser"
+  ],
+  "last_checked": "2026-11-11",
+  "law": "Wyoming, United States",
+  "legal_entity": "Sendwin LLC",
+  "links": {
+   "changelog": "https://latest.send.win/",
+   "download": "https://send.win/download/",
+   "pricing": "https://send.win/pricing/",
+   "terms": "https://send.win/terms-and-conditions/"
+  },
+  "name": "Sendwin",
+  "note": "Desktop app and cloud browser. No free trial, 7-day money-back guarantee. Version 0.6 (July 2026) moved to Chromium 150 (changelog as archived on 2026-10-15). Address: Sheridan, Wyoming.",
+  "online_since": "2021-05-03",
+  "open_source": false,
+  "platforms": [
+   "windows",
+   "macos",
+   "linux",
+   "web"
+  ],
+  "price": [
+   "Pro $19/month"
+  ],
+  "sources": [
+   "https://send.win/",
+   "https://send.win/pricing/",
+   "https://web.archive.org/web/20261015070327/https://latest.send.win/"
+  ],
+  "status": "auto",
+  "website": "https://send.win/"
+ },
+ {
+  "cores": [
+   {
+    "engine": "chromium",
+    "version": "157"
+   }
+  ],
+  "created": "2026-05-27",
+  "engine": [
+   "chromium"
+  ],
+  "expires": "2027-05-27",
+  "free": "free",
+  "hosting": {
+   "anycast": true,
+   "asn": "AS13335 Cloudflare, Inc.",
+   "ip": "172.67.202.62",
+   "org": "Cloudflare, Inc."
+  },
+  "http": 200,
+  "id": "shardbrowser",
+  "kind": [
+   "browser"
+  ],
+  "last_checked": "2026-11-11",
+  "license": "MIT",
+  "name": "ShardBrowser",
+  "note": "The launcher is open source; it ships a patched Chromium 157 build. By the ShardX team (formerly ProxyShard), a proxy provider.",
+  "open_source": true,
+  "pushed": "2026-11-10",
+  "release": {
+   "date": "2026-11-10",
+   "version": "v2.1.5"
+  },
+  "repo": "https://github.com/ProxyShard/ShardBrowser",
+  "sources": [
+   "https://github.com/ProxyShard/ShardBrowser"
+  ],
+  "stars": 1482,
+  "status": "auto",
+  "website": "https://shardbrowser.com/"
+ },
+ {
+  "engine": [
+   "chromium"
+  ],
+  "hosting": {
+   "asn": "AS197695 \"Domain names registrar REG.RU\", Ltd",
+   "country": "Russia",
+   "flag": "🇷🇺",
+   "ip": "95.163.235.149",
+   "org": "\"Domain names registrar REG.RU\", Ltd"
+  },
+  "http": 200,
+  "id": "switch-antidetect",
+  "kind": [
+   "browser"
+  ],
+  "last_checked": "2026-11-11",
+  "name": "Switch Antidetect",
+  "note": "Russian-language site.",
+  "open_source": false,
+  "sources": [
+   "https://switch.mybot.su/",
+   "https://github.com/TheGP/untidetect-tools"
+  ],
+  "status": "pending",
+  "website": "https://switch.mybot.su/"
+ },
+ {
+  "cores": [
+   {
+    "engine": "chromium",
+    "version": "157"
+   }
+  ],
+  "country": "Cyprus",
+  "engine": [
+   "chromium"
+  ],
+  "flag": "🇨🇾",
+  "free": "5 cloud profiles",
+  "hosting": {
+   "anycast": true,
+   "asn": "AS13335 Cloudflare, Inc.",
+   "ip": "172.66.153.237",
+   "org": "Cloudflare, Inc."
+  },
+  "http": 200,
+  "id": "undetectable",
+  "kind": [
+   "browser"
+  ],
+  "last_checked": "2026-11-11",
+  "legal_entity": "MOBICO SERVICES LTD.",
+  "links": {
+   "changelog": "https://undetectable.io/changelog/",
+   "download": "https://undetectable.io/download/",
+   "pricing": "https://undetectable.io/pricing/",
+   "privacy": "https://undetectable.io/privacy-policy/",
+   "terms": "https://undetectable.io/terms-of-service/"
+  },
+  "name": "Undetectable",
+  "note": "Address: Nicosia. Version 2.53.0 (2026-11-10) moved to the Chromium 157 core.",
+  "open_source": false,
+  "platforms": [
+   "windows",
+   "macos"
+  ],
+  "price": [
+   "Base $34/month (50 cloud profiles, unlimited local)"
+  ],
+  "sources": [
+   "https://undetectable.io/",
+   "https://undetectable.io/pricing/",
+   "https://undetectable.io/changelog/",
+   "https://undetectable.io/download/"
+  ],
+  "status": "auto",
+  "website": "https://undetectable.io/"
+ },
+ {
+  "alliance": 9,
+  "country": "Netherlands",
+  "created": "2020-05-25",
+  "expires": "2027-05-25",
+  "flag": "🇳🇱",
+  "free": "free plan; checks are paid per use",
+  "hosting": {
+   "asn": "AS9009 M247 Europe SRL",
+   "country": "Serbia",
+   "flag": "🇷🇸",
+   "ip": "38.244.190.94",
+   "org": "3NT SOLUTIONS LLP"
+  },
+  "http": 200,
+  "id": "detect-expert",
+  "kind": [
+   "browser"
+  ],
+  "last_checked": "2026-11-11",
+  "legal_entity": "Vektor T13 Technologies B.V.",
+  "links": {
+   "pricing": "https://detect.expert/plans/",
+   "privacy": "https://detect.expert/legal/privacy-policy/",
+   "terms": "https://detect.expert/legal/"
+  },
+  "name": "Vektor T13 Antidetect (Detect Expert)",
+  "note": "An antidetect system based on virtual machines, sold with IP and fraud-score checkers. Address: Rotterdam.",
+  "open_source": false,
+  "sources": [
+   "https://detect.expert/",
+   "https://detect.expert/legal/privacy-policy/",
+   "https://detect.expert/plans/"
+  ],
+  "status": "auto",
+  "website": "https://detect.expert/"
+ },
+ {
+  "created": "2023-04-25",
+  "engine": [
+   "chromium"
+  ],
+  "expires": "2027-04-25",
+  "free": "free",
+  "hosting": {
+   "asn": "AS139659 LUCIDACLOUD LIMITED",
+   "country": "United Kingdom",
+   "flag": "🇬🇧",
+   "ip": "45.152.67.108",
+   "org": "Zhihua Lu"
+  },
+  "http": 200,
+  "id": "virtualbrowser",
+  "kind": [
+   "browser"
+  ],
+  "last_checked": "2026-11-11",
+  "license": "BSD-3-Clause",
+  "name": "VirtualBrowser",
+  "note": "Chinese-language project.",
+  "open_source": true,
+  "platforms": [
+   "windows",
+   "macos",
+   "linux"
+  ],
+  "pushed": "2026-10-16",
+  "release": {
+   "date": "2026-10-16",
+   "version": "2.4.0"
+  },
+  "repo": "https://github.com/Virtual-Browser/VirtualBrowser",
+  "sources": [
+   "https://github.com/Virtual-Browser/VirtualBrowser"
+  ],
+  "stars": 3272,
+  "status": "auto",
+  "website": "https://virtualbrowser.cc/"
+ },
+ {
+  "created": "2022-04-28",
+  "engine": [
+   "chromium"
+  ],
+  "expires": "2027-04-28",
+  "free": "no",
+  "hosting": {
+   "asn": "AS16509 Amazon.com, Inc.",
+   "country": "United States",
+   "flag": "🇺🇸",
+   "ip": "216.150.1.1",
+   "org": "Vercel, Inc"
+  },
+  "http": 200,
+  "id": "vision",
+  "kind": [
+   "browser"
+  ],
+  "last_checked": "2026-11-11",
+  "law": "United Kingdom",
+  "legal_entity": "Emperat Solutions Ltd",
+  "links": {
+   "download": "https://browser.vision/download",
+   "privacy": "https://browser.vision/privacy",
+   "terms": "https://browser.vision/tos"
+  },
+  "name": "Vision",
+  "note": "Offers a \"Safari core\" next to Chrome; the site does not say what engine it is built on.",
+  "open_source": false,
+  "platforms": [
+   "windows",
+   "macos",
+   "linux"
+  ],
+  "sources": [
+   "https://browser.vision/",
+   "https://browser.vision/tos",
+   "https://browser.vision/privacy"
+  ],
+  "status": "auto",
+  "trial": "4 days",
+  "website": "https://browser.vision/"
+ },
+ {
+  "free": "no",
+  "hosting": {
+   "anycast": true,
+   "asn": "AS13335 Cloudflare, Inc.",
+   "ip": "188.114.97.3",
+   "org": "CloudFlare, Inc."
+  },
+  "http": 200,
+  "id": "vmlogin",
+  "kind": [
+   "browser"
+  ],
+  "last_checked": "2026-11-11",
+  "legal_entity": "Rainbow Ads Inc",
+  "links": {
+   "imprint": "https://www.vmlogin.us/about.html",
+   "pricing": "https://www.vmlogin.us/pricing.html",
+   "terms": "https://www.vmlogin.us/terms-service.html"
+  },
+  "name": "VMLogin",
+  "open_source": false,
+  "platforms": [
+   "windows"
+  ],
+  "price": [
+   "Solo $99/month"
+  ],
+  "sources": [
+   "https://www.vmlogin.us/about.html",
+   "https://www.vmlogin.us/pricing.html"
+  ],
+  "status": "auto",
+  "trial": "3 days",
+  "website": "https://www.vmlogin.us/"
+ },
+ {
+  "country": "Hong Kong",
+  "created": "2024-04-03",
+  "expires": "2027-04-03",
+  "flag": "🇭🇰",
+  "hosting": {
+   "asn": "AS139341 ACE",
+   "country": "Singapore",
+   "flag": "🇸🇬",
+   "ip": "43.174.196.248",
+   "org": "ACE"
+  },
+  "http": 200,
+  "id": "vmos-cloud",
+  "kind": [
+   "cloud-phone"
+  ],
+  "last_checked": "2026-11-11",
+  "legal_entity": "Minical International Limited",
+  "links": {
+   "download": "https://www.vmoscloud.com/download",
+   "imprint": "https://www.vmoscloud.com/about",
+   "pricing": "https://www.vmoscloud.com/price",
+   "privacy": "https://www.vmoscloud.com/tos/privacy-policy.html"
+  },
+  "name": "VMOS Cloud",
+  "note": "Minical International Limited (founded 2019, Hong Kong address) also runs ArmCloud, a cloud Android platform for companies.",
+  "open_source": false,
+  "platforms": [
+   "windows",
+   "macos",
+   "android",
+   "ios",
+   "web"
+  ],
+  "price": [
+   "billed by the minute, at most US$1 a day per phone"
+  ],
+  "sources": [
+   "https://www.vmoscloud.com/about",
+   "https://www.vmoscloud.com/price",
+   "https://www.armcloud.net/about/"
+  ],
+  "status": "auto",
+  "website": "https://www.vmoscloud.com/"
+ },
+ {
+  "cores": [
+   {
+    "engine": "chromium",
+    "version": "156"
+   }
+  ],
+  "created": "2023-07-28",
+  "engine": [
+   "chromium"
+  ],
+  "hosting": {
+   "anycast": true,
+   "asn": "AS13335 Cloudflare, Inc.",
+   "ip": "172.67.168.161",
+   "org": "Cloudflare, Inc."
+  },
+  "http": 200,
+  "id": "wade-x",
+  "kind": [
+   "browser"
+  ],
+  "last_checked": "2026-11-11",
+  "links": {
+   "download": "https://wade.is/download",
+   "pricing": "https://wade.is/pricing",
+   "privacy": "https://wade.is/privacy",
+   "terms": "https://wade.is/terms"
+  },
+  "name": "Wade X",
+  "note": "The company is not named on the pages read.",
+  "open_source": false,
+  "platforms": [
+   "windows",
+   "macos"
+  ],
+  "price": [
+   "Mini $30/month"
+  ],
+  "sources": [
+   "https://wade.is/",
+   "https://wade.is/pricing",
+   "https://wade.is/download"
+  ],
+  "status": "auto",
+  "trial": "7 days",
+  "website": "https://wade.is/"
+ },
+ {
+  "created": "2023-10-18",
+  "expires": "2027-10-18",
+  "hosting": {
+   "anycast": true,
+   "asn": "AS16509 Amazon.com, Inc.",
+   "ip": "76.223.67.189",
+   "org": "AWS Global Accelerator (GLOBAL)"
+  },
+  "http": 200,
+  "id": "whologin",
+  "kind": [
+   "browser"
+  ],
+  "last_checked": "2026-11-11",
+  "name": "Whologin",
+  "note": "The site returned an empty page on 2026-11-11.",
+  "open_source": false,
+  "sources": [
+   "https://github.com/TheGP/untidetect-tools"
+  ],
+  "status": "pending",
+  "website": "https://whologin.com/"
+ },
+ {
+  "country": "China",
+  "created": "2021-11-20",
+  "expires": "2027-11-20",
+  "flag": "🇨🇳",
+  "free": "10 profiles",
+  "hosting": {
+   "asn": "AS139341 ACE",
+   "country": "Germany",
+   "flag": "🇩🇪",
+   "ip": "43.152.26.209"
+  },
+  "http": 200,
+  "id": "yunlogin",
+  "kind": [
+   "browser"
+  ],
+  "last_checked": "2026-11-11",
+  "legal_entity": "杭州辰链信息科技有限公司",
+  "links": {
+   "imprint": "https://www.yunlogin.com/about",
+   "pricing": "https://www.yunlogin.com/price"
+  },
+  "name": "Yunlogin (云登)",
+  "note": "Device networks (proxies) are sold separately.",
+  "online_since": "2018-08-07",
+  "open_source": false,
+  "price": [
+   "¥41.70/month (30 profiles)"
+  ],
+  "sources": [
+   "https://www.yunlogin.com/about",
+   "https://www.yunlogin.com/price"
+  ],
+  "status": "auto",
+  "website": "https://www.yunlogin.com/"
+ },
+ {
+  "country": "China",
+  "created": "2007-11-14",
+  "expires": "2027-11-14",
+  "flag": "🇨🇳",
+  "hosting": {
+   "asn": "AS24429 Zhejiang Taobao Network Co.,Ltd",
+   "country": "Germany",
+   "flag": "🇩🇪",
+   "ip": "163.181.254.185",
+   "org": "Alibaba.com LLC"
+  },
+  "http": 200,
+  "id": "ziniao",
+  "kind": [
+   "browser"
+  ],
+  "last_checked": "2026-11-11",
+  "legal_entity": "紫讯技术（福建）股份有限公司",
+  "links": {
+   "imprint": "https://www.ziniao.com/about/",
+   "pricing": "https://www.ziniao.com/pricing/"
+  },
+  "name": "Ziniao (紫鸟浏览器)",
+  "note": "Aimed at cross-border e-commerce sellers; sells the browser together with device networks.",
+  "online_since": "2004-11-10",
+  "open_source": false,
+  "sources": [
+   "https://www.ziniao.com/about/",
+   "https://github.com/zhaotoday/fingerprint-browser"
+  ],
+  "status": "auto",
+  "website": "https://www.ziniao.com/"
+ }
+]

@@ -1,0 +1,26 @@
+# antidetectDB product record; fields are described in data/README.md
+name: Camoufox
+kind: [browser]
+status: auto
+website: https://camoufox.com/
+engine: [firefox]
+cores:
+- {engine: firefox, version: '158'}
+platforms: [windows, macos, linux]
+open_source: true
+repo: https://github.com/daijro/camoufox
+license: MPL-2.0
+stars: 13192
+pushed: '2026-11-11'
+release: {version: v158.0.1-beta.41, date: '2026-10-29'}
+free: free
+note: Patched Firefox driven from Python (Playwright); the patches and the build are in the repository. Release v158.0.1-beta.41 (2026-10-29) is based on Firefox 158.
+created: '2024-10-16'
+expires: '2027-10-16'
+online_since: '2024-11-14'
+hosting: {ip: '188.114.97.3', anycast: true, asn: 'AS13335 Cloudflare, Inc.', org: 'CloudFlare, Inc.'}
+http: 200
+sources:
+- https://github.com/daijro/camoufox
+- https://camoufox.com/
+last_checked: '2026-11-11'

@@ -1,0 +1,24 @@
+# antidetectDB product record; fields are described in data/README.md
+name: Ghost Browser
+kind: [browser]
+status: auto
+website: https://ghostbrowser.com/
+legal_entity: Webatix, Inc.
+flag: 🇺🇸
+country: United States
+alliance: 5
+engine: [chromium]
+open_source: false
+free: '3 identities'
+note: 'A multi-session browser (identities with their own cookies and proxies) rather than a fingerprint changer. Address: Wheat Ridge, Colorado.'
+links:
+  terms: https://ghostbrowser.com/terms-of-use/
+  pricing: https://ghostbrowser.com/upgrade/
+created: '2015-04-14'
+expires: '2027-04-14'
+hosting: {ip: '3.224.35.92', flag: 🇺🇸, country: United States, asn: 'AS14618 Amazon.com, Inc.', org: AWS EC2 (us-east-1)}
+http: 200
+sources:
+- https://ghostbrowser.com/terms-of-use/
+- https://ghostbrowser.com/upgrade/
+last_checked: '2026-11-11'

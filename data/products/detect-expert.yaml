@@ -1,0 +1,25 @@
+# antidetectDB product record; fields are described in data/README.md
+name: Vektor T13 Antidetect (Detect Expert)
+kind: [browser]
+status: auto
+website: https://detect.expert/
+legal_entity: Vektor T13 Technologies B.V.
+flag: 🇳🇱
+country: Netherlands
+alliance: 9
+open_source: false
+free: free plan; checks are paid per use
+note: 'An antidetect system based on virtual machines, sold with IP and fraud-score checkers. Address: Rotterdam.'
+links:
+  terms: https://detect.expert/legal/
+  privacy: https://detect.expert/legal/privacy-policy/
+  pricing: https://detect.expert/plans/
+created: '2020-05-25'
+expires: '2027-05-25'
+hosting: {ip: '38.244.190.94', flag: 🇷🇸, country: Serbia, asn: AS9009 M247 Europe SRL, org: '3NT SOLUTIONS LLP'}
+http: 200
+sources:
+- https://detect.expert/
+- https://detect.expert/legal/privacy-policy/
+- https://detect.expert/plans/
+last_checked: '2026-11-11'

@@ -1,0 +1,14 @@
+# antidetectDB product record; fields are described in data/README.md
+name: AntidetectFirefox (Vektor T13)
+kind: [browser]
+status: auto
+dead: true
+engine: [firefox]
+open_source: true
+repo: https://github.com/vektort13/AntidetectFirefox
+stars: 92
+pushed: '2020-07-17'
+note: 'Archived: the repository says the project is not maintained (last change 2020).'
+sources:
+- https://github.com/vektort13/AntidetectFirefox
+last_checked: '2026-11-11'

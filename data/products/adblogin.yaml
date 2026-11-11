@@ -1,0 +1,20 @@
+# antidetectDB product record; fields are described in data/README.md
+name: ADBLogin
+kind: [browser]
+status: pending
+website: https://adblogin.com/
+law: Vietnam
+open_source: false
+note: Calls itself a free "Social Account Manager". The company is not named on the pages read.
+links:
+  terms: https://adblogin.com/terms-and-conditions/
+created: '2024-05-28'
+expires: '2030-05-28'
+online_since: '2024-05-29'
+hosting: {ip: '104.21.3.107', anycast: true, asn: 'AS13335 Cloudflare, Inc.', org: 'Cloudflare, Inc.'}
+http: 200
+sources:
+- https://adblogin.com/
+- https://adblogin.com/terms-and-conditions/
+- https://github.com/TheGP/untidetect-tools
+last_checked: '2026-11-11'

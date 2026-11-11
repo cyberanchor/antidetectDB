@@ -1,0 +1,4 @@
+# Current stable releases of the upstream browsers, the yardstick for the core lag on the site and in
+# the README. Written by tools/upstream.py; do not edit by hand.
+chrome: {version: '157.0.8103.51', date: '2026-11-11', source: 'https://versionhistory.googleapis.com/v1/chrome/platforms/win/channels/stable/versions/all/releases?filter=endtime=none'}
+firefox: {version: '160.0', esr: '153.7.0esr', date: '2026-11-11', source: 'https://product-details.mozilla.org/1.0/firefox_versions.json'}

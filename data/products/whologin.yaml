@@ -1,0 +1,14 @@
+# antidetectDB product record; fields are described in data/README.md
+name: Whologin
+kind: [browser]
+status: pending
+website: https://whologin.com/
+open_source: false
+note: The site returned an empty page on 2026-11-11.
+created: '2023-10-18'
+expires: '2027-10-18'
+hosting: {ip: '76.223.67.189', anycast: true, asn: 'AS16509 Amazon.com, Inc.', org: AWS Global Accelerator (GLOBAL)}
+http: 200
+sources:
+- https://github.com/TheGP/untidetect-tools
+last_checked: '2026-11-11'

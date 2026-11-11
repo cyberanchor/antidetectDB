@@ -1,0 +1,23 @@
+{{- define "main" }}
+{{- $d := partialCached "adb/data.html" . "adb" }}
+{{- $up := partialCached "adb/upstream.html" . "adb-up" }}
+{{- $checked := slice }}{{ range $d }}{{ with .checked }}{{ $checked = $checked | append . }}{{ end }}{{ end }}
+{{- $countries := slice }}{{ range $d }}{{ with .country }}{{ $countries = $countries | append . }}{{ end }}{{ end }}
+<section class="adb-intro">
+  <h1>{{ .Params.headline }}</h1>
+  <p class="adb-lead">{{ .Params.lead }}</p>
+  <p class="adb-stats">
+    <b>{{ len $d }}</b> products
+    · <a href="#kind=browser" data-adb-set="kind=browser"><b>{{ len (where $d "isBrowser" true) }}</b> browsers</a>
+    · <a href="#kind=cloud-phone" data-adb-set="kind=cloud-phone"><b>{{ len (where $d "isPhone" true) }}</b> with cloud phones</a>
+    · <a href="#src=open" data-adb-set="src=open"><b>{{ len (where $d "src" "open") }}</b> open source</a>
+    · <a href="#entity=named" data-adb-set="entity=named"><b>{{ len (where $d "legal" "ne" "") }}</b> name their company</a>
+    · <b>{{ len ($countries | uniq) }}</b> countries
+    · current Chrome <b>{{ $up.chrome }}</b>, Firefox <b>{{ $up.firefox }}</b> (ESR {{ $up.esr }})
+    {{- with $checked }} · last check <b>{{ index (sort . "value" "desc") 0 }}</b>{{ end }}
+  </p>
+</section>
+{{ partial "adb/table.html" . }}
+{{ partial "adb/legend.html" . }}
+{{- partial "adb/exports.html" . }}
+{{- end }}

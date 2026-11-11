@@ -1,0 +1,22 @@
+# antidetectDB product record; fields are described in data/README.md
+name: Ziniao (紫鸟浏览器)
+kind: [browser]
+status: auto
+website: https://www.ziniao.com/
+legal_entity: 紫讯技术（福建）股份有限公司
+flag: 🇨🇳
+country: China
+open_source: false
+note: Aimed at cross-border e-commerce sellers; sells the browser together with device networks.
+links:
+  imprint: https://www.ziniao.com/about/
+  pricing: https://www.ziniao.com/pricing/
+created: '2007-11-14'
+expires: '2027-11-14'
+online_since: '2004-11-10'
+hosting: {ip: '163.181.254.185', flag: 🇩🇪, country: Germany, asn: 'AS24429 Zhejiang Taobao Network Co.,Ltd', org: Alibaba.com LLC}
+http: 200
+sources:
+- https://www.ziniao.com/about/
+- https://github.com/zhaotoday/fingerprint-browser
+last_checked: '2026-11-11'

@@ -1,0 +1,31 @@
+# antidetectDB product record; fields are described in data/README.md
+name: BitBrowser
+kind: [browser, cloud-phone]
+status: auto
+website: https://www.bitbrowser.net/
+legal_entity: HongKong Bit-Internet Technology Limited
+flag: 🇭🇰
+country: Hong Kong
+law: China
+engine: [chromium, firefox]
+platforms: [windows, macos]
+open_source: false
+free: '10 profiles'
+price:
+- $10/month (50 profiles, 2 users)
+note: 'The privacy policy is governed by the law of the People''s Republic of China. Chinese site: bitbrowser.cn.'
+links:
+  terms: https://www.bitbrowser.net/agreement
+  privacy: https://www.bitbrowser.net/policy
+  pricing: https://www.bitbrowser.net/price
+  download: https://www.bitbrowser.net/download
+created: '2021-08-06'
+expires: '2029-08-06'
+online_since: '2017-06-03'
+hosting: {ip: '185.207.114.89', flag: 🇩🇪, country: Germany, asn: AS21859 Zenlayer Inc, org: Zenlayer Inc}
+http: 200
+sources:
+- https://www.bitbrowser.net/agreement
+- https://www.bitbrowser.net/policy
+- https://www.bitbrowser.net/price
+last_checked: '2026-11-11'

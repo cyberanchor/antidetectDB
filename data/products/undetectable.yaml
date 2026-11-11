@@ -1,0 +1,31 @@
+# antidetectDB product record; fields are described in data/README.md
+name: Undetectable
+kind: [browser]
+status: auto
+website: https://undetectable.io/
+legal_entity: MOBICO SERVICES LTD.
+flag: 🇨🇾
+country: Cyprus
+engine: [chromium]
+cores:
+- {engine: chromium, version: '157'}
+platforms: [windows, macos]
+open_source: false
+free: '5 cloud profiles'
+price:
+- Base $34/month (50 cloud profiles, unlimited local)
+note: 'Address: Nicosia. Version 2.53.0 (2026-11-10) moved to the Chromium 157 core.'
+links:
+  terms: https://undetectable.io/terms-of-service/
+  privacy: https://undetectable.io/privacy-policy/
+  pricing: https://undetectable.io/pricing/
+  download: https://undetectable.io/download/
+  changelog: https://undetectable.io/changelog/
+hosting: {ip: '172.66.153.237', anycast: true, asn: 'AS13335 Cloudflare, Inc.', org: 'Cloudflare, Inc.'}
+http: 200
+sources:
+- https://undetectable.io/
+- https://undetectable.io/pricing/
+- https://undetectable.io/changelog/
+- https://undetectable.io/download/
+last_checked: '2026-11-11'

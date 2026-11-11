@@ -1,0 +1,37 @@
+{{- /* Downloads next to the pages, published as files (so --minify leaves them as written). Called once from the
+       home page.
+         products.json  the records as they are in data/products/, with their id, sorted by name
+         products.csv   one row per product, every field quoted; lists joined with ";", cores as "name engine version"
+*/ -}}
+{{- $d := partialCached "adb/data.html" . "adb" -}}
+{{- $recs := slice -}}
+{{- range $d -}}{{- $recs = $recs | append (merge (dict "id" .id) .rec) -}}{{- end -}}
+{{- (resources.FromString "products.json" (printf "%s\n" (jsonify (dict "indent" " " "noHTMLEscape" true) $recs))).Publish -}}
+
+{{- $cols := slice "id" "name" "kind" "status" "dead" "website" "legal_entity" "flag" "country" "alliance" "law"
+  "engine" "cores" "core_lag" "platforms" "android" "open_source" "repo" "license" "stars" "pushed" "free" "trial"
+  "price" "created" "online_since" "http" "last_checked" -}}
+{{- $q := slice -}}
+{{- range $cols -}}{{- $q = $q | append (printf "%q" .) -}}{{- end -}}
+{{- $lines := slice (delimit $q ",") -}}
+{{- range $s := $d -}}
+  {{- $r := $s.rec -}}
+  {{- $cells := slice -}}
+  {{- range $cols -}}
+    {{- $v := "" -}}
+    {{- if eq . "id" -}}{{- $v = $s.id -}}
+    {{- else if eq . "cores" -}}
+      {{- $cs := slice -}}{{- range $s.cores -}}{{- $cs = $cs | append (trim (printf "%s %s %s" .name .engine .version) " ") -}}{{- end -}}
+      {{- $v = delimit $cs ";" -}}
+    {{- else if eq . "core_lag" -}}
+      {{- $cs := slice -}}{{- range $s.cores -}}{{- $cs = $cs | append (cond .esr "ESR" (cond (ge .lag 0) (string .lag) "")) -}}{{- end -}}
+      {{- $v = delimit $cs ";" -}}
+    {{- else -}}
+      {{- $x := index $r . -}}
+      {{- if reflect.IsSlice $x -}}{{- $v = delimit $x ";" -}}{{- else if ne $x nil -}}{{- $v = string $x -}}{{- end -}}
+    {{- end -}}
+    {{- $cells = $cells | append (printf "\"%s\"" (replace $v "\"" "\"\"")) -}}
+  {{- end -}}
+  {{- $lines = $lines | append (delimit $cells ",") -}}
+{{- end -}}
+{{- (resources.FromString "products.csv" (printf "%s\n" (delimit $lines "\n"))).Publish -}}

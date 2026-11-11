@@ -1,0 +1,22 @@
+# antidetectDB product record; fields are described in data/README.md
+name: MuLogin
+kind: [browser]
+status: auto
+website: https://www.mulogin.com/
+open_source: false
+trial: free trial, approved by hand
+price:
+- $59/month (100 profiles)
+note: The company is not named on the pages read.
+links:
+  terms: https://www.mulogin.com/terms-service.php?l=en
+  pricing: https://www.mulogin.com/pricing.php?l=en
+created: '2021-09-01'
+expires: '2027-09-01'
+online_since: '2006-08-22'
+hosting: {ip: '118.178.234.83', flag: 🇨🇳, country: China, asn: 'AS37963 Hangzhou Alibaba Advertising Co.,Ltd.', org: 'Aliyun Computing Co., LTD'}
+http: 200
+sources:
+- https://www.mulogin.com/terms-service.php?l=en
+- https://www.mulogin.com/pricing.php?l=en
+last_checked: '2026-11-11'

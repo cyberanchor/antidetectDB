@@ -1,0 +1,21 @@
+# antidetectDB product record; fields are described in data/README.md
+name: GenLogin
+kind: [browser, cloud-phone]
+status: auto
+website: https://genlogin.com/
+open_source: false
+price:
+- Mini Plus from $10/month
+note: The company is not named on the pages read.
+links:
+  terms: https://genlogin.com/sale-policy
+  privacy: https://genlogin.com/privacy-policy
+  pricing: https://genlogin.com/pricing
+created: '2021-12-25'
+expires: '2028-12-25'
+hosting: {ip: '104.26.6.158', anycast: true, asn: 'AS13335 Cloudflare, Inc.', org: 'Cloudflare, Inc.'}
+http: 200
+sources:
+- https://genlogin.com/
+- https://genlogin.com/pricing
+last_checked: '2026-11-11'

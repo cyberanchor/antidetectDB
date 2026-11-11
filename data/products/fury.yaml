@@ -1,0 +1,22 @@
+# antidetectDB product record; fields are described in data/README.md
+name: Fury Antidetect Browser
+kind: [browser]
+status: auto
+website: https://furyteamtop.github.io/fury-antidetect-browser/
+engine: [chromium]
+cores:
+- {engine: chromium, version: '157'}
+platforms: [windows, macos]
+open_source: true
+repo: https://github.com/furyteamtop/fury-antidetect-browser
+license: AGPL-3.0
+stars: 146
+pushed: '2026-11-10'
+release: {version: v0.5.3, date: '2026-11-10'}
+free: free
+note: In development. A Chromium 157 fork that changes the fingerprint in C++. macOS builds are signed and notarised (since 2026-09-21), Windows builds are not.
+hosting: {ip: '185.199.108.153', anycast: true, asn: 'AS54113 Fastly, Inc.', org: 'GitHub, Inc'}
+http: 200
+sources:
+- https://github.com/furyteamtop/fury-antidetect-browser
+last_checked: '2026-11-11'

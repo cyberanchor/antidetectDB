@@ -1,0 +1,41 @@
+# antidetectDB product record; fields are described in data/README.md
+name: AdsPower
+kind: [browser]
+status: auto
+website: https://www.adspower.com/
+legal_entity: SUNFLOWER TECH PTE. LTD.
+flag: 🇸🇬
+country: Singapore
+law: Singapore
+engine: [chromium, firefox]
+cores:
+- {name: SunBrowser, engine: chromium, version: '156'}
+- {name: FlowerBrowser, engine: firefox, version: '156'}
+platforms: [windows, macos, linux]
+open_source: false
+free: '2 profiles'
+price:
+- $0.90 per profile a month up to 10 profiles, less above
+- team members $5 each
+incidents:
+- date: '2025-01'
+  text: 'Supply-chain attack: a tampered crypto-wallet extension was served through AdsPower''s own extension distribution; about $4.7M was stolen from users'' wallets. AdsPower reported it to the authorities in Singapore.'
+  links: ['https://www.halborn.com/blog/post/explained-the-adspower-hack-january-2025', 'https://news.risky.biz/risky-bulletin-supply-chain-attack-at-adspower-browser-platform/']
+links:
+  terms: https://www.adspower.com/terms-of-use
+  privacy: https://www.adspower.com/privacy-policy
+  imprint: https://www.adspower.com/about-us
+  pricing: https://www.adspower.com/pricing
+  download: https://www.adspower.com/download
+created: '1995-12-20'
+expires: '2031-12-19'
+online_since: '1996-10-24'
+hosting: {ip: '13.35.58.110', anycast: true, asn: 'AS16509 Amazon.com, Inc.', org: AWS CloudFront (GLOBAL)}
+http: 200
+sources:
+- https://www.adspower.com/
+- https://www.adspower.com/about-us
+- https://www.adspower.com/terms-of-use
+- https://www.adspower.com/pricing
+- https://www.adspower.com/download
+last_checked: '2026-11-11'

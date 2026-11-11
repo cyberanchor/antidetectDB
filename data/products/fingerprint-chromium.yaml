@@ -1,0 +1,19 @@
+# antidetectDB product record; fields are described in data/README.md
+name: fingerprint-chromium
+kind: [browser]
+status: auto
+engine: [chromium]
+cores:
+- {engine: chromium, version: '150'}
+platforms: [windows, macos, linux]
+open_source: true
+repo: https://github.com/adryfish/fingerprint-chromium
+license: BSD-3-Clause
+stars: 3250
+pushed: '2026-10-02'
+release: {version: '150.0.7871.186', date: '2026-10-02'}
+free: free
+note: Based on Ungoogled Chromium; the source of each version is published after its build.
+sources:
+- https://github.com/adryfish/fingerprint-chromium
+last_checked: '2026-11-11'

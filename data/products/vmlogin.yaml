@@ -1,0 +1,22 @@
+# antidetectDB product record; fields are described in data/README.md
+name: VMLogin
+kind: [browser]
+status: auto
+website: https://www.vmlogin.us/
+legal_entity: Rainbow Ads Inc
+platforms: [windows]
+open_source: false
+free: 'no'
+trial: '3 days'
+price:
+- Solo $99/month
+links:
+  terms: https://www.vmlogin.us/terms-service.html
+  imprint: https://www.vmlogin.us/about.html
+  pricing: https://www.vmlogin.us/pricing.html
+hosting: {ip: '188.114.97.3', anycast: true, asn: 'AS13335 Cloudflare, Inc.', org: 'CloudFlare, Inc.'}
+http: 200
+sources:
+- https://www.vmlogin.us/about.html
+- https://www.vmlogin.us/pricing.html
+last_checked: '2026-11-11'

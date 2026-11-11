@@ -1,0 +1,37 @@
+# antidetectDB product record; fields are described in data/README.md
+name: Multilogin
+kind: [browser, cloud-phone]
+status: auto
+website: https://multilogin.com/
+legal_entity: Eyes of Wonder Software LLC
+flag: 🇦🇪
+country: United Arab Emirates
+law: United Arab Emirates
+engine: [chromium, firefox]
+cores:
+- {name: Mimic, engine: chromium, version: '156'}
+- {name: Stealthfox, engine: firefox, version: '146'}
+android: ['14', '15', '16']
+open_source: false
+free: '5 profiles, no time limit (since July 2026)'
+price:
+- Pro $11/month
+note: 'Mimic got the 156 core on 2026-11-03. Stealthfox is legacy: the release notes say no new cores or fixes will come (last core 146, December 2025). Office address in Dubai.'
+links:
+  terms: https://multilogin.com/terms-of-service/
+  privacy: https://multilogin.com/privacy-policy/
+  pricing: https://multilogin.com/pricing/
+  download: https://multilogin.com/download/
+  changelog: https://multilogin.com/release-notes/
+created: '2017-06-13'
+expires: '2029-06-13'
+online_since: '2008-06-02'
+hosting: {ip: '104.20.46.153', anycast: true, asn: 'AS13335 Cloudflare, Inc.', org: 'Cloudflare, Inc.'}
+http: 200
+sources:
+- https://multilogin.com/terms-of-service/
+- https://multilogin.com/privacy-policy/
+- https://multilogin.com/pricing/
+- https://multilogin.com/release-notes/
+- https://multilogin.com/
+last_checked: '2026-11-11'

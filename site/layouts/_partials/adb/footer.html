@@ -1,0 +1,12 @@
+{{- /* One line on every page: copyright, the no-referral rule, Hugo, author. */ -}}
+<footer class="adb-footer">
+  <span>&copy; {{ now.Year }} <a href="{{ site.Home.RelPermalink }}">{{ site.Title }}</a></span>
+  <span aria-hidden="true">·</span>
+  <span>No referral links, no paid placement</span>
+  <span aria-hidden="true">·</span>
+  <span>Built with <a href="https://gohugo.io/" rel="noopener">Hugo</a></span>
+  {{- with site.Params.author }}
+  <span aria-hidden="true">·</span>
+  <a href="{{ .url }}" rel="noopener author">{{ .name }}</a>
+  {{- end }}
+</footer>

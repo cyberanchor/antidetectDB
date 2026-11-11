@@ -1,0 +1,33 @@
+# antidetectDB product record; fields are described in data/README.md
+name: Kameleo
+kind: [browser]
+status: auto
+website: https://kameleo.io/
+legal_entity: Outis Nemo Ltd.
+flag: 🇭🇺
+country: Hungary
+engine: [chromium, firefox]
+cores:
+- {name: Chroma, engine: chromium, version: '157'}
+- {name: Junglefox, engine: firefox, version: '153'}
+platforms: [windows, macos]
+open_source: false
+free: '2 browsers at a time, 300 minutes a month, 100 cloud profiles'
+price:
+- Startup €59/month
+note: Billed by browsers running at the same time, not by profiles. Chroma 157 (Chromium 157.0.8103.27) came out on 2026-11-10. Registered office in Budapest, company number 01-09-303201.
+links:
+  terms: https://kameleo.io/terms-conditions
+  privacy: https://kameleo.io/privacy-policy
+  pricing: https://kameleo.io/pricing
+  download: https://kameleo.io/downloads
+  changelog: https://kameleo.io/browser-kernel-releases
+online_since: '2018-05-16'
+hosting: {ip: '198.202.211.1', anycast: true, asn: 'AS209242 Cloudflare London, LLC', org: 'Webflow, Inc'}
+http: 200
+sources:
+- https://kameleo.io/privacy-policy
+- https://kameleo.io/pricing
+- https://kameleo.io/browser-kernel-releases
+- https://kameleo.io/downloads
+last_checked: '2026-11-11'

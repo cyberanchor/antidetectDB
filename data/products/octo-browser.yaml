@@ -1,0 +1,34 @@
+# antidetectDB product record; fields are described in data/README.md
+name: Octo Browser
+kind: [browser]
+status: auto
+website: https://octobrowser.net/
+domains: [octobrowser.org]
+legal_entity: BLACKBIRD SECURE BROWSING LTD
+flag: 🇬🇧
+country: United Kingdom
+alliance: 5
+engine: [chromium]
+platforms: [windows, macos, linux]
+open_source: false
+free: 'no'
+price:
+- Lite €10/month (3 profiles)
+- Starter €29/month (10 profiles)
+note: 'Address: London. EU representative: FINWIN TECHNOLOGIES Sp. z o.o. (Białystok, Poland). The core version is not published on the site.'
+links:
+  terms: https://octobrowser.net/terms/
+  privacy: https://octobrowser.net/privacy-policy/
+  pricing: https://octobrowser.net/pricing/
+  download: https://octobrowser.org/download/
+created: '2020-11-23'
+expires: '2033-11-23'
+online_since: '2021-02-18'
+hosting: {ip: '199.60.103.97', anycast: true, asn: 'AS209242 Cloudflare London, LLC', org: 'HubSpot, Inc.'}
+http: 200
+sources:
+- https://octobrowser.net/
+- https://octobrowser.net/privacy-policy/
+- https://octobrowser.net/pricing/
+- https://octobrowser.org/download/
+last_checked: '2026-11-11'

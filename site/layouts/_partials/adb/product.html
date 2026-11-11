@@ -1,0 +1,119 @@
+{{- /* Body of one product page. The page context comes from the content adapter (Params.pid). */ -}}
+{{- $meta := partial "adb/meta.html" . -}}
+{{- $up := partialCached "adb/upstream.html" . "adb-up" -}}
+{{- $p := index (partialCached "adb/index.html" . "adb-index") .Params.pid -}}
+{{- if not $p -}}{{- errorf "adb/product: no record for %q" .Params.pid -}}{{- end -}}
+{{- $r := $p.rec -}}
+{{- $m := index $meta $p.state -}}
+{{- $home := site.Home.RelPermalink -}}
+{{- $links := $r.links | default dict -}}
+{{- $srcText := dict "open" "open source" "available" "source available" "closed" "closed source" -}}
+{{- $srcColor := dict "open" "green" "available" "yellow" "closed" "grey" -}}
+{{- $lagColor := dict "y" "green" "w" "yellow" "n" "red" "u" "none" -}}
+<article class="adb-product{{ if $p.dead }} adb-dead{{ end }}">
+  <nav class="adb-path" aria-label="Breadcrumb"><a href="{{ $home }}#products">products</a> / <span>{{ $p.name }}</span></nav>
+
+  <header class="adb-head">
+    <h1>{{ with $p.flag }}<span class="adb-flag" aria-hidden="true">{{ . }}</span> {{ end }}{{ if $p.dead }}<s>{{ $p.name }}</s>{{ else }}{{ $p.name }}{{ end }}</h1>
+    <p class="adb-badges">
+      <span class="adb-pill adb-{{ $m.color }}" title="{{ $m.long }}"><span class="adb-dot adb-{{ $m.color }}"></span>{{ $m.label }}</span>
+      {{- if $p.isBrowser }} <span class="adb-pill adb-blue">antidetect browser</span>{{ end }}
+      {{- if $p.isPhone }} <span class="adb-pill adb-purple">cloud phones</span>{{ end }}
+      {{- with $p.src }} {{ partial "adb/pill.html" (dict "text" (index $srcText .) "color" (index $srcColor .)) }}{{ end }}
+      {{- with $p.eyes }} {{ partial "adb/pill.html" (dict "text" (printf "%s Eyes" .) "color" $p.cEyes) }}{{ end }}
+    </p>
+    <p class="adb-actions">
+      {{- with $r.website }}<a class="adb-btn" href="{{ . }}" rel="noopener nofollow">Website ↗</a>{{ end }}
+      {{- with $r.repo }}<a class="adb-btn" href="{{ . }}" rel="noopener nofollow">Repository ↗</a>{{ end }}
+      {{- with $links.pricing }}<a class="adb-btn" href="{{ . }}" rel="noopener nofollow">Pricing ↗</a>{{ end }}
+      {{- with $links.download }}<a class="adb-btn" href="{{ . }}" rel="noopener nofollow">Download ↗</a>{{ end }}
+    </p>
+  </header>
+
+  {{- with $r.note }}
+  <p class="adb-card adb-notecard">{{ . }}</p>
+  {{- end }}
+
+  <div class="adb-grid">
+    <section class="adb-card" aria-labelledby="adb-s-company">
+      <h2 id="adb-s-company">Company</h2>
+      <dl class="adb-dl">
+        <div><dt>Legal entity</dt><dd>{{ $r.legal_entity | default "—" }}</dd></div>
+        <div><dt>Country</dt><dd>{{ with $p.flag }}{{ . }} {{ end }}{{ $p.country | default "—" }}</dd></div>
+        <div><dt>Alliance</dt><dd>{{ with $p.eyes }}{{ partial "adb/pill.html" (dict "text" (index (dict "5" "Five Eyes" "9" "Nine Eyes" "14" "Fourteen Eyes") .) "color" $p.cEyes) }}{{ else }}{{ if $p.country }}<span class="adb-na">not in the Fourteen Eyes</span>{{ else }}<span class="adb-na">—</span>{{ end }}{{ end }}</dd></div>
+        <div><dt>Terms governed by</dt><dd>{{ $r.law | default "—" }}</dd></div>
+        <div><dt>Website</dt><dd>{{ with $r.website }}<a href="{{ . }}" rel="noopener nofollow">{{ $p.host }}</a>{{ else }}—{{ end }}{{ with $r.http }} <span class="adb-na">HTTP {{ . }}</span>{{ end }}</dd></div>
+        <div><dt>Other domains</dt><dd>{{ range $r.domains }}<span class="adb-chip adb-mono">{{ . }}</span>{{ else }}—{{ end }}</dd></div>
+        <div><dt>Domain registered</dt><dd>{{ $r.created | default "—" }}{{ with $r.expires }} <span class="adb-na">(expires {{ . }})</span>{{ end }}</dd></div>
+        <div><dt>First seen</dt><dd>{{ with $r.online_since }}{{ . }} <span class="adb-na">(Wayback Machine)</span>{{ else }}—{{ end }}</dd></div>
+        <div><dt>Website hosting</dt><dd>{{ with $r.hosting }}{{ if .anycast }}<span class="adb-na" title="The address is announced from many places; it has no single country">anycast CDN</span>{{ else }}{{ with .flag }}{{ . }} {{ end }}{{ .country }}{{ end }}{{ with .asn }} · <span class="adb-mono">{{ . }}</span>{{ end }}{{ with .ip }} · <span class="adb-mono">{{ . }}</span>{{ end }}{{ else }}—{{ end }}</dd></div>
+      </dl>
+    </section>
+    <section class="adb-card" aria-labelledby="adb-s-product">
+      <h2 id="adb-s-product">Product</h2>
+      <dl class="adb-dl">
+        <div><dt>Engine</dt><dd>{{ delimit $p.engines ", " | default "—" }}</dd></div>
+        <div><dt>Cores</dt><dd>{{ range $p.cores }}<span class="adb-pill adb-{{ index $lagColor .cls }}" title="{{ .engineName }} {{ .version }}">{{ with .name }}{{ . }} {{ end }}{{ .version }}{{ with .lagText }} · {{ . }}{{ end }}</span> {{ else }}<span class="adb-na">not published</span>{{ end }}</dd></div>
+        <div><dt>Current upstream</dt><dd><span class="adb-na">Chrome {{ $up.chromeVersion }} · Firefox {{ $up.firefoxVersion }} · ESR {{ $up.esrVersion }} ({{ $up.date }})</span></dd></div>
+        <div><dt>Platforms</dt><dd>{{ range $p.platforms }}<span class="adb-chip">{{ . }}</span>{{ else }}—{{ end }}</dd></div>
+        {{- with $r.android }}
+        <div><dt>Android versions</dt><dd>{{ range . }}<span class="adb-chip">Android {{ . }}</span>{{ end }}</dd></div>
+        {{- end }}
+        <div><dt>Latest release</dt><dd>{{ with $r.release }}{{ .version }}{{ with .date }} <span class="adb-na">({{ . }})</span>{{ end }}{{ else }}—{{ end }}</dd></div>
+        <div><dt>Source code</dt><dd>{{ with $p.src }}{{ index $srcText . }}{{ else }}—{{ end }}{{ with $r.license }} <span class="adb-chip adb-mono">{{ . }}</span>{{ end }}</dd></div>
+        {{- if $r.repo }}
+        <div><dt>Repository</dt><dd><a href="{{ $r.repo }}" rel="noopener nofollow">{{ replace $r.repo "https://github.com/" "" }}</a>{{ with $r.stars }} · ★{{ lang.FormatNumber 0 . }}{{ end }}{{ with $r.pushed }} · last push {{ . }}{{ end }}</dd></div>
+        {{- end }}
+        <div><dt>Automation API</dt><dd>{{ partial "adb/yn.html" $r.api }}</dd></div>
+        <div><dt>Profile storage</dt><dd>{{ $r.storage | default "—" }}</dd></div>
+      </dl>
+    </section>
+  </div>
+
+  <section class="adb-card" aria-labelledby="adb-s-plans">
+    <h2 id="adb-s-plans">Plans {{ with $links.pricing }}<a class="adb-h2-link" href="{{ . }}" rel="noopener nofollow">pricing page ↗</a>{{ end }}</h2>
+    <dl class="adb-dl">
+      <div><dt>Free plan</dt><dd>{{ $r.free | default "—" }}</dd></div>
+      <div><dt>Trial</dt><dd>{{ $r.trial | default "—" }}</dd></div>
+      <div><dt>Paid plans</dt><dd>{{ range $r.price }}<span class="adb-chip">{{ . }}</span>{{ else }}—{{ end }}</dd></div>
+      <div><dt>Payment</dt><dd>{{ range $r.payment }}<span class="adb-chip">{{ . }}</span>{{ else }}—{{ end }}</dd></div>
+    </dl>
+  </section>
+
+  {{- with $r.incidents }}
+  <section class="adb-card adb-incidents" aria-labelledby="adb-s-inc">
+    <h2 id="adb-s-inc">Incidents</h2>
+    <ul class="adb-list">
+      {{- range . }}
+      <li><b>{{ .date }}</b> {{ .text }} {{ range $i, $l := .links }}<a href="{{ $l }}" rel="noopener nofollow">[{{ add $i 1 }}]</a> {{ end }}</li>
+      {{- end }}
+    </ul>
+  </section>
+  {{- end }}
+
+  {{- with $r.tests }}
+  <section class="adb-card" aria-labelledby="adb-s-tests">
+    <h2 id="adb-s-tests">Tested by hand {{ with .date }}<span class="adb-h2-link">{{ . }}</span>{{ end }}</h2>
+    <dl class="adb-dl">
+      {{- range $k := slice "version" "creepjs" "pixelscan" "browserscan" "iphey" "fingerprint_com" "webrtc" "note" }}{{ with index $r.tests $k }}
+      <div><dt>{{ index (dict "version" "Version" "creepjs" "CreepJS" "pixelscan" "Pixelscan" "browserscan" "BrowserScan" "iphey" "Iphey" "fingerprint_com" "Fingerprint.com" "webrtc" "WebRTC leak" "note" "Note") $k }}</dt><dd>{{ . }}</dd></div>
+      {{- end }}{{ end }}
+    </dl>
+  </section>
+  {{- end }}
+
+  <section class="adb-card" aria-labelledby="adb-s-links">
+    <h2 id="adb-s-links">Links and sources</h2>
+    <dl class="adb-links">
+      {{- range $k := slice "terms" "privacy" "imprint" "pricing" "download" "changelog" "docs" }}{{ with index $links $k }}
+      <div><dt>{{ index (dict "terms" "terms" "privacy" "privacy policy" "imprint" "about / imprint" "pricing" "pricing" "download" "download" "changelog" "changelog" "docs" "documentation") $k }}</dt><dd><a href="{{ . }}" rel="noopener nofollow">{{ . }}</a></dd></div>
+      {{- end }}{{ end }}
+      {{- with $r.social }}
+      <div><dt>social</dt><dd>{{ range . }}<a href="{{ . }}" rel="noopener nofollow">{{ . }}</a><br>{{ end }}</dd></div>
+      {{- end }}
+      <div><dt>sources</dt><dd>{{ range $r.sources }}<a href="{{ . }}" rel="noopener nofollow">{{ . }}</a><br>{{ else }}—{{ end }}</dd></div>
+    </dl>
+  </section>
+  <p class="adb-sources">Record: <a href="{{ site.Params.repo }}/blob/main/data/products/{{ $p.id }}.yaml" rel="noopener">data/products/{{ $p.id }}.yaml</a>{{ with $p.checked }} · last automatic check {{ . }}{{ end }}</p>
+  <p class="adb-back"><a href="{{ $home }}#products">← all products</a></p>
+</article>

@@ -1,0 +1,23 @@
+# antidetectDB product record; fields are described in data/README.md
+name: Clearcote
+kind: [browser]
+status: auto
+website: https://clearcotelabs.com/
+engine: [chromium]
+platforms: [windows, linux]
+open_source: true
+repo: https://github.com/clearcotelabs/clearcote-browser
+license: BSD-3-Clause
+stars: 253
+pushed: '2026-11-05'
+release: {version: v0.1.0-pre.25, date: '2026-10-28'}
+free: free open build
+note: Code and patches under BSD-3-Clause; the open build is reproducible from the repository. A licensed and a hosted build exist too.
+created: '2026-06-17'
+expires: '2027-06-17'
+online_since: '2026-11-04'
+hosting: {ip: '216.150.16.193', flag: 🇺🇸, country: United States, asn: 'AS16509 Amazon.com, Inc.', org: 'Vercel, Inc'}
+http: 308
+sources:
+- https://github.com/clearcotelabs/clearcote-browser
+last_checked: '2026-11-11'

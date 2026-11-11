@@ -1,0 +1,20 @@
+# antidetectDB product record; fields are described in data/README.md
+name: Afina
+kind: [browser]
+status: auto
+website: https://afina.io/
+legal_entity: SMARTORAMA INC.
+engine: [chromium]
+platforms: [windows, macos]
+open_source: false
+links:
+  imprint: https://afina.io/en/about
+  pricing: https://afina.io/en/plan
+online_since: '2020-04-23'
+hosting: {ip: '216.150.16.193', flag: 🇺🇸, country: United States, asn: 'AS16509 Amazon.com, Inc.', org: 'Vercel, Inc'}
+http: 200
+sources:
+- https://afina.io/
+- https://afina.io/en/about
+- https://afina.io/en/plan
+last_checked: '2026-11-11'
