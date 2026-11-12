@@ -21,6 +21,7 @@
 ![JSON](https://img.shields.io/badge/JSON-000000?logo=json&logoColor=white&style=flat-square)
 [![Data: CC BY 4.0](https://img.shields.io/badge/data-CC%20BY%204.0-lightgrey?style=flat-square)](./data/LICENSE)
 [![Code: MIT](https://img.shields.io/badge/code-MIT-blue?style=flat-square)](./LICENSE)
+[![Donate: XMR](https://img.shields.io/badge/donate-XMR-FF6600?logo=monero&logoColor=white&style=flat-square)](#donate)
 
 🔗 <a href="https://cyberanchor.github.io/antidetectDB/site/public/"><b>site</b></a>
 
@@ -158,6 +159,14 @@ The data in [`data/`](./data/) and the downloads built from it (`products.json`,
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) ([`data/LICENSE`](./data/LICENSE)): copy and adapt them,
 also commercially, and name antidetectDB with a link to this repository. The code (`tools/`, `site/`) is under the
 [MIT License](./LICENSE).
+
+## Donate
+
+If antidetectDB is useful to you, you can support it with Monero (XMR):
+
+```
+4BEb8AUfSwQbGaHSVnBn2sMkFsYvrA6Eq4UyEf3JtcEZJd9eSm96YiZZwMWunKq6fUZSuAomwY4P835ybppBxi3NRY2ncMY
+```
 
 ## Contributors
 
